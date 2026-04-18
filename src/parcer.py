@@ -5,7 +5,6 @@ import logging
 
 ## for pics
 from PIL import Image
-import pytesseract
 import cv2
 import easyocr
 
@@ -21,7 +20,7 @@ class Parser(ABC):
     def __init__(self):
         logger.info("Загрузка моделей... Это может занять время при первом запуске")
         self.ocr_reader = None
-        self.whisper_model = None
+
     def _get_ocr_reader(self):
         """Ленивая загрузка OCR модели"""
         if self.ocr_reader is None:
@@ -115,7 +114,7 @@ class Videos(Parser):
         self.frame_interval = frame_interval
         self.max_frames = max_frames
 
-    def parse(self, data_path: Path) -> str:
+    def parse(self, file_path: Path) -> str:
         if not self.use_ocr:
             return ""
 
@@ -123,10 +122,10 @@ class Videos(Parser):
 
         try:
             reader = self._get_ocr_reader()
-            cap = cv2.VideoCapture(str(data_path))
+            cap = cv2.VideoCapture(str(file_path))
 
             if not cap.isOpened():
-                logger.info(f"[Videos Parser] Cannot open {data_path}")
+                logger.info(f"[Videos Parser] Cannot open {file_path}")
                 return ""
 
             frame_id = 0
@@ -156,5 +155,5 @@ class Videos(Parser):
             return "\n".join(texts)
 
         except Exception as e:
-            logger.info(f"[Videos Parser] Error processing {data_path}: {e}")
+            logger.info(f"[Videos Parser] Error processing {file_path}: {e}")
             return ""
