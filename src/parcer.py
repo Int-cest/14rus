@@ -80,10 +80,13 @@ class StructureData(Parser):
         return result
 
 class Documents(Parser):
-    pass
+    def parse(self, data_path: Path) -> dict:
+        return {"path": str(data_path), "content": "Doc parser not implemented", "type": "doc"}
 
 class WebContent(Parser):
-    pass
+    def parse(self, data_path: Path) -> dict:
+        return {"path": str(data_path), "content": "Web parser not implemented", "type": "web"}
+
 
 class Images(Parser):
     def __init__(self, use_ocr: bool = True):
@@ -156,87 +159,34 @@ class Videos(Parser):
             return ""
         
 class ParserFactory:
-    def __init__(self, max_workers: int = 4):
-        self.max_workers = max_workers
-        # Маппинг расширений к классам-парсерам
+    def __init__(self):
         self.extension_map = {
-            # Structured
             '.csv': 'structured', '.json': 'structured', '.parquet': 'structured',
-            # Images
-            '.jpg': 'image', '.jpeg': 'image', '.png': 'image', '.gif': 'image', '.tif': 'image', '.tiff': 'image',
-            # Documents
-            '.pdf': 'document', '.doc': 'document', '.docx': 'document', '.rtf': 'document', '.txt': 'document', '.md': 'document',
-            # Video
-            '.mp4': 'video',
-            # Web
-            '.html': 'web'
+            '.jpg': 'image', '.jpeg': 'image', '.png': 'image',
+            '.mp4': 'video', '.pdf': 'document', '.html': 'web'
         }
-        # Кэш созданных экземпляров парсеров
         self._parsers_cache = {}
 
     def _get_parser(self, file_type: str):
-        """Фабричный метод для получения парсера (Lazy Loading)"""
         if file_type not in self._parsers_cache:
-            if file_type == 'structured':
-                self._parsers_cache[file_type] = StructureData()
-            elif file_type == 'image':
-                self._parsers_cache[file_type] = Images(use_ocr=True)
-            elif file_type == 'document':
-                self._parsers_cache[file_type] = Documents()
-            elif file_type == 'video':
-                self._parsers_cache[file_type] = Videos(use_ocr=True)
-            elif file_type == 'web':
-                self._parsers_cache[file_type] = WebContent()
+            if file_type == 'structured': self._parsers_cache[file_type] = StructureData()
+            elif file_type == 'image': self._parsers_cache[file_type] = Images()
+            elif file_type == 'video': self._parsers_cache[file_type] = Videos()
+            elif file_type == 'document': self._parsers_cache[file_type] = Documents()
+            elif file_type == 'web': self._parsers_cache[file_type] = WebContent()
         return self._parsers_cache.get(file_type)
 
     def process_file(self, file_path: Path):
-        """
-        Диспетчер: определяет тип файла и пробрасывает задачу в нужный парсер.
-        Парсеры сами возвращают dict{'path': ..., 'content': ...}
-        """
-        suffix = file_path.suffix.lower()
-        file_type = self.extension_map.get(suffix)
-        
-        # Если расширение не поддерживается, возвращаем минимальную инфу
-        if not file_type:
-            return {"path": str(file_path), "content": "", "status": "unsupported"}
-
-        try:
-            parser = self._get_parser(file_type)
-            if parser:
-                logger.info(f"Парсинг: {file_path.name}")
-                # Вызываем parse, который уже возвращает заполненный словарь
-                return parser.parse(file_path)
-                
-        except Exception as e:
-            logger.error(f"Ошибка в {file_path.name}: {e}")
-            return {
-                "path": str(file_path), 
-                "content": f"Error: {e}", 
-                "status": "error"
-            }
-
+        file_type = self.extension_map.get(file_path.suffix.lower())
+        if not file_type: return None
+        parser = self._get_parser(file_type)
+        return parser.parse(file_path)
 
     def scan_directory(self, root_path: str):
-        """Рекурсивный обход и парсинг"""
         root = Path(root_path)
-        if not root.exists():
-            logger.error(f"Directory {root_path} does not exist")
-            return []
-
-        # Собираем все файлы, которые мы умеем обрабатывать
-        files_to_process = [
-            f for f in root.rglob('*') 
-            if f.is_file() and f.suffix.lower() in self.extension_map
-        ]
-        
-        logger.info(f"Found {len(files_to_process)} supported files.")
-        
-        # Для хакатона: если данных много (3ГБ), лучше использовать 
-        # обычный цикл или ThreadPool для I/O задач. 
-        # OCR задачи лучше пускать в ProcessPool.
-        final_results = []
-        for file in files_to_process:
-            final_results.append(self.process_file(file))
-            
-        return final_results
+        results = []
+        for file in root.rglob('*'):
+            if file.is_file():
+                res = self.process_file(file)
+                if res: results.append(res)
+        return results

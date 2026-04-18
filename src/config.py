@@ -1,1 +1,1 @@
-PATH_DATA = 'datasets\share'
+PATH_DATA = r"..\datasets\test"
