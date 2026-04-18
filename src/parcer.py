@@ -3,6 +3,16 @@ from pathlib import Path
 import logging
 import easyocr
 import whisper
+import cv2
+
+## for pics
+from PIL import Image
+import pytesseract
+
+# for structured data
+import json
+import csv
+import pandas as pd
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -26,11 +36,58 @@ class Parser(ABC):
             self.whisper_model = whisper.load_model("base")
         return self.whisper_model
     @abstractmethod
-    def parse(self, data_path: Path)->dict:
+    def parse(self, data_path: Path)->str:
         pass
 
 class StructureData(Parser):
-    pass
+    def __init__(self):
+        super().__init__()
+
+    def _flatten_to_text(self, data) -> str:
+        words = []
+        if isinstance(data, dict):
+            for key, value in data.items():
+                words.append(str(key))
+                words.append(self._flatten_to_text(value))
+        elif isinstance(data, (list, tuple)):
+            for item in data:
+                words.append(self._flatten_to_text(item))
+        else:
+            words.append(str(data))
+        return " ".join(filter(None, words))
+
+    def parse(self, data_path: Path) -> dict:
+        suffix = data_path.suffix.lower()
+        result = {
+            "file_name": data_path.name,
+            "type": "structured_data",
+            "content": ""
+        }
+
+        try:
+            raw_data = None
+            if suffix == '.json':
+                with open(data_path, 'r', encoding='utf-8') as f:
+                    raw_data = json.load(f)
+
+            elif suffix == '.csv':
+                with open(data_path, 'r', encoding='utf-8') as f:
+                    raw_data = list(csv.DictReader(f))
+
+            elif suffix == '.parquet':
+                df = pd.read_parquet(data_path)
+                raw_data = df.to_dict(orient='records')
+            
+            if raw_data is not None:
+                result["content"] = self._flatten_to_text(raw_data)
+            else:
+                logging.warning(f"Unsupported format: {suffix}")
+
+        except Exception as e:
+            logging.error(f"Error parsing {data_path}: {e}")
+            result["content"] = f"Error: {str(e)}"
+
+        return result
 
 class Documents(Parser):
     pass
@@ -39,7 +96,88 @@ class WebContent(Parser):
     pass
 
 class Images(Parser):
-    pass
+    def __init__(self, use_ocr: bool = True, lang: str = "rus+eng"):
+        self.use_ocr = use_ocr
+        self.lang = lang
+
+    def parse(self, data_path: Path)->str:
+        self._get_ocr_reader()
+
+        try:
+            ## open image
+            with Image.open(data_path) as img:
+                img = img.convert("RGB")
+
+                if not self.use_ocr:
+                    return ""
+
+                # OCR
+                text = pytesseract.image_to_string(img, lang=self.lang)
+
+                return text.strip()
+
+        except Exception as e:
+            logger.info(f"[Images Parser] Error processing {data_path}: {e}")
+            return ""
 
 class Videos(Parser):
-    pass
+    def __init__(
+        self,
+        use_ocr: bool = True,
+        lang: str = "rus+eng",
+        frame_interval: int = 30,
+        max_frames: int = 200
+    ):
+        self.use_ocr = use_ocr
+        self.lang = lang
+        self.frame_interval = frame_interval
+        self.max_frames = max_frames
+    
+    def parse(self, data_path: Path) -> str:
+        if not self.use_ocr:
+            return ""
+
+        texts = []
+
+        try:
+            cap = cv2.VideoCapture(str(data_path))
+
+            if not cap.isOpened():
+                logger.info(f"[Videos Parser] Cannot open {data_path}")
+                return ""
+
+            frame_count = 0
+            processed_frames = 0
+
+            while True:
+                ret, frame = cap.read()
+                if not ret:
+                    break
+
+                # берём не каждый кадр
+                if frame_count % self.frame_interval == 0:
+                    try:
+                        text = pytesseract.image_to_string(frame, lang=self.lang)
+                        text = text.strip()
+
+                        if len(text) > 5:
+                            texts.append(text)
+
+                        processed_frames += 1
+
+                        if processed_frames >= self.max_frames:
+                            break
+
+                    except Exception as e:
+                        logger.debug(f"OCR error on frame: {e}")
+
+                frame_count += 1
+
+            cap.release()
+
+            # объединяем текст
+            return "\n".join(texts)
+
+        except Exception as e:
+            logger.info(f"[Videos Parser] Error processing {data_path}: {e}")
+            return ""
