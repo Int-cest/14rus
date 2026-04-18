@@ -12,13 +12,18 @@ import json
 import csv
 import pandas as pd
 
+# for docs
+import win32com.client
+import fitz
+from docx import Document as DocxDocument
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class Parser(ABC):
     def __init__(self):
         self.ocr_reader = None
-     
+
     def _get_ocr_reader(self):
         if self.ocr_reader is None:
             logger.info("Загрузка EasyOCR модели...")
@@ -30,9 +35,6 @@ class Parser(ABC):
         pass
 
 class StructureData(Parser):
-    def __init__(self):
-        super().__init__()
-
     def _flatten_to_text(self, data) -> str:
         words = []
         if isinstance(data, dict):
@@ -48,40 +50,79 @@ class StructureData(Parser):
 
     def parse(self, data_path: Path) -> dict:
         suffix = data_path.suffix.lower()
-        result = {
-            "file_name": data_path.name,
-            "type": "structured_data",
-            "content": ""
-        }
-
+        content = ""
         try:
             raw_data = None
             if suffix == '.json':
                 with open(data_path, 'r', encoding='utf-8') as f:
                     raw_data = json.load(f)
-
             elif suffix == '.csv':
                 with open(data_path, 'r', encoding='utf-8') as f:
                     raw_data = list(csv.DictReader(f))
-
             elif suffix == '.parquet':
                 df = pd.read_parquet(data_path)
                 raw_data = df.to_dict(orient='records')
             
             if raw_data is not None:
-                result["content"] = self._flatten_to_text(raw_data)
-            else:
-                logging.warning(f"Unsupported format: {suffix}")
-
+                content = self._flatten_to_text(raw_data)
         except Exception as e:
-            logging.error(f"Error parsing {data_path}: {e}")
-            result["content"] = f"Error: {str(e)}"
-
-        return result
+            content = f"Error: {e}"
+        return {"path": str(data_path), "content": content}
 
 class Documents(Parser):
+    def _read_doc_via_word(self, file_path: Path) -> str:
+        """Чтение .doc через COM-объект Word (только для Windows)"""
+        word = None
+        doc = None
+        try:
+            word = win32com.client.Dispatch("Word.Application")
+            word.Visible = False
+            
+            abs_path = str(file_path.absolute())
+            
+            doc = word.Documents.Open(abs_path, ReadOnly=True)
+            text = doc.Content.Text
+            return text
+        except Exception as e:
+            logging.error(f"Word COM error: {e}")
+            return ""
+        finally:
+            if doc:
+                doc.Close(False)
+            if word:
+                word.Quit()
+
     def parse(self, data_path: Path) -> dict:
-        return {"path": str(data_path), "content": "Doc parser not implemented", "type": "doc"}
+        suffix = data_path.suffix.lower()
+        content = ""
+        try:
+            if suffix == '.pdf':
+                with fitz.open(data_path) as doc:
+                    content = " ".join([page.get_text() for page in doc])
+            
+            elif suffix == '.docx':
+                doc = DocxDocument(data_path)
+                content = " ".join([p.text for p in doc.paragraphs])
+            
+            elif suffix == '.doc':
+                content = self._read_doc_via_word(data_path)
+            
+            elif suffix in ['.xls', '.xlsx']:
+                df = pd.read_excel(data_path)
+                content = df.to_string(index=False, header=False)
+            
+            elif suffix in ['.md', '.txt']:
+                with open(data_path, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+            
+            elif suffix == '.rtf':
+                content = self._read_doc_via_word(data_path)
+
+            content = " ".join(content.split())
+        except Exception as e:
+            content = f"Error: {e}"
+            
+        return {"path": str(data_path), "content": content}
 
 class WebContent(Parser):
     def parse(self, data_path: Path) -> dict:
@@ -89,74 +130,60 @@ class WebContent(Parser):
 
 
 class Images(Parser):
-    def __init__(self, use_ocr: bool = True):
-        super().__init__()
-        self.use_ocr = use_ocr
-
-    def parse(self, data_path: Path) -> str:
-        if not self.use_ocr:
-            return ""
-
+    def parse(self, file_path: Path) -> dict[Path, str]:
         try:
             reader = self._get_ocr_reader()
-            result = reader.readtext(str(data_path), detail=0)
+            text = reader.readtext(str(file_path), detail=0)
 
-            return " ".join(result).strip()
+            return {
+                file_path: " ".join(text).strip()
+            }
 
         except Exception as e:
-            logger.info(f"[Images Parser] Error processing {data_path}: {e}")
-            return ""
-
+            logger.info(f"[Images] {e}")
+            return {file_path: ""}
+        
 class Videos(Parser):
-    def __init__(self, use_ocr=True, frame_interval=30, max_frames=200):
+    def __init__(self, frame_interval=30, max_frames=200):
         super().__init__()
-        self.use_ocr = use_ocr
         self.frame_interval = frame_interval
         self.max_frames = max_frames
 
-    def parse(self, data_path: Path) -> str:
-        if not self.use_ocr:
-            return ""
-
-        texts = []
-
+    def parse(self, data_path: Path) -> dict[Path, str]:
         try:
             reader = self._get_ocr_reader()
             cap = cv2.VideoCapture(str(data_path))
 
-            if not cap.isOpened():
-                logger.info(f"[Videos Parser] Cannot open {data_path}")
-                return ""
-
-            frame_id = 0
-            processed = 0
+            texts = []
+            i = 0
+            used = 0
 
             while True:
                 ret, frame = cap.read()
                 if not ret:
                     break
 
-                if frame_id % self.frame_interval == 0:
+                if i % self.frame_interval == 0:
                     result = reader.readtext(frame, detail=0)
 
                     if result:
-                        text = " ".join(result).strip()
-                        if len(text) > 5:
-                            texts.append(text)
+                        texts.append(" ".join(result))
 
-                    processed += 1
-                    if processed >= self.max_frames:
+                    used += 1
+                    if used >= self.max_frames:
                         break
 
-                frame_id += 1
+                i += 1
 
             cap.release()
 
-            return "\n".join(texts)
+            return {
+                data_path: "\n".join(texts).strip()
+            }
 
         except Exception as e:
-            logger.info(f"[Videos Parser] Error processing {data_path}: {e}")
-            return ""
+            logger.info(f"[Videos] {e}")
+            return {data_path: ""}
         
 class ParserFactory:
     def __init__(self):
