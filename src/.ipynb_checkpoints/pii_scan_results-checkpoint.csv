@@ -1,0 +1,2894 @@
+path,categories,uz,total_hits,ext
+crowler.ipynb,{},нет признаков,0,ipynb
+Untitled.ipynb,{},нет признаков,0,ipynb
+pii_scanner_hackathon.ipynb,"{""платёжные"": 1, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,3,ipynb
+dataset2/Sport24_Mediakit_2024.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset2/rules.pdf,"{""обычные"": 11, ""государственные"": 1, ""специальные"": 1}",УЗ-1,13,pdf
+dataset2/agreement_reg_extra.pdf,"{""обычные"": 9}",УЗ-3,9,pdf
+dataset2/google_terms_of_service_en.pdf,{},нет признаков,0,pdf
+dataset2/%D0%92%D1%81%D0%B5%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%81%D1%8C_%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset2/ok_history_new.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset2/capsula_instruction.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset2/google_privacy_policy_en.pdf,{},нет признаков,0,pdf
+dataset2/version-300824.pdf,"{""обычные"": 12}",УЗ-3,12,pdf
+dataset2/version-090924.pdf,"{""обычные"": 13, ""государственные"": 11, ""платёжные"": 2}",УЗ-2,26,pdf
+dataset2/agreement_reg.pdf,"{""обычные"": 8}",УЗ-3,8,pdf
+dataset2/capsula_neo_instruction.pdf,"{""обычные"": 7, ""биометрические"": 1}",УЗ-1,8,pdf
+dataset2/politika_konfidencialnosti.pdf,"{""обычные"": 6, ""государственные"": 1}",УЗ-2,7,pdf
+dataset2/VK_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset2/VKCT_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset1/rbc.pdf,"{""обычные"": 6, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset1/1725542163_Медиакит РБК 360.pdf,{},нет признаков,0,pdf
+dataset1/subscribe_rules.pdf,"{""обычные"": 3, ""биометрические"": 1}",УЗ-1,4,pdf
+dataset1/FCC-12-9A1.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset1/20240306_fin_result_2023.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset1/pril1_14112652.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset1/neutrality-treaty.pdf,{},нет признаков,0,pdf
+dataset1/1725542337_Медиакит РБК Телеканал.pdf,{},нет признаков,0,pdf
+dataset1/Paulzovatelskoe_soglashenie_PAOSPB.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset1/HEAD%204q2024%20release%20050324.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset1/Privacy_policy_upd.pdf,"{""обычные"": 9, ""государственные"": 3}",УЗ-2,12,pdf
+dataset1/1738660894_Приложения к договору субаренды (2).pdf,{},нет признаков,0,pdf
+dataset1/Terms_of_service_upd.pdf,"{""обычные"": 9, ""государственные"": 2, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,13,pdf
+dataset1/%D0%93%D0%9E%D0%A1%D0%A2%20%D0%A0%20%D0%A0%D0%B5%D0%B4%D0%BA%D0%BE%D0%B7%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.%20%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C.%2018-04-22.docx,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,docx
+dataset1/ADV21-2024-Monthly-Canal-Operations-Summary-June-2024.pdf,{},нет признаков,0,pdf
+dataset1/preprint-frn-2023-critical-materials-list.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset1/%D0%9E_%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B8%CC%86_%D1%86%D0%B5%D0%BD%D0%BE%D0%B2%D0%BE%D0%B8%CC%86_%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8_5_%D0%BC%D0%B0%D1%80%D1%82%D0%B0_2025_%D0%B3%D0%BE%D0%B4%D0%B0.pdf,{},нет признаков,0,pdf
+dataset1/Russia.pdf,{},нет признаков,0,pdf
+dataset1/license_telematika_2017-2022.pdf,{},нет признаков,0,pdf
+dataset1/presentation.pdf,{},нет признаков,0,pdf
+dataset1/1725542351_Медиакит РБК Онлайн.pdf,{},нет признаков,0,pdf
+dataset1/1725542279_Отраслевые форумы РБК 2024.pdf,{},нет признаков,0,pdf
+dataset1/GlobalCriticalMineralsOutlook2024.pdf,"{""государственные"": 1}",УЗ-3,1,pdf
+dataset1/price-list.pdf,"{""обычные"": 7}",УЗ-3,7,pdf
+dataset1/%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20dg-yug.ru.pdf,{},нет признаков,0,pdf
+dataset1/contract.pdf,{},нет признаков,0,pdf
+dataset1/Strategiya_razblokirovki_aktivov_SPB_Banka.pdf,{},нет признаков,0,pdf
+dataset1/1679555052_Центр событий РБК .pdf,{},нет признаков,0,pdf
+dataset1/mcs2025-rare-earths.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset1/%D0%92.%D0%90.-%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%D1%83-%D0%BE%D1%82-%D0%90.%D0%98.-%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0.pdf,{},нет признаков,0,pdf
+dataset1/20241017-euco-conclusions-en.pdf,{},нет признаков,0,pdf
+dataset1/COMPS-1071.pdf,{},нет признаков,0,pdf
+.ipynb_checkpoints/Untitled-checkpoint.ipynb,{},нет признаков,0,ipynb
+.ipynb_checkpoints/pii_scanner_hackathon-checkpoint.ipynb,"{""платёжные"": 1, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,3,ipynb
+.ipynb_checkpoints/crowler-checkpoint.ipynb,{},нет признаков,0,ipynb
+dataset0/95606381-14438121-Arriving_in_the_nation_via_train_the_royal_couple_s_Instagram_ac-a-110_1740588283908.jpg,{},нет признаков,0,jpg
+dataset0/page_132.html,{},нет признаков,0,html
+dataset0/364909_original.jpg,{},нет признаков,0,jpg
+dataset0/page_211.html,{},нет признаков,0,html
+dataset0/39980_800.png,{},нет признаков,0,png
+dataset0/page_334.html,{},нет признаков,0,html
+dataset0/page_21.html,{},нет признаков,0,html
+dataset0/page_163.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/old-historic-photos-67bed35cad905__700.jpg,{},нет признаков,0,jpg
+dataset0/372966_original.jpg,{},нет признаков,0,jpg
+dataset0/page_327.html,{},нет признаков,0,html
+dataset0/7873_2000.jpg,{},нет признаков,0,jpg
+dataset0/informer.jpg,{},нет признаков,0,jpg
+dataset0/page_372.html,{},нет признаков,0,html
+dataset0/page_224.html,{},нет признаков,0,html
+dataset0/14436179_original.jpg,{},нет признаков,0,jpg
+dataset0/page_216.html,{},нет признаков,0,html
+dataset0/14437430_original.jpg,{},нет признаков,0,jpg
+dataset0/14646456_original.jpg,{},нет признаков,0,jpg
+dataset0/book21.jpg,{},нет признаков,0,jpg
+dataset0/page_477.html,{},нет признаков,0,html
+dataset0/894320_original.jpg,{},нет признаков,0,jpg
+dataset0/375081_original.jpg,{},нет признаков,0,jpg
+dataset0/891430_800.png,{},нет признаков,0,png
+dataset0/46624_800.jpg,{},нет признаков,0,jpg
+dataset0/page_64.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_240.html,{},нет признаков,0,html
+dataset0/c23e75z8yehiways53.jpg,{},нет признаков,0,jpg
+dataset0/17760_original.png,{},нет признаков,0,png
+dataset0/9925_900.jpg,{},нет признаков,0,jpg
+dataset0/7560_900.jpg,{},нет признаков,0,jpg
+dataset0/page_236.html,{},нет признаков,0,html
+dataset0/350448_original.jpg,{},нет признаков,0,jpg
+dataset0/90c6bc5aed721466921aabfefd763dd1b933dd2f.jpg,{},нет признаков,0,jpg
+dataset0/260002_original.jpg,{},нет признаков,0,jpg
+dataset0/240717_1000.png,{},нет признаков,0,png
+dataset0/page_220.html,{},нет признаков,0,html
+dataset0/6706638_original.jpg,{},нет признаков,0,jpg
+dataset0/1785073_800.jpg,{},нет признаков,0,jpg
+dataset0/page_25.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_30.html,{},нет признаков,0,html
+dataset0/1929784_300.jpg,{},нет признаков,0,jpg
+dataset0/page_138.html,{},нет признаков,0,html
+dataset0/125201_800.jpg,{},нет признаков,0,jpg
+dataset0/121681_600.png,{},нет признаков,0,png
+dataset0/13435_900.jpg,{},нет признаков,0,jpg
+dataset0/page_68.html,{},нет признаков,0,html
+dataset0/9534_800.png,{},нет признаков,0,png
+dataset0/209647_800.png,{},нет признаков,0,png
+dataset0/page_473.html,{},нет признаков,0,html
+dataset0/351987_original.jpg,{},нет признаков,0,jpg
+dataset0/322397_800.png,{},нет признаков,0,png
+dataset0/page_23.html,{},нет признаков,0,html
+dataset0/2650_original.png,{},нет признаков,0,png
+dataset0/page_70.html,{},нет признаков,0,html
+dataset0/95610109-14438121-image-a-67_1740582803448.jpg,{},нет признаков,0,jpg
+dataset0/page_409.html,{},нет признаков,0,html
+dataset0/page_256.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/124909_800.jpg,{},нет признаков,0,jpg
+dataset0/18983_900.jpg,{},нет признаков,0,jpg
+dataset0/data_rss.gif,{},нет признаков,0,gif
+dataset0/422345601_6251787.jpg,{},нет признаков,0,jpg
+dataset0/page_343.html,{},нет признаков,0,html
+dataset0/page_83.html,{},нет признаков,0,html
+dataset0/331415_original.jpg,{},нет признаков,0,jpg
+dataset0/14424619_original.jpg,{},нет признаков,0,jpg
+dataset0/page_101.html,{},нет признаков,0,html
+dataset0/page_63.html,{},нет признаков,0,html
+dataset0/page_352.html,{},нет признаков,0,html
+dataset0/95610809-14438121-image-a-72_1740583806445.jpg,{},нет признаков,0,jpg
+dataset0/296355_original.jpg,{},нет признаков,0,jpg
+dataset0/310945_original.jpg,{},нет признаков,0,jpg
+dataset0/page_425.html,{},нет признаков,0,html
+dataset0/page_242.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/12033761.jpg,{},нет признаков,0,jpg
+dataset0/19165_540.png,{},нет признаков,0,png
+dataset0/95612095-14438121-image-a-87_1740585249275.jpg,{},нет признаков,0,jpg
+dataset0/11898_900.jpg,{},нет признаков,0,jpg
+dataset0/351507_original.jpg,{},нет признаков,0,jpg
+dataset0/26526_800.jpg,{},нет признаков,0,jpg
+dataset0/b7e4ff8210a691ae86130db3f60356b3.jpg,{},нет признаков,0,jpg
+dataset0/331734_original.jpg,{},нет признаков,0,jpg
+dataset0/DSCF0844.jpg,{},нет признаков,0,jpg
+dataset0/14971_900.jpg,{},нет признаков,0,jpg
+dataset0/page_199.html,{},нет признаков,0,html
+dataset0/page_106.html,{},нет признаков,0,html
+dataset0/18333_900.jpg,{},нет признаков,0,jpg
+dataset0/122337_800.jpg,{},нет признаков,0,jpg
+dataset0/256041_original.jpg,{},нет признаков,0,jpg
+dataset0/1070167_800.jpg,{},нет признаков,0,jpg
+dataset0/361087_original.jpg,{},нет признаков,0,jpg
+dataset0/16111_900.jpg,{},нет признаков,0,jpg
+dataset0/8037_900.jpg,{},нет признаков,0,jpg
+dataset0/page_305.html,{},нет признаков,0,html
+dataset0/1317491_800.jpg,{},нет признаков,0,jpg
+dataset0/page_143.html,{},нет признаков,0,html
+dataset0/1316928_800.jpg,{},нет признаков,0,jpg
+dataset0/page_69.html,{},нет признаков,0,html
+dataset0/1363763_original.jpg,{},нет признаков,0,jpg
+dataset0/616888_800.png,{},нет признаков,0,png
+dataset0/page_412.html,{},нет признаков,0,html
+dataset0/page_6.html,{},нет признаков,0,html
+dataset0/page_433.html,{},нет признаков,0,html
+dataset0/620703_original.jpg,{},нет признаков,0,jpg
+dataset0/page_108.html,{},нет признаков,0,html
+dataset0/364080_original.jpg,{},нет признаков,0,jpg
+dataset0/311402_original.jpg,{},нет признаков,0,jpg
+dataset0/95606379-14438121-The_Prince_and_Princess_of_Wales_are_visiting_Pontypridd_ahead_o-a-109_1740588279240.jpg,{},нет признаков,0,jpg
+dataset0/427512_1000.jpg,{},нет признаков,0,jpg
+dataset0/355965_900.jpg,{},нет признаков,0,jpg
+dataset0/4514075_900.jpg,{},нет признаков,0,jpg
+dataset0/11293_900.jpg,{},нет признаков,0,jpg
+dataset0/page_117.html,{},нет признаков,0,html
+dataset0/27706_2000.jpg,{},нет признаков,0,jpg
+dataset0/358795_original.jpg,{},нет признаков,0,jpg
+dataset0/95612761-14438121-image-a-105_1740586124929.jpg,{},нет признаков,0,jpg
+dataset0/2008831_600.jpg,{},нет признаков,0,jpg
+dataset0/4078_800.jpg,{},нет признаков,0,jpg
+dataset0/14440460_original.jpg,{},нет признаков,0,jpg
+dataset0/632613_1000.jpg,{},нет признаков,0,jpg
+dataset0/14465198_original.jpg,{},нет признаков,0,jpg
+dataset0/2920_original.jpg,{},нет признаков,0,jpg
+dataset0/95608581-14438121-image-a-59_1740580595609.jpg,{},нет признаков,0,jpg
+dataset0/page_103.html,{},нет признаков,0,html
+dataset0/634579_1000.jpg,{},нет признаков,0,jpg
+dataset0/271218_original.jpg,{},нет признаков,0,jpg
+dataset0/322568_1000.png,{},нет признаков,0,png
+dataset0/page_81.html,{},нет признаков,0,html
+dataset0/7417_900.jpg,{},нет признаков,0,jpg
+dataset0/16648_900.jpg,{},нет признаков,0,jpg
+dataset0/page_35.html,{},нет признаков,0,html
+dataset0/11236_900.jpg,{},нет признаков,0,jpg
+dataset0/14688_900.jpg,{},нет признаков,0,jpg
+dataset0/page_5.html,{},нет признаков,0,html
+dataset0/631839_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_227.html,{},нет признаков,0,html
+dataset0/page_379.html,{},нет признаков,0,html
+dataset0/page_186.html,{},нет признаков,0,html
+dataset0/95608479-14438121-image-a-54_1740580451978.jpg,{},нет признаков,0,jpg
+dataset0/6424_2000.jpg,{},нет признаков,0,jpg
+dataset0/fc6c7f01846b6ad5a70eb9bf49eb0d90.jpg,{},нет признаков,0,jpg
+dataset0/293771_original.jpg,{},нет признаков,0,jpg
+dataset0/95612331-14438121-image-a-96_1740585935880.jpg,{},нет признаков,0,jpg
+dataset0/95608043-14438121-image-a-37_1740580064920.jpg,{},нет признаков,0,jpg
+dataset0/12492400_original.png,{},нет признаков,0,png
+dataset0/page_266.html,{},нет признаков,0,html
+dataset0/page_31.html,{},нет признаков,0,html
+dataset0/page_169.html,{},нет признаков,0,html
+dataset0/page_208.html,{},нет признаков,0,html
+dataset0/page_229.html,{},нет признаков,0,html
+dataset0/14435751_original.jpg,{},нет признаков,0,jpg
+dataset0/18491_original.png,{},нет признаков,0,png
+dataset0/7611_800.jpg,{},нет признаков,0,jpg
+dataset0/16444_900.jpg,{},нет признаков,0,jpg
+dataset0/1926959_300.jpg,{},нет признаков,0,jpg
+dataset0/366873_original.jpg,{},нет признаков,0,jpg
+dataset0/977216_600.jpg,{},нет признаков,0,jpg
+dataset0/4514035_original.jpg,{},нет признаков,0,jpg
+dataset0/8535_900.jpg,{},нет признаков,0,jpg
+dataset0/95606027-14438121-The_Prince_and_Princess_of_Wales_have_arrived_in_Cardiff_for_a_d-a-108_1740588254200.jpg,{},нет признаков,0,jpg
+dataset0/page_13.html,{},нет признаков,0,html
+dataset0/630870_1000.jpg,{},нет признаков,0,jpg
+dataset0/14443390_original.jpg,{},нет признаков,0,jpg
+dataset0/page_4.html,{},нет признаков,0,html
+dataset0/376820_original.jpg,{},нет признаков,0,jpg
+dataset0/9599366860_51da11cda6_o.jpg,{},нет признаков,0,jpg
+dataset0/304364_original.jpg,{},нет признаков,0,jpg
+dataset0/277459_original.jpg,{},нет признаков,0,jpg
+dataset0/4146413_600.jpg,{},нет признаков,0,jpg
+dataset0/page_302.html,{},нет признаков,0,html
+dataset0/page_394.html,{},нет признаков,0,html
+dataset0/page_459.html,{},нет признаков,0,html
+dataset0/page_370.html,{},нет признаков,0,html
+dataset0/data_atom.gif,{},нет признаков,0,gif
+dataset0/page_134.html,{},нет признаков,0,html
+dataset0/14101_original.png,{},нет признаков,0,png
+dataset0/cover1.jpg,{},нет признаков,0,jpg
+dataset0/page_26.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/46418bb73022a1ee1eca067651bd1ece.jpg,{},нет признаков,0,jpg
+dataset0/ffa452cf21a343f89ba531958b5bdf38.jpg,{},нет признаков,0,jpg
+dataset0/4898b3ff2fe32c3f65ac5c9a5f9d3e04.jpg,{},нет признаков,0,jpg
+dataset0/95614879-14438121-image-a-113_1740588954241.jpg,{},нет признаков,0,jpg
+dataset0/549637.jpg,{},нет признаков,0,jpg
+dataset0/page_201.html,{},нет признаков,0,html
+dataset0/299483_original.jpg,{},нет признаков,0,jpg
+dataset0/4979320_original.jpg,{},нет признаков,0,jpg
+dataset0/352255_original.jpg,{},нет признаков,0,jpg
+dataset0/page_308.html,{},нет признаков,0,html
+dataset0/page_246.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/4416_900.jpg,{},нет признаков,0,jpg
+dataset0/page_32.html,{},нет признаков,0,html
+dataset0/d1b358e46ef23b7ac40dad0bad44db8b.jpg,{},нет признаков,0,jpg
+dataset0/3110_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_356.html,{},нет признаков,0,html
+dataset0/124281_800.jpg,{},нет признаков,0,jpg
+dataset0/page_247.html,{},нет признаков,0,html
+dataset0/page_164.html,{},нет признаков,0,html
+dataset0/page_193.html,{},нет признаков,0,html
+dataset0/28278_800.jpg,{},нет признаков,0,jpg
+dataset0/1926427_300.jpg,{},нет признаков,0,jpg
+dataset0/14465198_600.jpg,{},нет признаков,0,jpg
+dataset0/page_405.html,{},нет признаков,0,html
+dataset0/page_418.html,{},нет признаков,0,html
+dataset0/69074_original.png,{},нет признаков,0,png
+dataset0/1927996_300.jpg,{},нет признаков,0,jpg
+dataset0/1140_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_87.html,{},нет признаков,0,html
+dataset0/page_206.html,{},нет признаков,0,html
+dataset0/page_273.html,{},нет признаков,0,html
+dataset0/old-historic-photos-67bec73435165__700.jpg,{},нет признаков,0,jpg
+dataset0/16161_900.jpg,{},нет признаков,0,jpg
+dataset0/page_194.html,{},нет признаков,0,html
+dataset0/14439188_original.jpg,{},нет признаков,0,jpg
+dataset0/7640594_original.jpg,{},нет признаков,0,jpg
+dataset0/page_76.html,{},нет признаков,0,html
+dataset0/O5F8a3u.jpg,{},нет признаков,0,jpg
+dataset0/121698_800.jpg,{},нет признаков,0,jpg
+dataset0/page_469.html,{},нет признаков,0,html
+dataset0/630666_1000.jpg,{},нет признаков,0,jpg
+dataset0/48439_800.jpg,{},нет признаков,0,jpg
+dataset0/144413_800.jpg,{},нет признаков,0,jpg
+dataset0/1317251_800.jpg,{},нет признаков,0,jpg
+dataset0/page_51.html,{},нет признаков,0,html
+dataset0/95608059-14438121-image-a-41_1740580131238.jpg,{},нет признаков,0,jpg
+dataset0/page_111.html,{},нет признаков,0,html
+dataset0/95607223-14438121-image-a-7_1740578429564.jpg,{},нет признаков,0,jpg
+dataset0/305459_original.jpg,{},нет признаков,0,jpg
+dataset0/page_456.html,{},нет признаков,0,html
+dataset0/page_361.html,{},нет признаков,0,html
+dataset0/360456_original.jpg,{},нет признаков,0,jpg
+dataset0/page_60.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/14465282_original.jpg,{},нет признаков,0,jpg
+dataset0/page_230.html,{},нет признаков,0,html
+dataset0/117301_800.jpg,{},нет признаков,0,jpg
+dataset0/page_42.html,{},нет признаков,0,html
+dataset0/894612_original.jpg,{},нет признаков,0,jpg
+dataset0/632565_1000.jpg,{},нет признаков,0,jpg
+dataset0/48649_800.jpg,{},нет признаков,0,jpg
+dataset0/page_33.html,{},нет признаков,0,html
+dataset0/2755956_600.jpg,{},нет признаков,0,jpg
+dataset0/192154.jpg,{},нет признаков,0,jpg
+dataset0/page_331.html,{},нет признаков,0,html
+dataset0/1918_original.jpg,{},нет признаков,0,jpg
+dataset0/page_15.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/1786746_800.jpg,{},нет признаков,0,jpg
+dataset0/page_28.html,{},нет признаков,0,html
+dataset0/3938_2000.jpg,{},нет признаков,0,jpg
+dataset0/288944_original.jpg,{},нет признаков,0,jpg
+dataset0/8905_900.jpg,{},нет признаков,0,jpg
+dataset0/page_292.html,{},нет признаков,0,html
+dataset0/123716_800.jpg,{},нет признаков,0,jpg
+dataset0/95608051-14438121-image-m-49_1740580233687.jpg,{},нет признаков,0,jpg
+dataset0/333849_original.jpg,{},нет признаков,0,jpg
+dataset0/page_296.html,{},нет признаков,0,html
+dataset0/page_481.html,{},нет признаков,0,html
+dataset0/page_294.html,{},нет признаков,0,html
+dataset0/page_158.html,{},нет признаков,0,html
+dataset0/54bf4e7c258f1b85df7b02cfbe538bd6.jpg,{},нет признаков,0,jpg
+dataset0/page_110.html,{},нет признаков,0,html
+dataset0/page_105.html,{},нет признаков,0,html
+dataset0/page_57.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_82.html,{},нет признаков,0,html
+dataset0/7640252_original.jpg,{},нет признаков,0,jpg
+dataset0/356548_original.jpg,{},нет признаков,0,jpg
+dataset0/260922_original.jpg,{},нет признаков,0,jpg
+dataset0/198649_800.jpg,{},нет признаков,0,jpg
+dataset0/1926844_300.jpg,{},нет признаков,0,jpg
+dataset0/page_18.html,{},нет признаков,0,html
+dataset0/21922_2000.jpg,{},нет признаков,0,jpg
+dataset0/893585_800.jpg,{},нет признаков,0,jpg
+dataset0/14436588_original.jpg,{},нет признаков,0,jpg
+dataset0/page_217.html,{},нет признаков,0,html
+dataset0/145115_540.jpg,{},нет признаков,0,jpg
+dataset0/352714_original.jpg,{},нет признаков,0,jpg
+dataset0/344806_original.jpg,{},нет признаков,0,jpg
+dataset0/372513_original.jpg,{},нет признаков,0,jpg
+dataset0/page_73.html,{},нет признаков,0,html
+dataset0/68624_original.png,{},нет признаков,0,png
+dataset0/page_222.html,{},нет признаков,0,html
+dataset0/ba_e_armenija_mineralnaja_voda_arzni_z36930_nv.jpg,{},нет признаков,0,jpg
+dataset0/page_360.html,{},нет признаков,0,html
+dataset0/page_14.html,{},нет признаков,0,html
+dataset0/page_407.html,{},нет признаков,0,html
+dataset0/page_421.html,{},нет признаков,0,html
+dataset0/operation-ramadan-lalla-khadija-premiere-fosi-18-ans-1350x900.jpg,{},нет признаков,0,jpg
+dataset0/page_253.html,{},нет признаков,0,html
+dataset0/page_53.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_475.html,{},нет признаков,0,html
+dataset0/page_335.html,{},нет признаков,0,html
+dataset0/95614877-14438121-image-a-112_1740588951175.jpg,{},нет признаков,0,jpg
+dataset0/174041_300.jpg,{},нет признаков,0,jpg
+dataset0/14442976_original.jpg,{},нет признаков,0,jpg
+dataset0/14435521_original.jpg,{},нет признаков,0,jpg
+dataset0/page_90.html,{},нет признаков,0,html
+dataset0/21360_2000.jpg,{},нет признаков,0,jpg
+dataset0/144685_800.jpg,{},нет признаков,0,jpg
+dataset0/3013_2000.jpg,{},нет признаков,0,jpg
+dataset0/345012_original.jpg,{},нет признаков,0,jpg
+dataset0/0_a6315_aaf0ed1a_XL.jpg,{},нет признаков,0,jpg
+dataset0/page_66.html,{},нет признаков,0,html
+dataset0/1785192_original.jpg,{},нет признаков,0,jpg
+dataset0/page_316.html,{},нет признаков,0,html
+dataset0/9322_900.gif,{},нет признаков,0,gif
+dataset0/278466_original.jpg,{},нет признаков,0,jpg
+dataset0/page_249.html,{},нет признаков,0,html
+dataset0/page_198.html,{},нет признаков,0,html
+dataset0/page_278.html,{},нет признаков,0,html
+dataset0/95607229-14438121-image-a-11_1740578461417.jpg,{},нет признаков,0,jpg
+dataset0/page_128.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/371209_original.jpg,{},нет признаков,0,jpg
+dataset0/278775_original.jpg,{},нет признаков,0,jpg
+dataset0/3372_800.png,{},нет признаков,0,png
+dataset0/95606375-14438121-The_pair_pictured_in_Wales_togheter-a-25_1740576629485.jpg,{},нет признаков,0,jpg
+dataset0/26330_2000.png,{},нет признаков,0,png
+dataset0/page_213.html,{},нет признаков,0,html
+dataset0/370420_original.jpg,{},нет признаков,0,jpg
+dataset0/14221001_600.jpg,{},нет признаков,0,jpg
+dataset0/4027520_original.jpg,{},нет признаков,0,jpg
+dataset0/page_280.html,{},нет признаков,0,html
+dataset0/118330_800.jpg,{},нет признаков,0,jpg
+dataset0/5967_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_80.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/14441445_original.jpg,{},нет признаков,0,jpg
+dataset0/page_197.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/a6a2d1cf538fc5d09ca0c455e822f6f6.jpg,{},нет признаков,0,jpg
+dataset0/page_452.html,{},нет признаков,0,html
+dataset0/356903_original.jpg,{},нет признаков,0,jpg
+dataset0/page_113.html,{},нет признаков,0,html
+dataset0/115918_800.jpg,{},нет признаков,0,jpg
+dataset0/page_92.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/IMG_3137.jpg,{},нет признаков,0,jpg
+dataset0/632254_1000.jpg,{},нет признаков,0,jpg
+dataset0/5036729_original.jpg,{},нет признаков,0,jpg
+dataset0/9226_original.png,{},нет признаков,0,png
+dataset0/4164997_600.jpg,{},нет признаков,0,jpg
+dataset0/page_99.html,{},нет признаков,0,html
+dataset0/13954_900.jpg,{},нет признаков,0,jpg
+dataset0/page_309.html,{},нет признаков,0,html
+dataset0/26551_800.jpg,{},нет признаков,0,jpg
+dataset0/page_441.html,{},нет признаков,0,html
+dataset0/freddie-mercury-cats-5c6fb3b3ce236__605.jpg,{},нет признаков,0,jpg
+dataset0/9505_900.jpg,{},нет признаков,0,jpg
+dataset0/page_442.html,{},нет признаков,0,html
+dataset0/95607233-14438121-image-a-13_1740578472152.jpg,{},нет признаков,0,jpg
+dataset0/620410_600.png,{},нет признаков,0,png
+dataset0/143091_800.jpg,{},нет признаков,0,jpg
+dataset0/46824575e071c4a1ec91a04e4caadd71.jpg,{},нет признаков,0,jpg
+dataset0/page_465.html,{},нет признаков,0,html
+dataset0/76727_original.png,{},нет признаков,0,png
+dataset0/page_264.html,{},нет признаков,0,html
+dataset0/13082_900.jpg,{},нет признаков,0,jpg
+dataset0/page_393.html,{},нет признаков,0,html
+dataset0/f1add6390f50cb50ada7118c0848ddec.jpg,{},нет признаков,0,jpg
+dataset0/52044445680_d201a858c2_z.jpg,{},нет признаков,0,jpg
+dataset0/356100_original.jpg,{},нет признаков,0,jpg
+dataset0/277536_original.jpg,{},нет признаков,0,jpg
+dataset0/page_411.html,{},нет признаков,0,html
+dataset0/2750057_600.png,{},нет признаков,0,png
+dataset0/page_410.html,{},нет признаков,0,html
+dataset0/318528_1000.png,{},нет признаков,0,png
+dataset0/page_144.html,{},нет признаков,0,html
+dataset0/5967_900.jpg,{},нет признаков,0,jpg
+dataset0/12492179_original.png,{},нет признаков,0,png
+dataset0/GL0B4339.jpg,{},нет признаков,0,jpg
+dataset0/619597_600.png,{},нет признаков,0,png
+dataset0/page_289.html,{},нет признаков,0,html
+dataset0/926386_original.jpg,{},нет признаков,0,jpg
+dataset0/121681_original.png,{},нет признаков,0,png
+dataset0/page_377.html,{},нет признаков,0,html
+dataset0/355965_original.jpg,{},нет признаков,0,jpg
+dataset0/10063_900.jpg,{},нет признаков,0,jpg
+dataset0/f6aa8b15a2decef9be8a424c2f0fc38d.jpg,{},нет признаков,0,jpg
+dataset0/page_156.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/355365_original.jpg,{},нет признаков,0,jpg
+dataset0/4143784_800.jpg,{},нет признаков,0,jpg
+dataset0/page_348.html,{},нет признаков,0,html
+dataset0/422589_1000.jpg,{},нет признаков,0,jpg
+dataset0/121454_800.jpg,{},нет признаков,0,jpg
+dataset0/2758318_600.png,{},нет признаков,0,png
+dataset0/321257_1000.png,{},нет признаков,0,png
+dataset0/362355_original.jpg,{},нет признаков,0,jpg
+dataset0/page_288.html,{},нет признаков,0,html
+dataset0/320900_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_483.html,{},нет признаков,0,html
+dataset0/17254_900.jpg,{},нет признаков,0,jpg
+dataset0/7640509_original.jpg,{},нет признаков,0,jpg
+dataset0/4153477_600.jpg,{},нет признаков,0,jpg
+dataset0/14440421_original.jpg,{},нет признаков,0,jpg
+dataset0/page_290.html,{},нет признаков,0,html
+dataset0/16167_original.png,{},нет признаков,0,png
+dataset0/375548_original.jpg,{},нет признаков,0,jpg
+dataset0/634753_1000.jpg,{},нет признаков,0,jpg
+dataset0/123126_800.png,{},нет признаков,0,png
+dataset0/2900895_1000.jpg,{},нет признаков,0,jpg
+dataset0/15059_original.png,{},нет признаков,0,png
+dataset0/IMG_9098.jpg,{},нет признаков,0,jpg
+dataset0/141695_800.png,{},нет признаков,0,png
+dataset0/page_97.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/5d97c.jpg,{},нет признаков,0,jpg
+dataset0/page_43.html,{},нет признаков,0,html
+dataset0/121978_800.jpg,{},нет признаков,0,jpg
+dataset0/63223.jpg,{},нет признаков,0,jpg
+dataset0/4153762_600.jpg,{},нет признаков,0,jpg
+dataset0/page_22.html,{},нет признаков,0,html
+dataset0/page_262.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_395.html,{},нет признаков,0,html
+dataset0/619022_600.png,{},нет признаков,0,png
+dataset0/4457043_original.jpg,{},нет признаков,0,jpg
+dataset0/19890_original.png,{},нет признаков,0,png
+dataset0/95606891-14438121-image-a-48_1740577480402.jpg,{},нет признаков,0,jpg
+dataset0/page_118.html,{},нет признаков,0,html
+dataset0/340424_original.jpg,{},нет признаков,0,jpg
+dataset0/893940_800.jpg,{},нет признаков,0,jpg
+dataset0/353024_original.jpg,{},нет признаков,0,jpg
+dataset0/369547_original.jpg,{},нет признаков,0,jpg
+dataset0/page_381.html,{},нет признаков,0,html
+dataset0/113421_800.jpg,{},нет признаков,0,jpg
+dataset0/1369589_original.png,{},нет признаков,0,png
+dataset0/14257289_600.jpg,{},нет признаков,0,jpg
+dataset0/27944_800.jpg,{},нет признаков,0,jpg
+dataset0/77599_original.jpg,{},нет признаков,0,jpg
+dataset0/page_182.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_435.html,{},нет признаков,0,html
+dataset0/page_330.html,{},нет признаков,0,html
+dataset0/4164499_800.jpg,{},нет признаков,0,jpg
+dataset0/40971_800.png,{},нет признаков,0,png
+dataset0/page_400.html,{},нет признаков,0,html
+dataset0/143851_800.jpg,{},нет признаков,0,jpg
+dataset0/page_27.html,{},нет признаков,0,html
+dataset0/897581_original.jpg,{},нет признаков,0,jpg
+dataset0/41363_800.png,{},нет признаков,0,png
+dataset0/DSC02636.jpg,{},нет признаков,0,jpg
+dataset0/302750_original.jpg,{},нет признаков,0,jpg
+dataset0/14441985_original.jpg,{},нет признаков,0,jpg
+dataset0/page_218.html,{},нет признаков,0,html
+dataset0/20797_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_485.html,{},нет признаков,0,html
+dataset0/95606753-14438121-image-a-36_1740577243140.jpg,{},нет признаков,0,jpg
+dataset0/page_276.html,{},нет признаков,0,html
+dataset0/1076381_1000.png,{},нет признаков,0,png
+dataset0/12970_900.jpg,{},нет признаков,0,jpg
+dataset0/page_283.html,{},нет признаков,0,html
+dataset0/page_251.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/11643_900.jpg,{},нет признаков,0,jpg
+dataset0/350083_original.jpg,{},нет признаков,0,jpg
+dataset0/page_271.html,{},нет признаков,0,html
+dataset0/2394_original.png,{},нет признаков,0,png
+dataset0/page_181.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/13897_original.jpg,{},нет признаков,0,jpg
+dataset0/page_367.html,{},нет признаков,0,html
+dataset0/1b5dc276d8f9ce808b5c12af5ad82cb2.jpg,{},нет признаков,0,jpg
+dataset0/14437887_original.jpg,{},нет признаков,0,jpg
+dataset0/95607221-14438121-image-a-6_1740578410121.jpg,{},нет признаков,0,jpg
+dataset0/138996_1000.jpg,{},нет признаков,0,jpg
+dataset0/14442719_original.jpg,{},нет признаков,0,jpg
+dataset0/7649_900.jpg,{},нет признаков,0,jpg
+dataset0/48212_800.jpg,{},нет признаков,0,jpg
+dataset0/4164203_800.jpg,{},нет признаков,0,jpg
+dataset0/page_59.html,{},нет признаков,0,html
+dataset0/95608055-14438121-image-a-35_1740579974663.jpg,{},нет признаков,0,jpg
+dataset0/116520_800.jpg,{},нет признаков,0,jpg
+dataset0/page_319.html,{},нет признаков,0,html
+dataset0/95613525-14438121-image-a-107_1740587037264.jpg,{},нет признаков,0,jpg
+dataset0/4154897_600.jpg,{},нет признаков,0,jpg
+dataset0/page_234.html,{},нет признаков,0,html
+dataset0/page_122.html,{},нет признаков,0,html
+dataset0/4514444_original.jpg,{},нет признаков,0,jpg
+dataset0/278270_original.jpg,{},нет признаков,0,jpg
+dataset0/17862_900.jpg,{},нет признаков,0,jpg
+dataset0/39676_800.jpg,{},нет признаков,0,jpg
+dataset0/138438_800.jpg,{},нет признаков,0,jpg
+dataset0/7090_original.jpg,{},нет признаков,0,jpg
+dataset0/279470_original.jpg,{},нет признаков,0,jpg
+dataset0/14443021_original.jpg,{},нет признаков,0,jpg
+dataset0/7373_original.jpg,{},нет признаков,0,jpg
+dataset0/page_277.html,{},нет признаков,0,html
+dataset0/page_368.html,{},нет признаков,0,html
+dataset0/page_155.html,{},нет признаков,0,html
+dataset0/14632369_original.jpg,{},нет признаков,0,jpg
+dataset0/page_444.html,{},нет признаков,0,html
+dataset0/1570_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_345.html,{},нет признаков,0,html
+dataset0/321609_1000.png,{},нет признаков,0,png
+dataset0/4959_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_165.html,{},нет признаков,0,html
+dataset0/6%20%2896%29.jpg,{},нет признаков,0,jpg
+dataset0/page_401.html,{},нет признаков,0,html
+dataset0/page_436.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_337.html,{},нет признаков,0,html
+dataset0/355093_original.jpg,{},нет признаков,0,jpg
+dataset0/page_116.html,{},нет признаков,0,html
+dataset0/page_157.html,{},нет признаков,0,html
+dataset0/page_415.html,{},нет признаков,0,html
+dataset0/page_326.html,{},нет признаков,0,html
+dataset0/11169_900.jpg,{},нет признаков,0,jpg
+dataset0/346689_original.jpg,{},нет признаков,0,jpg
+dataset0/370026_original.jpg,{},нет признаков,0,jpg
+dataset0/10725_900.png,{},нет признаков,0,png
+dataset0/145296_800.jpg,{},нет признаков,0,jpg
+dataset0/25f7c1e2cb562d71bc33c6d48de16431.jpg,{},нет признаков,0,jpg
+dataset0/page_358.html,{},нет признаков,0,html
+dataset0/page_72.html,{},нет признаков,0,html
+dataset0/14438819_original.jpg,{},нет признаков,0,jpg
+dataset0/123242_800.jpg,{},нет признаков,0,jpg
+dataset0/page_79.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/359177_original.jpg,{},нет признаков,0,jpg
+dataset0/page_96.html,{},нет признаков,0,html
+dataset0/17610_900.jpg,{},нет признаков,0,jpg
+dataset0/page_37.html,{},нет признаков,0,html
+dataset0/page_233.html,{},нет признаков,0,html
+dataset0/1445_800.jpg,{},нет признаков,0,jpg
+dataset0/362985_original.jpg,{},нет признаков,0,jpg
+dataset0/page_313.html,{},нет признаков,0,html
+dataset0/14633025_original.jpg,{},нет признаков,0,jpg
+dataset0/page_341.html,{},нет признаков,0,html
+dataset0/page_303.html,{},нет признаков,0,html
+dataset0/page_378.html,{},нет признаков,0,html
+dataset0/page_374.html,{},нет признаков,0,html
+dataset0/page_133.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/120900_800.jpg,{},нет признаков,0,jpg
+dataset0/GL0B3509.jpg,{},нет признаков,0,jpg
+dataset0/page_346.html,{},нет признаков,0,html
+dataset0/page_214.html,{},нет признаков,0,html
+dataset0/1046ac88c1624f0bf3ffba06eb11fb58816bb742.png,{},нет признаков,0,png
+dataset0/vino-768x990.jpg,{},нет признаков,0,jpg
+dataset0/332034_original.jpg,{},нет признаков,0,jpg
+dataset0/page_244.html,{},нет признаков,0,html
+dataset0/page_200.html,{},нет признаков,0,html
+dataset0/40848_800.png,{},нет признаков,0,png
+dataset0/page_480.html,{},нет признаков,0,html
+dataset0/654529.jpg,{},нет признаков,0,jpg
+dataset0/2008421_600.jpg,{},нет признаков,0,jpg
+dataset0/page_318.html,{},нет признаков,0,html
+dataset0/4147651_600.jpg,{},нет признаков,0,jpg
+dataset0/95608439-14438121-image-a-52_1740580424572.jpg,{},нет признаков,0,jpg
+dataset0/page_19.html,{},нет признаков,0,html
+dataset0/14439521_original.jpg,{},нет признаков,0,jpg
+dataset0/page_299.html,{},нет признаков,0,html
+dataset0/page_50.html,"{""обычные"": 5}",УЗ-3,5,html
+dataset0/page_462.html,{},нет признаков,0,html
+dataset0/324729_original.jpg,{},нет признаков,0,jpg
+dataset0/page_333.html,{},нет признаков,0,html
+dataset0/page_56.html,{},нет признаков,0,html
+dataset0/316366_original.png,{},нет признаков,0,png
+dataset0/370992_original.jpg,{},нет признаков,0,jpg
+dataset0/4155873_800.jpg,{},нет признаков,0,jpg
+dataset0/phone@1x.png,{},нет признаков,0,png
+dataset0/page_423.html,{},нет признаков,0,html
+dataset0/page_450.html,{},нет признаков,0,html
+dataset0/page_428.html,{},нет признаков,0,html
+dataset0/121793_original.gif,{},нет признаков,0,gif
+dataset0/360325_original.jpg,{},нет признаков,0,jpg
+dataset0/4513677_original.jpg,{},нет признаков,0,jpg
+dataset0/page_281.html,{},нет признаков,0,html
+dataset0/14443684_original.jpg,{},нет признаков,0,jpg
+dataset0/95612091-14438121-image-a-86_1740585245717.jpg,{},нет признаков,0,jpg
+dataset0/14318_900.jpg,{},нет признаков,0,jpg
+dataset0/page_185.html,{},нет признаков,0,html
+dataset0/367149_original.jpg,{},нет признаков,0,jpg
+dataset0/page_127.html,{},нет признаков,0,html
+dataset0/143600_800.jpg,{},нет признаков,0,jpg
+dataset0/4614_800.jpg,{},нет признаков,0,jpg
+dataset0/419639_540.jpg,{},нет признаков,0,jpg
+dataset0/2749688_600.jpg,{},нет признаков,0,jpg
+dataset0/4264_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_461.html,{},нет признаков,0,html
+dataset0/364678_original.jpg,{},нет признаков,0,jpg
+dataset0/17984_original.png,{},нет признаков,0,png
+dataset0/page_449.html,{},нет признаков,0,html
+dataset0/3778_800.jpg,{},нет признаков,0,jpg
+dataset0/page_93.html,{},нет признаков,0,html
+dataset0/644ce9be5878979f68f1aaeb03c63d65.jpg,{},нет признаков,0,jpg
+dataset0/325113_original.jpg,{},нет признаков,0,jpg
+dataset0/page_125.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_257.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/362047_original.jpg,{},нет признаков,0,jpg
+dataset0/260101_original.jpg,{},нет признаков,0,jpg
+dataset0/14458860_600.jpg,{},нет признаков,0,jpg
+dataset0/366424_original.jpg,{},нет признаков,0,jpg
+dataset0/3823033_600.jpg,{},нет признаков,0,jpg
+dataset0/page_139.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/11199_2000.png,{},нет признаков,0,png
+dataset0/page_366.html,{},нет признаков,0,html
+dataset0/114966_original.png,{},нет признаков,0,png
+dataset0/page_317.html,{},нет признаков,0,html
+dataset0/freddie-mercury-cats-6-5c6fa8b59db72__605.jpg,{},нет признаков,0,jpg
+dataset0/45576_800.jpg,{},нет признаков,0,jpg
+dataset0/page_232.html,{},нет признаков,0,html
+dataset0/page_107.html,{},нет признаков,0,html
+dataset0/172704_800.jpg,{},нет признаков,0,jpg
+dataset0/page_248.html,{},нет признаков,0,html
+dataset0/page_100.html,{},нет признаков,0,html
+dataset0/365529_original.jpg,{},нет признаков,0,jpg
+dataset0/10840_900.jpg,{},нет признаков,0,jpg
+dataset0/460_original.jpg,{},нет признаков,0,jpg
+dataset0/375689_original.jpg,{},нет признаков,0,jpg
+dataset0/95612235-14438121-image-a-88_1740585471248.jpg,{},нет признаков,0,jpg
+dataset0/page_445.html,{},нет признаков,0,html
+dataset0/page_344.html,{},нет признаков,0,html
+dataset0/124443_800.jpg,{},нет признаков,0,jpg
+dataset0/3944_900.jpg,{},нет признаков,0,jpg
+dataset0/95608045-14438121-image-a-38_1740580100949.jpg,{},нет признаков,0,jpg
+dataset0/8672_800.png,{},нет признаков,0,png
+dataset0/page_457.html,{},нет признаков,0,html
+dataset0/page_293.html,{},нет признаков,0,html
+dataset0/freddie-mercury-cats-5c6fb3a8cd982__605.jpg,{},нет признаков,0,jpg
+dataset0/page_115.html,{},нет признаков,0,html
+dataset0/page_484.html,{},нет признаков,0,html
+dataset0/4df30dc9fa05b38acf19dcd94e76c00f.jpg,{},нет признаков,0,jpg
+dataset0/45134_800.jpg,{},нет признаков,0,jpg
+dataset0/page_166.html,{},нет признаков,0,html
+dataset0/page_241.html,{},нет признаков,0,html
+dataset0/ece58ec3022c7c798bb228456ac8a67c.jpg,{},нет признаков,0,jpg
+dataset0/343968_original.jpg,{},нет признаков,0,jpg
+dataset0/261310_original.jpg,{},нет признаков,0,jpg
+dataset0/4514035_900.jpg,{},нет признаков,0,jpg
+dataset0/620160_600.jpg,{},нет признаков,0,jpg
+dataset0/2750836_600.jpg,{},нет признаков,0,jpg
+dataset0/14435207_original.jpg,{},нет признаков,0,jpg
+dataset0/0701773238d6e3cd0d9015b3067bbd4d.jpg,{},нет признаков,0,jpg
+dataset0/422763_800.jpg,{},нет признаков,0,jpg
+dataset0/370572_original.jpg,{},нет признаков,0,jpg
+dataset0/95608053-14438121-image-a-36_1740580030157.jpg,{},нет признаков,0,jpg
+dataset0/124139_800.jpg,{},нет признаков,0,jpg
+dataset0/page_486.html,{},нет признаков,0,html
+dataset0/369732_original.jpg,{},нет признаков,0,jpg
+dataset0/page_183.html,{},нет признаков,0,html
+dataset0/page_376.html,{},нет признаков,0,html
+dataset0/95864105-14463995-image-a-61_1741175972370.jpg,{},нет признаков,0,jpg
+dataset0/page_210.html,{},нет признаков,0,html
+dataset0/page_149.html,{},нет признаков,0,html
+dataset0/I-capture-the-beautiful-winter-in-the-northern-part-of-Sweden-5c753b5580ec8__700.jpg,{},нет признаков,0,jpg
+dataset0/47059_800.jpg,{},нет признаков,0,jpg
+dataset0/page_95.html,{},нет признаков,0,html
+dataset0/page_78.html,{},нет признаков,0,html
+dataset0/14165960_600.jpg,{},нет признаков,0,jpg
+dataset0/123635_800.jpg,{},нет признаков,0,jpg
+dataset0/page_399.html,{},нет признаков,0,html
+dataset0/95612293-14438121-image-a-97_1740585973713.jpg,{},нет признаков,0,jpg
+dataset0/4345755_original.jpg,{},нет признаков,0,jpg
+dataset0/12156_800.jpg,{},нет признаков,0,jpg
+dataset0/354897_original.jpg,{},нет признаков,0,jpg
+dataset0/page_286.html,{},нет признаков,0,html
+dataset0/43315247_vROk6v5Fqq9GeJdt-3LhsQxTRzx6hf1KmeMcqFzzbdM.jpg,{},нет признаков,0,jpg
+dataset0/530a0c14bfac93e04bbbd09ad1fca64c.jpg,{},нет признаков,0,jpg
+dataset0/page_179.html,{},нет признаков,0,html
+dataset0/IMG_5308.jpg,{},нет признаков,0,jpg
+dataset0/page_300.html,{},нет признаков,0,html
+dataset0/etiketka_mineralnaja_voda_mirgorodskaja.jpg,{},нет признаков,0,jpg
+dataset0/7644967_original.jpg,{},нет признаков,0,jpg
+dataset0/281391_original.jpg,{},нет признаков,0,jpg
+dataset0/page_112.html,{},нет признаков,0,html
+dataset0/237988_800.png,{},нет признаков,0,png
+dataset0/i_026.png,{},нет признаков,0,png
+dataset0/page_215.html,{},нет признаков,0,html
+dataset0/page_145.html,{},нет признаков,0,html
+dataset0/page_119.html,{},нет признаков,0,html
+dataset0/page_189.html,{},нет признаков,0,html
+dataset0/page_297.html,{},нет признаков,0,html
+dataset0/page_231.html,{},нет признаков,0,html
+dataset0/309391_original.jpg,{},нет признаков,0,jpg
+dataset0/29713_800.jpg,{},нет признаков,0,jpg
+dataset0/DSCF4632.jpg,{},нет признаков,0,jpg
+dataset0/319471_original.jpg,{},нет признаков,0,jpg
+dataset0/10309_900.jpg,{},нет признаков,0,jpg
+dataset0/page_404.html,{},нет признаков,0,html
+dataset0/page_104.html,{},нет признаков,0,html
+dataset0/1316267_800.jpg,{},нет признаков,0,jpg
+dataset0/4154879_600.jpg,{},нет признаков,0,jpg
+dataset0/page_265.html,{},нет признаков,0,html
+dataset0/7264_900.png,{},нет признаков,0,png
+dataset0/14434422_original.jpg,{},нет признаков,0,jpg
+dataset0/125990_800.jpg,{},нет признаков,0,jpg
+dataset0/page_328.html,{},нет признаков,0,html
+dataset0/6736_900.jpg,{},нет признаков,0,jpg
+dataset0/page_396.html,{},нет признаков,0,html
+dataset0/page_454.html,{},нет признаков,0,html
+dataset0/page_320.html,{},нет признаков,0,html
+dataset0/page_58.html,{},нет признаков,0,html
+dataset0/277907_original.jpg,{},нет признаков,0,jpg
+dataset0/894795_original.jpg,{},нет признаков,0,jpg
+dataset0/1435504454.jpg,{},нет признаков,0,jpg
+dataset0/page_390.html,{},нет признаков,0,html
+dataset0/144148_800.jpg,{},нет признаков,0,jpg
+dataset0/15750_900.jpg,{},нет признаков,0,jpg
+dataset0/361839_original.jpg,{},нет признаков,0,jpg
+dataset0/page_272.html,{},нет признаков,0,html
+dataset0/page_324.html,{},нет признаков,0,html
+dataset0/4aed48cb2f8ed96a8609218247d6c54b.jpg,{},нет признаков,0,jpg
+dataset0/6052955_original.jpg,{},нет признаков,0,jpg
+dataset0/4165481_600.jpg,{},нет признаков,0,jpg
+dataset0/4978_900.jpg,{},нет признаков,0,jpg
+dataset0/95608575-14438121-image-a-58_1740580590402.jpg,{},нет признаков,0,jpg
+dataset0/120801_800.jpg,{},нет признаков,0,jpg
+dataset0/page_259.html,{},нет признаков,0,html
+dataset0/IMG_7713.jpg,{},нет признаков,0,jpg
+dataset0/5851_900.jpg,{},нет признаков,0,jpg
+dataset0/1780611_1000.jpg,{},нет признаков,0,jpg
+dataset0/118848_800.jpg,{},нет признаков,0,jpg
+dataset0/page_364.html,{},нет признаков,0,html
+dataset0/557_800.png,{},нет признаков,0,png
+dataset0/95613207-14438121-image-a-106_1740586739043.jpg,{},нет признаков,0,jpg
+dataset0/page_402.html,{},нет признаков,0,html
+dataset0/page_329.html,{},нет признаков,0,html
+dataset0/14632765_original.jpg,{},нет признаков,0,jpg
+dataset0/360764_original.jpg,{},нет признаков,0,jpg
+dataset0/353296_original.jpg,{},нет признаков,0,jpg
+dataset0/6918_900.jpg,{},нет признаков,0,jpg
+dataset0/76845_original.jpg,{},нет признаков,0,jpg
+dataset0/49017_800.jpg,{},нет признаков,0,jpg
+dataset0/122702_800.jpg,{},нет признаков,0,jpg
+dataset0/page_34.html,{},нет признаков,0,html
+dataset0/14440951_original.jpg,{},нет признаков,0,jpg
+dataset0/4514075_original.jpg,{},нет признаков,0,jpg
+dataset0/1000820_600.jpg,{},нет признаков,0,jpg
+dataset0/page_161.html,{},нет признаков,0,html
+dataset0/362681_original.jpg,{},нет признаков,0,jpg
+dataset0/278906_original.jpg,{},нет признаков,0,jpg
+dataset0/page_204.html,{},нет признаков,0,html
+dataset0/5553_2000.jpg,{},нет признаков,0,jpg
+dataset0/95608047-14438121-image-a-51_1740580281958.jpg,{},нет признаков,0,jpg
+dataset0/122545_original.jpg,{},нет признаков,0,jpg
+dataset0/page_212.html,{},нет признаков,0,html
+dataset0/10286_900.jpg,{},нет признаков,0,jpg
+dataset0/page_383.html,{},нет признаков,0,html
+dataset0/page_371.html,{},нет признаков,0,html
+dataset0/321881_original.jpg,{},нет признаков,0,jpg
+dataset0/95870751-14464719-image-a-110_1741189581793.jpg,{},нет признаков,0,jpg
+dataset0/12690_900.jpg,{},нет признаков,0,jpg
+dataset0/2767_900.jpg,{},нет признаков,0,jpg
+dataset0/2068_800.jpg,{},нет признаков,0,jpg
+dataset0/c5b78fd2cac4cf400f2d4919e9906427.jpg,{},нет признаков,0,jpg
+dataset0/355597_original.jpg,{},нет признаков,0,jpg
+dataset0/page_460.html,{},нет признаков,0,html
+dataset0/page_419.html,{},нет признаков,0,html
+dataset0/95612093-14438121-image-a-91_1740585599280.jpg,{},нет признаков,0,jpg
+dataset0/page_472.html,{},нет признаков,0,html
+dataset0/45833_800.jpg,{},нет признаков,0,jpg
+dataset0/1067302_800.jpg,{},нет признаков,0,jpg
+dataset0/page_123.html,{},нет признаков,0,html
+dataset0/4514444_900.jpg,{},нет признаков,0,jpg
+dataset0/page_388.html,{},нет признаков,0,html
+dataset0/14438620_original.jpg,{},нет признаков,0,jpg
+dataset0/page_49.html,{},нет признаков,0,html
+dataset0/6610_900.jpg,{},нет признаков,0,jpg
+dataset0/page_121.html,{},нет признаков,0,html
+dataset0/3472_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_52.html,{},нет признаков,0,html
+dataset0/DSCF4289.jpg,{},нет признаков,0,jpg
+dataset0/page_397.html,{},нет признаков,0,html
+dataset0/825b89d51456396f72cd42b803c1f0b7.jpg,{},нет признаков,0,jpg
+dataset0/2521_900.gif,{},нет признаков,0,gif
+dataset0/14468_original.png,{},нет признаков,0,png
+dataset0/47775_800.jpg,{},нет признаков,0,jpg
+dataset0/9173_2000.jpg,{},нет признаков,0,jpg
+dataset0/95608989-14438121-image-a-66_1740581174740.jpg,{},нет признаков,0,jpg
+dataset0/17587_original.png,{},нет признаков,0,png
+dataset0/page_9.html,{},нет признаков,0,html
+dataset0/IMG_9976.jpg,{},нет признаков,0,jpg
+dataset0/127076_800.jpg,{},нет признаков,0,jpg
+dataset0/358640_original.jpg,{},нет признаков,0,jpg
+dataset0/322053_1000.png,{},нет признаков,0,png
+dataset0/page_160.html,{},нет признаков,0,html
+dataset0/page_369.html,{},нет признаков,0,html
+dataset0/617616_800.jpg,{},нет признаков,0,jpg
+dataset0/page_467.html,{},нет признаков,0,html
+dataset0/13519_900.jpg,{},нет признаков,0,jpg
+dataset0/2759107_600.png,{},нет признаков,0,png
+dataset0/680930db347f51db9e67df50b4afd2a3.jpg,{},нет признаков,0,jpg
+dataset0/page_427.html,{},нет признаков,0,html
+dataset0/140408_800.jpg,{},нет признаков,0,jpg
+dataset0/340164_original.jpg,{},нет признаков,0,jpg
+dataset0/57e66fb7c610da94a6dd8443972f4ecc.jpg,{},нет признаков,0,jpg
+dataset0/page_476.html,{},нет признаков,0,html
+dataset0/page_434.html,{},нет признаков,0,html
+dataset0/4492_original.png,{},нет признаков,0,png
+dataset0/2749218_600.jpg,{},нет признаков,0,jpg
+dataset0/95607219-14438121-image-a-4_1740578398179.jpg,{},нет признаков,0,jpg
+dataset0/page_67.html,{},нет признаков,0,html
+dataset0/4344978_original.jpg,{},нет признаков,0,jpg
+dataset0/14441704_original.jpg,{},нет признаков,0,jpg
+dataset0/46086_800.jpg,{},нет признаков,0,jpg
+dataset0/page_36.html,{},нет признаков,0,html
+dataset0/12013_900.jpg,{},нет признаков,0,jpg
+dataset0/12105_900.jpg,{},нет признаков,0,jpg
+dataset0/95606715-14438121-image-a-29_1740577133247.jpg,{},нет признаков,0,jpg
+dataset0/47402_800.jpg,{},нет признаков,0,jpg
+dataset0/121909_600.png,{},нет признаков,0,png
+dataset0/page_478.html,{},нет признаков,0,html
+dataset0/holder_alerts_bd_videocard.png,{},нет признаков,0,png
+dataset0/page_175.html,{},нет признаков,0,html
+dataset0/page_274.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_39.html,{},нет признаков,0,html
+dataset0/32674_original.png,{},нет признаков,0,png
+dataset0/page_453.html,{},нет признаков,0,html
+dataset0/page_443.html,{},нет признаков,0,html
+dataset0/page_171.html,{},нет признаков,0,html
+dataset0/page_279.html,{},нет признаков,0,html
+dataset0/page_451.html,{},нет признаков,0,html
+dataset0/page_284.html,{},нет признаков,0,html
+dataset0/page_178.html,{},нет признаков,0,html
+dataset0/12320_900.jpg,{},нет признаков,0,jpg
+dataset0/page_38.html,{},нет признаков,0,html
+dataset0/897328_800.png,{},нет признаков,0,png
+dataset0/313402_original.jpg,{},нет признаков,0,jpg
+dataset0/122617_800.jpg,{},нет признаков,0,jpg
+dataset0/page_243.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/363645_original.jpg,{},нет признаков,0,jpg
+dataset0/page_71.html,{},нет признаков,0,html
+dataset0/page_336.html,{},нет признаков,0,html
+dataset0/357732_original.jpg,{},нет признаков,0,jpg
+dataset0/896838_800.png,{},нет признаков,0,png
+dataset0/page_196.html,{},нет признаков,0,html
+dataset0/377052_original.jpg,{},нет признаков,0,jpg
+dataset0/page_168.html,{},нет признаков,0,html
+dataset0/old-historic-photos-67bed8d3cfc24__700.jpg,{},нет признаков,0,jpg
+dataset0/95610813-14438121-image-a-71_1740583803203.jpg,{},нет признаков,0,jpg
+dataset0/3559805_original.jpg,{},нет признаков,0,jpg
+dataset0/page_416.html,{},нет признаков,0,html
+dataset0/11734_900.jpg,{},нет признаков,0,jpg
+dataset0/page_209.html,{},нет признаков,0,html
+dataset0/page_11.html,{},нет признаков,0,html
+dataset0/14441016_original.jpg,{},нет признаков,0,jpg
+dataset0/365615_original.jpg,{},нет признаков,0,jpg
+dataset0/page_413.html,{},нет признаков,0,html
+dataset0/page_340.html,{},нет признаков,0,html
+dataset0/page_207.html,{},нет признаков,0,html
+dataset0/95607439-14438121-image-a-17_1740578923771.jpg,{},нет признаков,0,jpg
+dataset0/4463311_original.jpg,{},нет признаков,0,jpg
+dataset0/14434214_original.jpg,{},нет признаков,0,jpg
+dataset0/page_471.html,{},нет признаков,0,html
+dataset0/8844_800.png,{},нет признаков,0,png
+dataset0/7644179_original.jpg,{},нет признаков,0,jpg
+dataset0/317153_original.png,{},нет признаков,0,png
+dataset0/372403_original.jpg,{},нет признаков,0,jpg
+dataset0/5650_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_205.html,{},нет признаков,0,html
+dataset0/891746_800.jpg,{},нет признаков,0,jpg
+dataset0/page_24.html,{},нет признаков,0,html
+dataset0/4144069_600.jpg,{},нет признаков,0,jpg
+dataset0/11389_800.png,{},нет признаков,0,png
+dataset0/9931_540.png,{},нет признаков,0,png
+dataset0/95612335-14438121-image-a-94_1740585858537.jpg,{},нет признаков,0,jpg
+dataset0/page_403.html,{},нет признаков,0,html
+dataset0/page_389.html,{},нет признаков,0,html
+dataset0/354661_original.jpg,{},нет признаков,0,jpg
+dataset0/page_148.html,{},нет признаков,0,html
+dataset0/page_350.html,{},нет признаков,0,html
+dataset0/page_339.html,{},нет признаков,0,html
+dataset0/page_131.html,{},нет признаков,0,html
+dataset0/14434890_original.jpg,{},нет признаков,0,jpg
+dataset0/page_311.html,{},нет признаков,0,html
+dataset0/page_291.html,{},нет признаков,0,html
+dataset0/page_301.html,{},нет признаков,0,html
+dataset0/5627_900.jpg,{},нет признаков,0,jpg
+dataset0/361422_original.jpg,{},нет признаков,0,jpg
+dataset0/9773_original.jpg,{},нет признаков,0,jpg
+dataset0/126636_800.jpg,{},нет признаков,0,jpg
+dataset0/363056_original.jpg,{},нет признаков,0,jpg
+dataset0/page_202.html,{},нет признаков,0,html
+dataset0/page_10.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/619379_600.png,{},нет признаков,0,png
+dataset0/page_238.html,{},нет признаков,0,html
+dataset0/page_315.html,{},нет признаков,0,html
+dataset0/273077_original.jpg,{},нет признаков,0,jpg
+dataset0/page_74.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/logo82x33.png,{},нет признаков,0,png
+dataset0/page_466.html,{},нет признаков,0,html
+dataset0/1778109_1000.jpg,{},нет признаков,0,jpg
+dataset0/15455_900.jpg,{},нет признаков,0,jpg
+dataset0/9430_540.png,{},нет признаков,0,png
+dataset0/4141490_600.jpg,{},нет признаков,0,jpg
+dataset0/374768_original.jpg,{},нет признаков,0,jpg
+dataset0/page_174.html,{},нет признаков,0,html
+dataset0/page_408.html,{},нет признаков,0,html
+dataset0/page_287.html,{},нет признаков,0,html
+dataset0/d3fcc44e1a942878dddbb351dbd9a5d9.jpg,{},нет признаков,0,jpg
+dataset0/7760_original.jpg,{},нет признаков,0,jpg
+dataset0/page_448.html,{},нет признаков,0,html
+dataset0/9022_900.jpg,{},нет признаков,0,jpg
+dataset0/page_463.html,{},нет признаков,0,html
+dataset0/95606433-14438121-image-a-13_1740576442821.jpg,{},нет признаков,0,jpg
+dataset0/page_137.html,{},нет признаков,0,html
+dataset0/894122_800.jpg,{},нет признаков,0,jpg
+dataset0/vk_logo_color_32.png,{},нет признаков,0,png
+dataset0/5635_original.png,{},нет признаков,0,png
+dataset0/page_46.html,{},нет признаков,0,html
+dataset0/0.gif,{},нет признаков,0,gif
+dataset0/page_250.html,{},нет признаков,0,html
+dataset0/7644560_original.jpg,{},нет признаков,0,jpg
+dataset0/262_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_223.html,{},нет признаков,0,html
+dataset0/page_406.html,{},нет признаков,0,html
+dataset0/14434214_600.jpg,{},нет признаков,0,jpg
+dataset0/page_180.html,{},нет признаков,0,html
+dataset0/page_167.html,{},нет признаков,0,html
+dataset0/354324_original.jpg,{},нет признаков,0,jpg
+dataset0/331935_original.jpg,{},нет признаков,0,jpg
+dataset0/370904_original.jpg,{},нет признаков,0,jpg
+dataset0/page_203.html,{},нет признаков,0,html
+dataset0/s0r7z1tue7x7re5v3y.jpg,{},нет признаков,0,jpg
+dataset0/page_387.html,{},нет признаков,0,html
+dataset0/page_414.html,{},нет признаков,0,html
+dataset0/12049_900.jpg,{},нет признаков,0,jpg
+dataset0/page_422.html,{},нет признаков,0,html
+dataset0/7643477_original.jpg,{},нет признаков,0,jpg
+dataset0/2445_2000.jpg,{},нет признаков,0,jpg
+dataset0/14440115_original.jpg,{},нет признаков,0,jpg
+dataset0/bf15bdacb58015847499525ffcabb401.jpg,{},нет признаков,0,jpg
+dataset0/26880_800.jpg,{},нет признаков,0,jpg
+dataset0/4447_2000.jpg,{},нет признаков,0,jpg
+dataset0/125766_800.jpg,{},нет признаков,0,jpg
+dataset0/6818_900.jpg,{},нет признаков,0,jpg
+dataset0/14435951_original.jpg,{},нет признаков,0,jpg
+dataset0/327315_original.jpg,{},нет признаков,0,jpg
+dataset0/7641928_original.jpg,{},нет признаков,0,jpg
+dataset0/page_88.html,{},нет признаков,0,html
+dataset0/891151_original.jpg,{},нет признаков,0,jpg
+dataset0/11953_800.jpg,{},нет признаков,0,jpg
+dataset0/9596_900.jpg,{},нет признаков,0,jpg
+dataset0/page_285.html,{},нет признаков,0,html
+dataset0/page_304.html,{},нет признаков,0,html
+dataset0/page_170.html,{},нет признаков,0,html
+dataset0/page_136.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/620267_original.png,{},нет признаков,0,png
+dataset0/427076_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_375.html,{},нет признаков,0,html
+dataset0/6149_2000.jpg,{},нет признаков,0,jpg
+dataset0/4160712_600.jpg,{},нет признаков,0,jpg
+dataset0/page_89.html,{},нет признаков,0,html
+dataset0/631266_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_431.html,{},нет признаков,0,html
+dataset0/279050_original.jpg,{},нет признаков,0,jpg
+dataset0/page_382.html,{},нет признаков,0,html
+dataset0/95607231-14438121-image-a-12_1740578464680.jpg,{},нет признаков,0,jpg
+dataset0/895011_original.jpg,{},нет признаков,0,jpg
+dataset0/426318_800.jpg,{},нет признаков,0,jpg
+dataset0/11003_800.png,{},нет признаков,0,png
+dataset0/67883_original.png,{},нет признаков,0,png
+dataset0/46444_800.jpg,{},нет признаков,0,jpg
+dataset0/fc408a595487f2c954e0fdb8ca8f0b2f.jpg,{},нет признаков,0,jpg
+dataset0/14441833_original.jpg,{},нет признаков,0,jpg
+dataset0/page_420.html,{},нет признаков,0,html
+dataset0/272485_original.jpg,{},нет признаков,0,jpg
+dataset0/page_226.html,{},нет признаков,0,html
+dataset0/2751791_600.png,{},нет признаков,0,png
+dataset0/page_85.html,{},нет признаков,0,html
+dataset0/page_237.html,{},нет признаков,0,html
+dataset0/1618832160_varnica.jpg,{},нет признаков,0,jpg
+dataset0/page_152.html,{},нет признаков,0,html
+dataset0/69148_original.png,{},нет признаков,0,png
+dataset0/317881_1000.png,{},нет признаков,0,png
+dataset0/357900_original.jpg,{},нет признаков,0,jpg
+dataset0/page_219.html,{},нет признаков,0,html
+dataset0/page_176.html,{},нет признаков,0,html
+dataset0/4346249_original.jpg,{},нет признаков,0,jpg
+dataset0/95608931-14438121-image-a-60_1740580936889.jpg,{},нет признаков,0,jpg
+dataset0/4144133_600.jpg,{},нет признаков,0,jpg
+dataset0/95614875-14438121-image-a-111_1740588947961.jpg,{},нет признаков,0,jpg
+dataset0/95606431-14438121-This_is_a_delicious_traditional_sweet_using_flour_sugar_spices_b-a-17_1740576465261.jpg,{},нет признаков,0,jpg
+dataset0/1783527_800.jpg,{},нет признаков,0,jpg
+dataset0/140784_800.png,{},нет признаков,0,png
+dataset0/277204_original.jpg,{},нет признаков,0,jpg
+dataset0/895859_600.png,{},нет признаков,0,png
+dataset0/P1000484.jpg,{},нет признаков,0,jpg
+dataset0/page_140.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/186549_800.jpg,{},нет признаков,0,jpg
+dataset0/375892_original.jpg,{},нет признаков,0,jpg
+dataset0/page_430.html,{},нет признаков,0,html
+dataset0/page_269.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_29.html,{},нет признаков,0,html
+dataset0/page_20.html,{},нет признаков,0,html
+dataset0/page_150.html,{},нет признаков,0,html
+dataset0/4153239_600.jpg,{},нет признаков,0,jpg
+dataset0/419500_1000.jpg,{},нет признаков,0,jpg
+dataset0/316782_1000.png,{},нет признаков,0,png
+dataset0/619893_600.png,{},нет признаков,0,png
+dataset0/page_151.html,{},нет признаков,0,html
+dataset0/IMG_4326.jpg,{},нет признаков,0,jpg
+dataset0/IMG_8448.jpg,{},нет признаков,0,jpg
+dataset0/P1000092_1.jpg,{},нет признаков,0,jpg
+dataset0/page_468.html,{},нет признаков,0,html
+dataset0/352812_original.jpg,{},нет признаков,0,jpg
+dataset0/126804_800.jpg,{},нет признаков,0,jpg
+dataset0/350989_original.jpg,{},нет признаков,0,jpg
+dataset0/DSCF4182.jpg,{},нет признаков,0,jpg
+dataset0/1927646_300.jpg,{},нет признаков,0,jpg
+dataset0/621809_540.jpg,{},нет признаков,0,jpg
+dataset0/120769_800.png,{},нет признаков,0,png
+dataset0/page_12.html,{},нет признаков,0,html
+dataset0/page_141.html,{},нет признаков,0,html
+dataset0/279696_original.jpg,{},нет признаков,0,jpg
+dataset0/633644_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_474.html,{},нет признаков,0,html
+dataset0/page_261.html,{},нет признаков,0,html
+dataset0/136487_1000.png,{},нет признаков,0,png
+dataset0/page_159.html,{},нет признаков,0,html
+dataset0/page_432.html,{},нет признаков,0,html
+dataset0/page_188.html,{},нет признаков,0,html
+dataset0/5294_2000.jpg,{},нет признаков,0,jpg
+dataset0/84746_760.jpg,{},нет признаков,0,jpg
+dataset0/18049_900.jpg,{},нет признаков,0,jpg
+dataset0/45545_800.jpg,{},нет признаков,0,jpg
+dataset0/31188_800.jpg,{},нет признаков,0,jpg
+dataset0/page_44.html,{},нет признаков,0,html
+dataset0/18922_900.jpg,{},нет признаков,0,jpg
+dataset0/4779_2000.jpg,{},нет признаков,0,jpg
+dataset0/95607443-14438121-image-a-19_1740578960890.jpg,{},нет признаков,0,jpg
+dataset0/8404_900.jpg,{},нет признаков,0,jpg
+dataset0/page_295.html,{},нет признаков,0,html
+dataset0/2836674_900.jpg,{},нет признаков,0,jpg
+dataset0/126281_800.jpg,{},нет признаков,0,jpg
+dataset0/page_363.html,{},нет признаков,0,html
+dataset0/page_252.html,{},нет признаков,0,html
+dataset0/page_312.html,{},нет признаков,0,html
+dataset0/352420_original.jpg,{},нет признаков,0,jpg
+dataset0/364408_original.jpg,{},нет признаков,0,jpg
+dataset0/54d41044f18911e58b8124d754cd9dd9.jpg,{},нет признаков,0,jpg
+dataset0/40642_800.png,{},нет признаков,0,png
+dataset0/926386_800.jpg,{},нет признаков,0,jpg
+dataset0/620529_original.png,{},нет признаков,0,png
+dataset0/page_332.html,{},нет признаков,0,html
+dataset0/page_310.html,{},нет признаков,0,html
+dataset0/9427_900.jpg,{},нет признаков,0,jpg
+dataset0/10261_800.png,{},нет признаков,0,png
+dataset0/page_239.html,{},нет признаков,0,html
+dataset0/page_298.html,{},нет признаков,0,html
+dataset0/332512_original.jpg,{},нет признаков,0,jpg
+dataset0/95608049-14438121-image-a-50_1740580238021.jpg,{},нет признаков,0,jpg
+dataset0/page_470.html,{},нет признаков,0,html
+dataset0/304599_original.jpg,{},нет признаков,0,jpg
+dataset0/620529_600.png,{},нет признаков,0,png
+dataset0/Vogue.jpg,{},нет признаков,0,jpg
+dataset0/page_322.html,{},нет признаков,0,html
+dataset0/page_55.html,{},нет признаков,0,html
+dataset0/4344668_original.jpg,{},нет признаков,0,jpg
+dataset0/page_424.html,{},нет признаков,0,html
+dataset0/48003_800.jpg,{},нет признаков,0,jpg
+dataset0/374818_original.jpg,{},нет признаков,0,jpg
+dataset0/97377_540.png,{},нет признаков,0,png
+dataset0/page_77.html,{},нет признаков,0,html
+dataset0/I-cI-hyWOi0.png,{},нет признаков,0,png
+dataset0/page_321.html,{},нет признаков,0,html
+dataset0/page_187.html,{},нет признаков,0,html
+dataset0/15268_900.jpg,{},нет признаков,0,jpg
+dataset0/page_75.html,{},нет признаков,0,html
+dataset0/page_479.html,{},нет признаков,0,html
+dataset0/page_124.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/175291_300.jpg,{},нет признаков,0,jpg
+dataset0/10177_900.jpg,{},нет признаков,0,jpg
+dataset0/723_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_184.html,{},нет признаков,0,html
+dataset0/page_263.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_349.html,{},нет признаков,0,html
+dataset0/page_114.html,{},нет признаков,0,html
+dataset0/Varvara_Turkestanova.jpg,{},нет признаков,0,jpg
+dataset0/118622_800.jpg,{},нет признаков,0,jpg
+dataset0/11773_original.jpg,{},нет признаков,0,jpg
+dataset0/page_353.html,{},нет признаков,0,html
+dataset0/page_191.html,{},нет признаков,0,html
+dataset0/193666_800.jpg,{},нет признаков,0,jpg
+dataset0/95866987-14464289-image-a-94_1741181232200.jpg,{},нет признаков,0,jpg
+dataset0/page_190.html,{},нет признаков,0,html
+dataset0/837_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_84.html,{},нет признаков,0,html
+dataset0/357497_original.jpg,{},нет признаков,0,jpg
+dataset0/page_235.html,{},нет признаков,0,html
+dataset0/page_357.html,{},нет признаков,0,html
+dataset0/95608987-14438121-image-a-65_1740581172614.jpg,{},нет признаков,0,jpg
+dataset0/14352258_600.jpg,{},нет признаков,0,jpg
+dataset0/2749851_600.jpg,{},нет признаков,0,jpg
+dataset0/11875_2000.png,{},нет признаков,0,png
+dataset0/page_482.html,{},нет признаков,0,html
+dataset0/1778652_original.jpg,{},нет признаков,0,jpg
+dataset0/121061_800.png,{},нет признаков,0,png
+dataset0/1364_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_351.html,{},нет признаков,0,html
+dataset0/page_45.html,{},нет признаков,0,html
+dataset0/page_48.html,{},нет признаков,0,html
+dataset0/12527_900.jpg,{},нет признаков,0,jpg
+dataset0/page_109.html,{},нет признаков,0,html
+dataset0/page_458.html,{},нет признаков,0,html
+dataset0/499062_300.jpg,{},нет признаков,0,jpg
+dataset0/7393344_original.jpg,{},нет признаков,0,jpg
+dataset0/2757990_600.png,{},нет признаков,0,png
+dataset0/6344_900.jpg,{},нет признаков,0,jpg
+dataset0/125500_800.jpg,{},нет признаков,0,jpg
+dataset0/page_275.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_173.html,{},нет признаков,0,html
+dataset0/298141_original.jpg,{},нет признаков,0,jpg
+dataset0/page_347.html,{},нет признаков,0,html
+dataset0/page_314.html,{},нет признаков,0,html
+dataset0/309564_original.jpg,{},нет признаков,0,jpg
+dataset0/page_120.html,{},нет признаков,0,html
+dataset0/3003178_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_417.html,{},нет признаков,0,html
+dataset0/7974_900.png,{},нет признаков,0,png
+dataset0/page_359.html,{},нет признаков,0,html
+dataset0/f45d0cbb6926630b546921aaf2a15d73.jpg,{},нет признаков,0,jpg
+dataset0/426918_1000.jpg,{},нет признаков,0,jpg
+dataset0/page_385.html,{},нет признаков,0,html
+dataset0/etiketka_napitka_luzhanskaja_1_g_luzhansk.jpg,{},нет признаков,0,jpg
+dataset0/374313_original.jpg,{},нет признаков,0,jpg
+dataset0/page_429.html,{},нет признаков,0,html
+dataset0/95612089-14438121-The_Prince_and_Princess_of_Wales_during_a_visit_to_Pontypridd_Ma-a-90_1740585554456.jpg,{},нет признаков,0,jpg
+dataset0/95607441-14438121-image-a-18_1740578958235.jpg,{},нет признаков,0,jpg
+dataset0/14520_900.jpg,{},нет признаков,0,jpg
+dataset0/page_162.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/3383_900.jpg,{},нет признаков,0,jpg
+dataset0/14442286_original.jpg,{},нет признаков,0,jpg
+dataset0/page_386.html,{},нет признаков,0,html
+dataset0/371677_original.jpg,{},нет признаков,0,jpg
+dataset0/4345502_original.jpg,{},нет признаков,0,jpg
+dataset0/17135_900.jpg,{},нет признаков,0,jpg
+dataset0/1a4d52da48968941e1b741c67a23b63c.jpg,{},нет признаков,0,jpg
+dataset0/39506_2000.png,{},нет признаков,0,png
+dataset0/IMG_20190203_185737_814-5c6fd93b5435a__700.jpg,{},нет признаков,0,jpg
+dataset0/315536_original.jpg,{},нет признаков,0,jpg
+dataset0/page_267.html,{},нет признаков,0,html
+dataset0/1786296_800.jpg,{},нет признаков,0,jpg
+dataset0/page_126.html,{},нет признаков,0,html
+dataset0/322615_original.jpg,{},нет признаков,0,jpg
+dataset0/360089_original.jpg,{},нет признаков,0,jpg
+dataset0/XqJIoh9Q8MA.jpg,{},нет признаков,0,jpg
+dataset0/page_98.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/272820_original.jpg,{},нет признаков,0,jpg
+dataset0/page_255.html,{},нет признаков,0,html
+dataset0/121369_800.jpg,{},нет признаков,0,jpg
+dataset0/page_91.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_447.html,{},нет признаков,0,html
+dataset0/page_225.html,{},нет признаков,0,html
+dataset0/19298_900.jpg,{},нет признаков,0,jpg
+dataset0/page_40.html,{},нет признаков,0,html
+dataset0/4513677_900.jpg,{},нет признаков,0,jpg
+dataset0/page_455.html,{},нет признаков,0,html
+dataset0/484_800.jpg,{},нет признаков,0,jpg
+dataset0/page_146.html,{},нет признаков,0,html
+dataset0/page_86.html,{},нет признаков,0,html
+dataset0/page_438.html,{},нет признаков,0,html
+dataset0/page_41.html,{},нет признаков,0,html
+dataset0/419045_1000.jpg,{},нет признаков,0,jpg
+dataset0/1928653_300.jpg,{},нет признаков,0,jpg
+dataset0/page_102.html,{},нет признаков,0,html
+dataset0/page_426.html,{},нет признаков,0,html
+dataset0/269251_original.jpg,{},нет признаков,0,jpg
+dataset0/142264_1000.jpg,{},нет признаков,0,jpg
+dataset0/346525_original.jpg,{},нет признаков,0,jpg
+dataset0/page_3.html,{},нет признаков,0,html
+dataset0/page_61.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/page_94.html,{},нет признаков,0,html
+dataset0/1462_800.png,{},нет признаков,0,png
+dataset0/296727_original.jpg,{},нет признаков,0,jpg
+dataset0/page_228.html,{},нет признаков,0,html
+dataset0/20198_2000.png,{},нет признаков,0,png
+dataset0/125132_800.jpg,{},нет признаков,0,jpg
+dataset0/351383_original.jpg,{},нет признаков,0,jpg
+dataset0/page_437.html,{},нет признаков,0,html
+dataset0/7740_900.png,{},нет признаков,0,png
+dataset0/1316633_800.jpg,{},нет признаков,0,jpg
+dataset0/33770_1000.jpg,{},нет признаков,0,jpg
+dataset0/1066519_1000.png,{},нет признаков,0,png
+dataset0/2798_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_135.html,{},нет признаков,0,html
+dataset0/page_440.html,{},нет признаков,0,html
+dataset0/75e04730e60ee7c22e590e647ab7b1f2.jpg,{},нет признаков,0,jpg
+dataset0/IMG_9821.jpg,{},нет признаков,0,jpg
+dataset0/366646_original.jpg,{},нет признаков,0,jpg
+dataset0/6814_2000.jpg,{},нет признаков,0,jpg
+dataset0/page_306.html,{},нет признаков,0,html
+dataset0/2756832_600.jpg,{},нет признаков,0,jpg
+dataset0/page_62.html,{},нет признаков,0,html
+dataset0/67643_original.png,{},нет признаков,0,png
+dataset0/page_439.html,{},нет признаков,0,html
+dataset0/page_391.html,{},нет признаков,0,html
+dataset0/page_384.html,{},нет признаков,0,html
+dataset0/14436850_original.jpg,{},нет признаков,0,jpg
+dataset0/page_323.html,{},нет признаков,0,html
+dataset0/2538_original.jpg,{},нет признаков,0,jpg
+dataset0/page_325.html,{},нет признаков,0,html
+dataset0/page_342.html,{},нет признаков,0,html
+dataset0/47136_800.jpg,{},нет признаков,0,jpg
+dataset0/13076_900.jpg,{},нет признаков,0,jpg
+dataset0/14437967_original.jpg,{},нет признаков,0,jpg
+dataset0/39277_1000.png,{},нет признаков,0,png
+dataset0/365108_original.jpg,{},нет признаков,0,jpg
+dataset0/95888787-14466397-image-a-23_1741214635488.jpg,{},нет признаков,0,jpg
+dataset0/143984_800.jpg,{},нет признаков,0,jpg
+dataset0/121337_original.jpg,{},нет признаков,0,jpg
+dataset0/page_192.html,{},нет признаков,0,html
+dataset0/page_392.html,{},нет признаков,0,html
+dataset0/17318_original.png,{},нет признаков,0,png
+dataset0/119308_800.png,{},нет признаков,0,png
+dataset0/page_446.html,{},нет признаков,0,html
+dataset0/896095_600.png,{},нет признаков,0,png
+dataset0/page_195.html,{},нет признаков,0,html
+dataset0/page_142.html,{},нет признаков,0,html
+dataset0/376250_original.jpg,{},нет признаков,0,jpg
+dataset0/14458860_original.jpg,{},нет признаков,0,jpg
+dataset0/14439848_original.jpg,{},нет признаков,0,jpg
+dataset0/14443021_600.jpg,{},нет признаков,0,jpg
+dataset0/page_464.html,{},нет признаков,0,html
+dataset0/2753362_600.png,{},нет признаков,0,png
+dataset0/1eec4933d232bd5acd2f272556d9d50d.jpg,{},нет признаков,0,jpg
+dataset0/IMG_20190107_005737_995-5c6fd9fac53e1__700.jpg,{},нет признаков,0,jpg
+dataset0/page_54.html,{},нет признаков,0,html
+dataset0/276740_original.jpg,{},нет признаков,0,jpg
+dataset0/357236_original.jpg,{},нет признаков,0,jpg
+dataset0/143166_1000.jpg,{},нет признаков,0,jpg
+dataset0/9964_900.jpg,{},нет признаков,0,jpg
+dataset0/4458886_original.jpg,{},нет признаков,0,jpg
+dataset0/122982_800.jpg,{},нет признаков,0,jpg
+dataset0/95612757-14438121-image-a-104_1740586121959.jpg,{},нет признаков,0,jpg
+dataset0/page_362.html,{},нет признаков,0,html
+dataset0/18677_900.jpg,{},нет признаков,0,jpg
+dataset0/609761_540.jpg,{},нет признаков,0,jpg
+dataset0/52043990928_2b726f3fe4_z.jpg,{},нет признаков,0,jpg
+dataset0/344678_original.jpg,{},нет признаков,0,jpg
+dataset0/page_16.html,{},нет признаков,0,html
+dataset0/page_154.html,{},нет признаков,0,html
+dataset0/1317829_800.jpg,{},нет признаков,0,jpg
+dataset0/1061_1000.png,{},нет признаков,0,png
+dataset0/456.jpg,{},нет признаков,0,jpg
+dataset0/13628_900.jpg,{},нет признаков,0,jpg
+dataset0/340529_original.jpg,{},нет признаков,0,jpg
+dataset0/16760_original.png,{},нет признаков,0,png
+dataset0/4345975_original.jpg,{},нет признаков,0,jpg
+dataset0/page_172.html,{},нет признаков,0,html
+dataset0/890087_600.jpg,{},нет признаков,0,jpg
+dataset0/page_17.html,{},нет признаков,0,html
+dataset0/page_354.html,{},нет признаков,0,html
+dataset0/page_153.html,{},нет признаков,0,html
+dataset0/14437272_original.jpg,{},нет признаков,0,jpg
+dataset0/page_258.html,{},нет признаков,0,html
+dataset0/userpic-user.png,{},нет признаков,0,png
+dataset0/4345096_original.jpg,{},нет признаков,0,jpg
+dataset0/359066_original.jpg,{},нет признаков,0,jpg
+dataset0/page_177.html,{},нет признаков,0,html
+dataset0/1065550_1000.png,{},нет признаков,0,png
+dataset0/296156_original.jpg,{},нет признаков,0,jpg
+dataset0/page_365.html,{},нет признаков,0,html
+dataset0/page_245.html,{},нет признаков,0,html
+dataset0/page_221.html,{},нет признаков,0,html
+dataset0/page_254.html,{},нет признаков,0,html
+dataset0/page_270.html,{},нет признаков,0,html
+dataset0/5323_900.jpg,{},нет признаков,0,jpg
+dataset0/345238_original.jpg,{},нет признаков,0,jpg
+dataset0/page_307.html,{},нет признаков,0,html
+dataset0/14438937_original.jpg,{},нет признаков,0,jpg
+dataset0/11170946_1000.jpg,{},нет признаков,0,jpg
+dataset0/dTxtHF9uF1M.png,{},нет признаков,0,png
+dataset0/1783651_800.jpg,{},нет признаков,0,jpg
+dataset0/77099_original.jpg,{},нет признаков,0,jpg
+dataset0/18425_original.png,{},нет признаков,0,png
+dataset0/14438204_original.jpg,{},нет признаков,0,jpg
+dataset0/4141654_600.jpg,{},нет признаков,0,jpg
+dataset0/page_268.html,"{""обычные"": 1}",УЗ-4,1,html
+dataset0/11172_original.png,{},нет признаков,0,png
+dataset0/page_398.html,{},нет признаков,0,html
+dataset0/d62b6e56b47dfb4a31ced6596bf2af56.jpg,{},нет признаков,0,jpg
+dataset0/37059_800.jpg,{},нет признаков,0,jpg
+dataset0/page_1.html,{},нет признаков,0,html
+dataset0/11418_900.jpg,{},нет признаков,0,jpg
+dataset0/page_147.html,{},нет признаков,0,html
+dataset0/0_cfd27_ad5e0b81_XXL.jpg,{},нет признаков,0,jpg
+dataset0/page_355.html,{},нет признаков,0,html
+dataset0/95610783-14438121-Pictured_The_Princess_of_Wales_greeting_well_wishers_during_a_vi-a-70_1740583786824.jpg,{},нет признаков,0,jpg
+dataset0/334292_original.jpg,{},нет признаков,0,jpg
+dataset0/12922_900.jpg,{},нет признаков,0,jpg
+dataset0/272365_original.jpg,{},нет признаков,0,jpg
+dataset0/page_338.html,{},нет признаков,0,html
+dataset0/14436998_original.jpg,{},нет признаков,0,jpg
+dataset0/95612087-14438121-image-a-84_1740585228444.jpg,{},нет признаков,0,jpg
+dataset0/1156655_800.jpg,{},нет признаков,0,jpg
+dataset0/101f2a672991992f5274e7a903ef2aa8.jpg,{},нет признаков,0,jpg
+dataset0/255892_original.jpg,{},нет признаков,0,jpg
+dataset0/346261_original.jpg,{},нет признаков,0,jpg
+dataset0/page_130.html,{},нет признаков,0,html
+dataset0/859516_800.jpg,{},нет признаков,0,jpg
+dataset0/68586_original.png,{},нет признаков,0,png
+dataset0/302498_original.jpg,{},нет признаков,0,jpg
+dataset0/page_282.html,{},нет признаков,0,html
+dataset0/page_380.html,{},нет признаков,0,html
+dataset0/8816_800.png,{},нет признаков,0,png
+dataset0/376480_original.jpg,{},нет признаков,0,jpg
+dataset0/10712_900.jpg,{},нет признаков,0,jpg
+dataset0/120431_original.png,{},нет признаков,0,png
+dataset0/14039_900.jpg,{},нет признаков,0,jpg
+dataset0/page_65.html,{},нет признаков,0,html
+dataset0/page_373.html,{},нет признаков,0,html
+dataset0/324944_1000.png,{},нет признаков,0,png
+dataset0/page_260.html,{},нет признаков,0,html
+dataset0/page_129.html,{},нет признаков,0,html
+dataset0/14434750_original.jpg,{},нет признаков,0,jpg
+dataset0/page_2.html,{},нет признаков,0,html
+dataset0/95608935-14438121-image-a-61_1740580940608.jpg,{},нет признаков,0,jpg
+dataset0/14424346_original.jpg,{},нет признаков,0,jpg
+dataset0/121909_original.png,{},нет признаков,0,png
+dataset0/95606373-14438121-They_arrived_by_train-a-26_1740576632233.jpg,{},нет признаков,0,jpg
+dataset0/.ipynb_checkpoints/8816_800-checkpoint.png,{},нет признаков,0,png
+dataset0/.ipynb_checkpoints/0_cfd27_ad5e0b81_XXL-checkpoint.jpg,{},нет признаков,0,jpg
+dataset3/protokol_18.pdf,{},нет признаков,0,pdf
+dataset3/p13-od-2015.pdf,{},нет признаков,0,pdf
+dataset3/ОС_11.05.02.pdf,{},нет признаков,0,pdf
+dataset3/ry_ino.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/edu_directory_pd_partner_list.pdf,{},нет признаков,0,pdf
+dataset3/5.9.6_sp.pdf,"{""обычные"": 5, ""платёжные"": 1}",УЗ-2,6,pdf
+dataset3/1.2.2_mat_mod.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/osn_r.pdf,{},нет признаков,0,pdf
+dataset3/2025-2.pdf,"{""обычные"": 10, ""государственные"": 1, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,13,pdf
+dataset3/%D0%9F%D0%90%D0%9C%D0%AF%D0%A2%D0%9A%D0%90%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%B5%D0%B7%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D1%85%202025.pdf,"{""обычные"": 13, ""специальные"": 1}",УЗ-1,14,pdf
+dataset3/Letter_approval_the_Order_458.pdf,{},нет признаков,0,pdf
+dataset3/ОС_06.03.02.pdf,{},нет признаков,0,pdf
+dataset3/v.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_153-%D0%A0.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/%D0%A0384.pdf,{},нет признаков,0,pdf
+dataset3/040301_B_3_09082017.pdf,{},нет признаков,0,pdf
+dataset3/Protokol_04_02_2021.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/Свидетельство 46.04.01.pdf,{},нет признаков,0,pdf
+dataset3/4a2be25626609e594edc147261ef747d.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/РАСП728-Р_10.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/P248_2022.pdf,"{""обычные"": 2, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/edvr4ufwv5zh72zrpiplz60e2rtwethf.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/1C_University-input_errors.pdf,{},нет признаков,0,pdf
+dataset3/pril3_5.pdf,{},нет признаков,0,pdf
+dataset3/P1011.pdf,{},нет признаков,0,pdf
+dataset3/ris_zhiv.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Protokol_3_30.05.2023.pdf,{},нет признаков,0,pdf
+dataset3/P95-OD_o_fakultete.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_g_2017.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/geo_inf.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset3/Свидетельство 44.03.05.pdf,{},нет признаков,0,pdf
+dataset3/П224-ОД 02.03.03.pdf,{},нет признаков,0,pdf
+dataset3/informatika.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pravila_priema_asp_2025.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 38.04.02.pdf,{},нет признаков,0,pdf
+dataset3/15.03.04_Автоматизация технологических процессов и производств_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/CMTF_oral_exam.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz П1421.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/President_Grants-2018-info.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/stranoved.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/2.2.2.pdf,{},нет признаков,0,pdf
+dataset3/P1026.pdf,{},нет признаков,0,pdf
+dataset3/ОС 04.05.01 Фундаментальная и прикладная химия.pdf,{},нет признаков,0,pdf
+dataset3/protokol_21.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/050406_M_3_22082020.pdf,{},нет признаков,0,pdf
+dataset3/110401_М_3_17062021.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П225-ОД 09.03.01.pdf,{},нет признаков,0,pdf
+dataset3/фототека1.pdf,{},нет признаков,0,pdf
+dataset3/Политика_СВА_в_отношении_обработки_ПДн_2025.pdf,{},нет признаков,0,pdf
+dataset3/dog_pril13.pdf,{},нет признаков,0,pdf
+dataset3/programm.pdf,{},нет признаков,0,pdf
+dataset3/20230412_103613_page-0001.pdf,{},нет признаков,0,pdf
+dataset3/p103od2016.pdf,{},нет признаков,0,pdf
+dataset3/П1366 07.04.02 Реконструкция и реставрация архитектурного наследия.pdf,{},нет признаков,0,pdf
+dataset3/П27-ОД_40.03.01 Юриспруденция.pdf,{},нет признаков,0,pdf
+dataset3/09.03.02 Информац.системы и технологии.pdf,{},нет признаков,0,pdf
+dataset3/Wiley.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%20%D0%B2%20%D0%9F%D0%98%D0%A0%20%D0%B3%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9.doc,{},нет признаков,0,doc
+dataset3/44.04.01_sov_obr.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/p1326_10.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/spec_him.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/07.04.03.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/4.1.3.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2001%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/148a20df-e83f-463f-b4bc-77423b297f12-%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.pdf,{},нет признаков,0,pdf
+dataset3/pr7.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_list-2017_22.08-info.pdf,{},нет признаков,0,pdf
+dataset3/П1131 СПО граждане РФ и соотечественники.pdf,{},нет признаков,0,pdf
+dataset3/StateTask_report_2015-info.pdf,{},нет признаков,0,pdf
+dataset3/2.3.5.pdf,{},нет признаков,0,pdf
+dataset3/anatom_fiziolog.pdf,{},нет признаков,0,pdf
+dataset3/ОС_06.03.01.pdf,{},нет признаков,0,pdf
+dataset3/mag_lk_2025.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/060402_M_3_20082020.pdf,{},нет признаков,0,pdf
+dataset3/070302_B_3_03072017.pdf,{},нет признаков,0,pdf
+dataset3/pol_irtsu.pdf,{},нет признаков,0,pdf
+dataset3/Otchet_mezhdunarodnaya_deyatelnost_2016.pdf,"{""обычные"": 37, ""специальные"": 1}",УЗ-1,38,pdf
+dataset3/sved_o_d_n_2015.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/П1100 подготовка НПК в аспирантуре граджан РФ.pdf,{},нет признаков,0,pdf
+dataset3/Procurement%20in%20Focus.pdf,{},нет признаков,0,pdf
+dataset3/П228-ОД 10.03.01.pdf,{},нет признаков,0,pdf
+dataset3/rating_izmentniya_2023.pdf,{},нет признаков,0,pdf
+dataset3/09.04.04 Программная инженерия.pdf,{},нет признаков,0,pdf
+dataset3/Protokol N3 01.07.21.pdf,{},нет признаков,0,pdf
+dataset3/Call-for-papers_2024.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Для сайта ЮФУ1.pdf,{},нет признаков,0,pdf
+dataset3/matematika.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/it_resh.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Highlights 18.pdf,"{""обычные"": 16}",УЗ-3,16,pdf
+dataset3/requisites.pdf,"{""обычные"": 17, ""государственные"": 5, ""платёжные"": 1}",УЗ-2,23,pdf
+"dataset3/П1564%20Порядок%20применения%20ЭО,%20ДОТ%20при%20реализации%20ОП.pdf",{},нет признаков,0,pdf
+dataset3/Aula_Hispanica_rus_2015.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/2015p.pdf,{},нет признаков,0,pdf
+dataset3/inf_teh.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Instr_test_2025.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/p1312_07.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/54.04.01.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/02-06.1-1112.pdf,{},нет признаков,0,pdf
+dataset3/2.pdf,{},нет признаков,0,pdf
+dataset3/14-909.pdf,{},нет признаков,0,pdf
+dataset3/020302_B_3_06012018.pdf,{},нет признаков,0,pdf
+dataset3/P142_22.05.2023.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/poryadok asp 1259.docx,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,docx
+dataset3/BAKSPEC.docx,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,docx
+dataset3/П1075.pdf,{},нет признаков,0,pdf
+dataset3/p1311_07.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/P984.pdf,{},нет признаков,0,pdf
+dataset3/П114-ОД.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/KD_SPA_2023.pdf,"{""обычные"": 10}",УЗ-3,10,pdf
+dataset3/chislen0603.pdf,"{""обычные"": 10}",УЗ-3,10,pdf
+dataset3/ОС_02.03.02.pdf,{},нет признаков,0,pdf
+dataset3/National_association_scientific_publications_conf-info.pdf,{},нет признаков,0,pdf
+dataset3/ОС_05.03.06.pdf,{},нет признаков,0,pdf
+dataset3/instr_PNO.pdf,{},нет признаков,0,pdf
+dataset3/P300.pdf,{},нет признаков,0,pdf
+dataset3/723-30-07-2014.pdf,{},нет признаков,0,pdf
+dataset3/Birlo2015.pdf,{},нет признаков,0,pdf
+dataset3/rating_izmentniya_2022.pdf,{},нет признаков,0,pdf
+dataset3/Horario_Aula_Hispanica_octubre-diciembre_2020.doc,{},нет признаков,0,doc
+dataset3/eko_mon.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/П445_11.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/gl_V_exam_P120-OD_reglament_PK.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/P406.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/P321-OD_APP.pdf,{},нет признаков,0,pdf
+dataset3/Pravila_priema_2025_na_sait.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/61b9f79201508466062515.pdf,{},нет признаков,0,pdf
+dataset3/Akkr_lyceum_29.05.17_0.pdf,{},нет признаков,0,pdf
+dataset3/psih_obr.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/sved_o_d_gb_2017.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/StS6_rezerv.pdf,{},нет признаков,0,pdf
+dataset3/rffi_competitions_list-2018_13.02-info.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_1532-%D1%80.pdf,{},нет признаков,0,pdf
+dataset3/110501_C_3_09032018.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_n_2017.xls,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,xls
+dataset3/27.04.06.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/доп. об изменении цены_2ред.doc,{},нет признаков,0,doc
+dataset3/podiadok-priema-bakalavr-spets-2025.pdf,{},нет признаков,0,pdf
+dataset3/08112019_licmed.pdf,{},нет признаков,0,pdf
+dataset3/p37-od2015.pdf,{},нет признаков,0,pdf
+dataset3/StS6_pobediteli.pdf,{},нет признаков,0,pdf
+dataset3/social2024.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/090301_B_3_12102017.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_ped_nach.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset3/Russian_Cultural_Studies.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/090302_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%A3%D1%81%D1%82%D0%B0%D0%B2%20%D0%BE%D1%82%2028%20%D0%BC%D0%B0%D1%80%D1%82%D0%B0%202022.pdf,{},нет признаков,0,pdf
+dataset3/20200322_174842.pdf,{},нет признаков,0,pdf
+dataset3/protokol_19.pdf,{},нет признаков,0,pdf
+dataset3/ipa2014%20(1).docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/П760 Подготовительное отделение Подфак.pdf,{},нет признаков,0,pdf
+dataset3/Изм в устав 2020 с отметкой налоговой.pdf,{},нет признаков,0,pdf
+"dataset3/Приказ ФСТЭК России от 03_05.2023 N 74  Об утверждении требований оформлению заявления о предоставлении лицензии, разрешения.docx","{""обычные"": 7}",УЗ-3,7,docx
+dataset3/Pril_1.9.pdf,{},нет признаков,0,pdf
+dataset3/spisok%20finalistov-1%20(1).docx,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,docx
+dataset3/Индивидуальный план работы аспиранта для набора 2022 г. (5).docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/1.2.1.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/41.04.05_International_Communication.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П200-ОД 27.04.03.pdf,{},нет признаков,0,pdf
+dataset3/Ecosystems.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/R469_15.05.2024.pdf,{},нет признаков,0,pdf
+dataset3/Устав Российского Союза ректоров.pdf,{},нет признаков,0,pdf
+dataset3/umn_gor.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/5.3.5.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Protoko n2 ot 2.11.21.pdf,{},нет признаков,0,pdf
+dataset3/metod_r.pdf,"{""обычные"": 8, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,10,pdf
+dataset3/1.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Planes2015_anodual_rus.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Prikaz 1778.pdf,{},нет признаков,0,pdf
+dataset3/Horario_Aula_Hispanica_febrero-abril_2020.doc,{},нет признаков,0,doc
+dataset3/П792_17.04.24.pdf,{},нет признаков,0,pdf
+dataset3/P89-OD.pdf,{},нет признаков,0,pdf
+dataset3/Postanovlenie Pravitelstva N 568.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/FK_sport.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Приказ от 01.04.2025 2469-ок_compressed.pdf,{},нет признаков,0,pdf
+dataset3/12.04.01_Приборостроение_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_419-%D1%80%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D0%B0.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Сведения о доходах ректора ФГАОУ ВО ЮФУ 2020.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/rasp504_20130930.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/pravila_priema_SPO_2025.pdf,{},нет признаков,0,pdf
+dataset3/%D0%91%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/44.04.01_obuch_russ.pdf,{},нет признаков,0,pdf
+dataset3/П196-ОД 09.03.02.pdf,{},нет признаков,0,pdf
+dataset3/gl_VI_P120-OD_reglament_PK.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/9ld9ylp04noekda30doh1pe1qjxt7md9.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Pril1_akkred_lyceum_29.05.17_0.pdf,{},нет признаков,0,pdf
+dataset3/4b708f12-9518-45cd-bac0-7b3ae2b4e78e.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/45.04.01_International_Communication.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/2.5.4.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%A0502%20%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D1%8B%20%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Kol_dog_2024-2027.pdf,{},нет признаков,0,pdf
+dataset3/pers_data_policy.pdf,{},нет признаков,0,pdf
+dataset3/П-200_ 20_02_2019_0.pdf,{},нет признаков,0,pdf
+dataset3/Изменения Устав 9 октября 2019.pdf,{},нет признаков,0,pdf
+dataset3/prikaz 32 ot 17.01.2022.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D0%9F_2025_19.01.2025_%D0%B8%D1%82%D0%BE%D0%B31.pdf,"{""обычные"": 27, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,29,pdf
+dataset3/%D0%92%D0%B5%D0%B4%D1%83%D1%89%D0%B8%D0%B9%20%D0%B1%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80%20(%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA%20%D0%9D%D0%94%D0%A1).pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Prilojenie_1_7.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 45.03.02.pdf,{},нет признаков,0,pdf
+dataset3/5.1.4.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/Business%20Spanish%20A2%20the%20order.pdf,{},нет признаков,0,pdf
+dataset3/prikl_mat.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П171-ОД.pdf,{},нет признаков,0,pdf
+dataset3/110302_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/25.05.2023_%D0%9F149-%D0%9E%D0%94%20%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B5.pdf,{},нет признаков,0,pdf
+dataset3/10.05.02 Информационная безопасность телекомм.систем.pdf,{},нет признаков,0,pdf
+dataset3/П256 о подготовке докторантов граждан РФ.pdf,{},нет признаков,0,pdf
+dataset3/Master%20DS-1_merged.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1725.pdf,{},нет признаков,0,pdf
+dataset3/P197.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F1923.pdf,{},нет признаков,0,pdf
+dataset3/Inform-pismoSTO2016.doc,{},нет признаков,0,doc
+dataset3/27.03.04_Управление в технических системах_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_143-%D1%80.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П44-ОД_38.03.01 Экономика.pdf,{},нет признаков,0,pdf
+dataset3/Competitive_selection_2016-Regulation-KD.pdf,{},нет признаков,0,pdf
+dataset3/5.7.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/режим%20работы%20и%20прейскурант-.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/1.3.7.pdf,{},нет признаков,0,pdf
+dataset3/П219-ОД 54.03.01.pdf,{},нет признаков,0,pdf
+dataset3/2015-06-er464.pdf,{},нет признаков,0,pdf
+dataset3/ПРАВИЛА%20ПОСЕЩЕНИЯ%20ООПТ%20ФЕДЕРАЛЬНОГО%20ЗНАЧЕНИЯ%20(2).pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/П142-ОД_28.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 39.03.01.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-789.pdf,{},нет признаков,0,pdf
+dataset3/П70-ОД_37.03.01 Психология.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П201-ОД 37.03.01.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_П256-ОД.pdf,{},нет признаков,0,pdf
+dataset3/ist_arh.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/38.04.01_Economics.pdf,{},нет признаков,0,pdf
+dataset3/soglasie-form.pdf,{},нет признаков,0,pdf
+dataset3/inf2016.pdf,{},нет признаков,0,pdf
+dataset3/12_03_04.pdf,{},нет признаков,0,pdf
+dataset3/P1077.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 45.04.01.pdf,{},нет признаков,0,pdf
+dataset3/Agro-industrial_complex_Innovations_conf-info.pdf,{},нет признаков,0,pdf
+dataset3/1C_University_PROF-manual.pdf,{},нет признаков,0,pdf
+dataset3/Паспорта доступности_1.pdf,{},нет признаков,0,pdf
+dataset3/u_konsor.doc,"{""обычные"": 1}",УЗ-4,1,doc
+dataset3/%D0%A0%D0%90%D0%A1_152-%D1%80.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/ingak_description.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/%D0%9F15_%D0%9C%D0%A3%D0%90%D0%9C_%D0%A6%D0%9A.pdf,{},нет признаков,0,pdf
+dataset3/kreativ_ind.pdf,{},нет признаков,0,pdf
+dataset3/20240411_171553_compressed_compressed (1).pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 42.03.01.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F186-%D0%9E%D0%94%2009.04.01.pdf,{},нет признаков,0,pdf
+dataset3/Приказ ЮФУ от 07.02.2022  N 24-ОД.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ris_cher.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/posih.pdf,"{""обычные"": 6, ""биометрические"": 1}",УЗ-1,7,pdf
+dataset3/competitions_list-2020_15.04-info.pdf,{},нет признаков,0,pdf
+dataset3/pfhd_2025_02.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/2.2.14.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/fin_teh.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/teor_osn.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pfhd_2023_02.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/Свидетельство 48.03.01.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 40.04.01_Бизнес-юрист.pdf,{},нет признаков,0,pdf
+dataset3/PP%20BSM%202025.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/216e9fc932f0a2027c207d9b1bb2e0cd.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/%D0%9F%D0%A4%D0%A5%D0%94%202023%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/prikaz 33 ot 17.01.2022.pdf,{},нет признаков,0,pdf
+dataset3/sostav_gr.xls,"{""обычные"": 84, ""специальные"": 1}",УЗ-1,85,xls
+dataset3/FZ 44.pdf,{},нет признаков,0,pdf
+dataset3/12.04.00.pdf,{},нет признаков,0,pdf
+dataset3/P99_290120.pdf,{},нет признаков,0,pdf
+dataset3/p64od2016.pdf,{},нет признаков,0,pdf
+dataset3/П264-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 28.04.01.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F168-%D0%9E%D0%94%2037.05.01.pdf,{},нет признаков,0,pdf
+dataset3/П327_26.02.2025.pdf,{},нет признаков,0,pdf
+dataset3/politika-konfidencialnosti.pdf,{},нет признаков,0,pdf
+dataset3/о назначении ио ректора Шевченко ИК 2025.pdf,{},нет признаков,0,pdf
+dataset3/03.05.2024%20%20%D0%A0%D0%90%D0%A1_438-%D1%80-1_%205-%D0%BB%D0%B5%D1%82%D0%B8%D0%B5%20%D0%A2%D0%BE%D1%87%D0%BA%D0%B8%20%D0%BA%D0%B8%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%AE%D0%A4%D0%A3.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/pr.doc,{},нет признаков,0,doc
+dataset3/Информация о результатах приема 2024.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/fb66cb01477a968bfe786611fb0eea9b.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/P1090.pdf,{},нет признаков,0,pdf
+dataset3/П122-ОД_изменения в ОС_28.04.2023.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/06_gorgorova.pdf,"{""обычные"": 9}",УЗ-3,9,pdf
+dataset3/sved_o_d_f_m_2014.docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/doc05362520220404131040 (2).pdf,{},нет признаков,0,pdf
+dataset3/ВыпискаТемы-ВКР-ИНоЗ_2025-выпуска.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/П1149_21.05.2025.pdf,"{""обычные"": 17, ""государственные"": 6, ""платёжные"": 12, ""биометрические"": 1}",УЗ-1,36,pdf
+dataset3/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%93%D0%BE%D1%81%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8.pdf,{},нет признаков,0,pdf
+dataset3/lit_ino.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Planes2016_rus.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/13.04.02_Электроэнергетика и электротехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 339-OD 19.12.2017.pdf,{},нет признаков,0,pdf
+dataset3/38.04.04.pdf,{},нет признаков,0,pdf
+dataset3/Stoimost_obucheniya_2017_P749.pdf,{},нет признаков,0,pdf
+dataset3/Протокол N7 от 05 декабря 2023.pdf,{},нет признаков,0,pdf
+dataset3/43.04.01_programm_mag_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/compress_pdf.pdf,{},нет признаков,0,pdf
+dataset3/Pr430_13.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz П1196.pdf,{},нет признаков,0,pdf
+dataset3/Главный бухгалтер- Балашова ТН.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/12.04.01_t.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/130301_B_3_22062018.pdf,{},нет признаков,0,pdf
+dataset3/rasp1426-p_20140814.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F163-%D0%9E%D0%94_08.04.2025.pdf,{},нет признаков,0,pdf
+dataset3/12.04.01_r.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/matematika_ino.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Согласие законного представителя на заключение договора.docx,"{""обычные"": 3}",УЗ-4,3,docx
+dataset3/komp_teh.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/5.2.1.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/44.04.01_ОС_ПО_compressed.pdf,{},нет признаков,0,pdf
+dataset3/Ukaz Prezidenta 364_15.06.15.rtf,"{""обычные"": 15, ""государственные"": 1}",УЗ-2,16,rtf
+dataset3/Prikaz-1845_Application2-Act.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/P877_28052020.pdf,{},нет признаков,0,pdf
+dataset3/120401_M_3_12102017.pdf,{},нет признаков,0,pdf
+dataset3/П168-ОД_10.04.2025.pdf,{},нет признаков,0,pdf
+dataset3/070402_M_3_03072017.pdf,{},нет признаков,0,pdf
+dataset3/Spisok_indiv_dostig.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/24.11.2020 - форма согласия соискателя.docx,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,docx
+dataset3/prikaz-2423.pdf,{},нет признаков,0,pdf
+dataset3/transport_inform_list_2016.doc,"{""обычные"": 1}",УЗ-4,1,doc
+dataset3/P581-NK_11-06-2024.pdf,{},нет признаков,0,pdf
+dataset3/p692-od-2014.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 519 28.01.2015.pdf,{},нет признаков,0,pdf
+dataset3/Prog_stud_conf_Dec_es_2024_esp.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_ist.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/118 от 24.02.2021 Номенклатура Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/Otchet_nauka_2016.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/43.04.02.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П43-ОД_02.04.02 ФИИТ.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F185-%D0%9E%D0%94%2044.05.01.pdf,{},нет признаков,0,pdf
+dataset3/09.04.01 Информатика и вычислительная техника.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025_%D0%A3%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%BE_%D0%9E%D1%80%D0%B3%D0%BA%D0%BE%D0%BC%D0%B8%D1%82%D0%B5%D1%82%D0%BE%D0%BC.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/П257 о подготовке докторантов  иностранных граждан.pdf,{},нет признаков,0,pdf
+dataset3/P2243.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_r_2015.xls,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,xls
+dataset3/41.04.02.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 44.03.03.pdf,{},нет признаков,0,pdf
+dataset3/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%A3%D1%81%D1%82%D0%B0%D0%B2%20%D0%BE%D1%82%2024%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F%202024.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/rating_izmentniya_2021.pdf,{},нет признаков,0,pdf
+dataset3/Pravila_priema_2025_v_SGUGiT_Bakalavriat_Specialitet.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/040501_C_3_08082017.pdf,{},нет признаков,0,pdf
+dataset3/dopnabor-2023.pdf,{},нет признаков,0,pdf
+dataset3/49.03.02.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Филиал в Геленджике декларация на сайт 2016 г..xls,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,xls
+dataset3/Anexos_stud_conf_2021_ru.doc,{},нет признаков,0,doc
+dataset3/11.04.01_Радиотехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/П1674_10.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/02.03.03 Мат.обеспечение и админ. инф. систем.pdf,{},нет признаков,0,pdf
+dataset3/5.2.5.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Azov_conf-example.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/zhiv.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/spec_ped.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Horario_Aula_Hispánica_marzo-junio-2021.docx,"{""обычные"": 8}",УЗ-3,8,docx
+dataset3/13.03.02_Электроэнергетика и электротехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/ist_soc_rab.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/russ_lit.pdf,{},нет признаков,0,pdf
+dataset3/Регламент 10-ОД.pdf,{},нет признаков,0,pdf
+dataset3/obsh_e.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/14-910.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 12.04.04.pdf,{},нет признаков,0,pdf
+dataset3/1.6.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/bio_ino.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Prikaz_П555.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz%20323.pdf,{},нет признаков,0,pdf
+dataset3/2018_06_proto_rating.pdf,{},нет признаков,0,pdf
+dataset3/П227-ОД 09.04.03.pdf,{},нет признаков,0,pdf
+dataset3/П260-ОД в 2014 г.pdf,{},нет признаков,0,pdf
+dataset3/Errand_RFFI-form-v2.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Application-Offer-Form.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/060302_B_3_23082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/obedin%20ped.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_1992.pdf,{},нет признаков,0,pdf
+dataset3/2025-_.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/5.8.2.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Vistavka_rus-iaz.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/Свидетельство ПОА 01.04.03.pdf,{},нет признаков,0,pdf
+dataset3/Prot2_20.02.2025.pdf,"{""обычные"": 5, ""государственные"": 190, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,197,pdf
+dataset3/2.1.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П1369 54.05.03 Графика.pdf,{},нет признаков,0,pdf
+dataset3/Vtoroe_informatcionnoe_pis`mo_Kongress_2025.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/prikaz_N_1010_1_ot_20.11.2018_.pdf,{},нет признаков,0,pdf
+dataset3/Stoimost_obucheniya_2017_P747.pdf,{},нет признаков,0,pdf
+dataset3/Перечень документов.docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/ОС_07.03.03.pdf,{},нет признаков,0,pdf
+dataset3/P1774.pdf,{},нет признаков,0,pdf
+dataset3/П255 прикрепленных соискателей иностранцев.pdf,{},нет признаков,0,pdf
+dataset3/PDFsam_Расписание-ИГА-2025-1.pdf,{},нет признаков,0,pdf
+dataset3/VakB_11.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/kol_vo_mag.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/obrab_inf.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Decree-502.pdf,{},нет признаков,0,pdf
+dataset3/StateTask_competition_updating-info.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 578.pdf,{},нет признаков,0,pdf
+dataset3/g_p9-od.pdf,{},нет признаков,0,pdf
+dataset3/Aula_Hispánica_osen_2019_rus.pdf,"{""обычные"": 7}",УЗ-3,7,pdf
+dataset3/%D0%9F401.pdf,{},нет признаков,0,pdf
+dataset3/П167-ОД_10.04.2025.pdf,{},нет признаков,0,pdf
+dataset3/11_03_03.pdf,{},нет признаков,0,pdf
+dataset3/JMS_YM_Call_for_papers.pdf,{},нет признаков,0,pdf
+dataset3/120305_B_3_02112017.pdf,{},нет признаков,0,pdf
+dataset3/П173-ОД_26.04.2013.pdf,{},нет признаков,0,pdf
+dataset3/%D0%90%D0%9D%D0%9E%20%D0%A0%D0%A1%D0%92%20203-22_50%20%D0%BE%D1%82%2012_10_21.pdf,{},нет признаков,0,pdf
+dataset3/П156-ОД.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 82-ОД.pdf,{},нет признаков,0,pdf
+dataset3/П1118_16.05.2025.pdf,{},нет признаков,0,pdf
+dataset3/sved_vrio_r2019.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/p126od.pdf,{},нет признаков,0,pdf
+dataset3/49.04.03.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П47-ОД_10.03.2023.pdf,"{""обычные"": 6, ""биометрические"": 1}",УЗ-1,7,pdf
+dataset3/Analitika_Raing_2020-2018_compressed.pdf,{},нет признаков,0,pdf
+dataset3/elibrary_23574569_13998696.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 51.03.01.pdf,{},нет признаков,0,pdf
+dataset3/17.03.01корабельное вооружение.pdf,{},нет признаков,0,pdf
+dataset3/polozhenie_inst_filol.pdf,{},нет признаков,0,pdf
+dataset3/ASP.docx,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,docx
+dataset3/eticheskiy_kodeks_1.pdf,{},нет признаков,0,pdf
+dataset3/P129-OD_03.06.24.pdf,{},нет признаков,0,pdf
+dataset3/П458_13.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/pril8.pdf,{},нет признаков,0,pdf
+dataset3/45.04.01_tpimk.pdf,"{""обычные"": 7, ""платёжные"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/РАСП727-Р_10.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/pfhd_2025.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/010301_B_3_16022018.pdf,{},нет признаков,0,pdf
+dataset3/pravila_priema_v_bakalavriat_spetsialitet_bazov_vo_magistraturu_spets_vo_na_2025-26.pdf,"{""обычные"": 8, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,10,pdf
+dataset3/Порядок проведения.docx,"{""обычные"": 3}",УЗ-4,3,docx
+dataset3/Свидетельство 41.03.01.pdf,{},нет признаков,0,pdf
+dataset3/4.3.5.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/11.04.02_Инфокоммуникационные технологии и системы связи_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Otchet%202016.pdf,"{""обычные"": 9, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,11,pdf
+dataset3/tehn_int_d.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/ИТОГОВОЕ ПОСТАНОВЛЕНИЕ РСР 04.06 (2).pdf,{},нет признаков,0,pdf
+dataset3/5.9.9.pdf,{},нет признаков,0,pdf
+dataset3/37.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/39.04.02.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/66n.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1928.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_988-%D1%80%20%D0%9E%D0%B1%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8%20%D0%A3%D0%9A.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/aksioma_uspeha.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 16.03.01.pdf,{},нет признаков,0,pdf
+dataset3/Prot1_17.10.2024.pdf,"{""обычные"": 5, ""государственные"": 206, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,213,pdf
+dataset3/P42-OD_NIIFOH.pdf,{},нет признаков,0,pdf
+dataset3/10.05.05 Безопасность инф. технологий в правоохранительной сфере.pdf,{},нет признаков,0,pdf
+dataset3/KD_013.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/gidrolog.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/11.04.04_Электроника и наноэлектроника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/P17-OD_19.01.2015.pdf,{},нет признаков,0,pdf
+dataset3/27.04.03 Системный анализ и управление.pdf,{},нет признаков,0,pdf
+dataset3/100_asp.docx,{},нет признаков,0,docx
+dataset3/1.2.2_r.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Licen_29.01.16.pdf,{},нет признаков,0,pdf
+dataset3/ОС_11.05.04.pdf,{},нет признаков,0,pdf
+dataset3/p1327_10.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/Orbit.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_m_2017.xls,{},нет признаков,0,xls
+dataset3/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20N906.pdf,{},нет признаков,0,pdf
+dataset3/П33-ОД о внесении изменений в ОС 40.03.01.pdf,{},нет признаков,0,pdf
+dataset3/rid_registration_procedure-presentation.pdf,{},нет признаков,0,pdf
+dataset3/dog_pril15.pdf,{},нет признаков,0,pdf
+dataset3/sport_podg_ino.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/RFFI_and_RGNF-reports2015.pdf,{},нет признаков,0,pdf
+dataset3/Prog_stud_conf_Dec_es_2024_rus.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F144.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_list-2017_01.09-info.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_766-%D1%80.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1801.pdf,{},нет признаков,0,pdf
+dataset3/approve39-2023.pdf,{},нет признаков,0,pdf
+dataset3/P2402_28_12_2018.pdf,{},нет признаков,0,pdf
+dataset3/П483 Докт.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 18033_24.12.2015.pdf,{},нет признаков,0,pdf
+dataset3/2024-1.pdf,{},нет признаков,0,pdf
+dataset3/Ukaz Prezidenta 378.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/070404_M_3_30062017.pdf,{},нет признаков,0,pdf
+dataset3/Декларация Железноводск2016.xls,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,xls
+dataset3/ОС_05.03.01.pdf,{},нет признаков,0,pdf
+dataset3/ОС_07.03.04.pdf,{},нет признаков,0,pdf
+dataset3/prikaz35od.pdf,{},нет признаков,0,pdf
+dataset3/38.04.01.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/P324_OD.pdf,{},нет признаков,0,pdf
+dataset3/Информационное письмо ВАК - 05.04.2024.pdf,{},нет признаков,0,pdf
+dataset3/Urban_Design.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/39.04.01.pdf,{},нет признаков,0,pdf
+dataset3/Spanish%20course%20B.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/11.04.04.pdf,{},нет признаков,0,pdf
+dataset3/Prot4_17.07.2025.pdf,"{""обычные"": 3, ""государственные"": 98, ""специальные"": 1}",УЗ-1,102,pdf
+dataset3/45.03.01_Филология_П41-ОД.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1846_Application2-Act.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Свидетельство 40.04.01_Юрист-государствовед.pdf,{},нет признаков,0,pdf
+dataset3/Ð Ð¾ÑÑÐ¾Ð²-Ð½Ð°-ÐÐ¾Ð½Ñ.pdf,{},нет признаков,0,pdf
+dataset3/09.03.04 Программная инженерия.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%9C%D0%90%20%D0%9C%D0%9D%D0%9F%D0%9A%20.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/progr_anatomy_2025.pdf,{},нет признаков,0,pdf
+dataset3/П937 ВО для иностранных граждан.pdf,{},нет признаков,0,pdf
+dataset3/Binder1.pdf,{},нет признаков,0,pdf
+dataset3/Azov_conf-requirements.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/070403_M_3_30062017.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F373-%D0%9E%D0%94%20%D0%A0%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 05.04.06.pdf,{},нет признаков,0,pdf
+dataset3/П-37-ОД изменения в 44.05.01.pdf,{},нет признаков,0,pdf
+dataset3/5.1.3.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/Poryadok_2018.pdf,{},нет признаков,0,pdf
+dataset3/28.04.01_Нанотехнологии и микросистемная техника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_u_2017.xls,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,xls
+dataset3/090303_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/P207_23.06.2023.pdf,{},нет признаков,0,pdf
+dataset3/П1370 54.04.02 ДПИ.pdf,{},нет признаков,0,pdf
+dataset3/Ukaz Prezidenta 478_16.08.21.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/P1676_16.07.2024.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F180-%D0%9E%D0%94%2044.03.04.pdf,{},нет признаков,0,pdf
+dataset3/dog_pril3.pdf,{},нет признаков,0,pdf
+dataset3/Trusted_AI_for_Blockchain.pdf,{},нет признаков,0,pdf
+dataset3/P438.pdf,{},нет признаков,0,pdf
+dataset3/otbor_k.pdf,"{""обычные"": 179, ""государственные"": 1, ""специальные"": 1}",УЗ-1,181,pdf
+dataset3/1202003270029.pdf,{},нет признаков,0,pdf
+dataset3/Protokol_1.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/e341c346955f24a09fba0a84d37a870a.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Свидетельство ПОА 27.04.06.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz_П1203.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20223%20%D0%BD%D0%BA.pdf,{},нет признаков,0,pdf
+dataset3/182-%D0%9E%D0%94.pdf,{},нет признаков,0,pdf
+dataset3/090403_M_3_12102017.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 37.03.02.pdf,{},нет признаков,0,pdf
+dataset3/5.2.6.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ist_isk.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Координаты для связи с профильными структурными подразделениями_3.pdf,"{""обычные"": 102, ""специальные"": 1}",УЗ-1,103,pdf
+dataset3/11.07.2023%20%20%D0%9F229-%D0%9E%D0%94%20%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D1%82%D0%BE%D1%87%D0%BA%D0%B5%20%D0%BA%D0%B8%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Заявление.docx,{},нет признаков,0,docx
+dataset3/Svidetelstvo_2018_pril3.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1627.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 42.04.02.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F183-%D0%9E%D0%94%2044.04.03.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0613%20%D0%BF%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П197-ОД 09.03.04.pdf,{},нет признаков,0,pdf
+dataset3/patent-2415158.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_spanish.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/D212-208-10_01-04-03_TimoshenkoPE_Paper.pdf,{},нет признаков,0,pdf
+dataset3/rating_izmentniya 20_2.pdf,{},нет признаков,0,pdf
+dataset3/гост 2008.pdf,{},нет признаков,0,pdf
+dataset3/090304_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/osn_geo_obr.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П47-ОД_МИМДО_03.03.2022.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/prikaz_808.pdf,{},нет признаков,0,pdf
+dataset3/06.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/5.4.4.pdf,{},нет признаков,0,pdf
+dataset3/П277-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 37.04.01.pdf,{},нет признаков,0,pdf
+dataset3/5.6.1.pdf,{},нет признаков,0,pdf
+dataset3/П-323_15_03_2019.pdf,{},нет признаков,0,pdf
+dataset3/Aula_Hispánica_osen_2018_rus.doc,"{""обычные"": 1}",УЗ-4,1,doc
+dataset3/Реестровая выписка_29.05.29025.pdf,"{""обычные"": 6, ""государственные"": 2}",УЗ-2,8,pdf
+dataset3/rasp722-p_20140430.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/N413_17_05_2012.rtf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,rtf
+dataset3/П213-ОД 44.03.01.pdf,{},нет признаков,0,pdf
+dataset3/П283-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/51n.pdf,{},нет признаков,0,pdf
+dataset3/19n.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 06.04.01.pdf,{},нет признаков,0,pdf
+dataset3/44.03.04_ОС_Проф.обуч.(по отр)_compressed.pdf,{},нет признаков,0,pdf
+dataset3/П1371 54.04.01 Дизайн.pdf,{},нет признаков,0,pdf
+dataset3/pol_hightech.pdf,{},нет признаков,0,pdf
+dataset3/protokol.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/PAC_968-P.pdf,{},нет признаков,0,pdf
+dataset3/6. СПО Ин .pdf,{},нет признаков,0,pdf
+dataset3/_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%9F%D0%98%D0%A0%20%D0%B4%D0%BB%D1%8F%20%D0%9C%D0%9E%D0%9D_16-12-15.pdf,{},нет признаков,0,pdf
+dataset3/plan_r_kons.doc,{},нет признаков,0,doc
+dataset3/Декларация Махачкала.xls,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,xls
+dataset3/5. СПО РФ П1231.pdf,{},нет признаков,0,pdf
+dataset3/Pr637_01.04.2024.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0%20%D0%BE%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9%20.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_12n_ot_26.07.2018.pdf,{},нет признаков,0,pdf
+dataset3/П1043 о стоимости СПО в 2021.pdf,{},нет признаков,0,pdf
+dataset3/How_to_get_enrolled_2025.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/EBBondarevskaia_conference-info.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/06.04.02.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/ÂÕ1011.pdf,{},нет признаков,0,pdf
+dataset3/5.4.6.pdf,{},нет признаков,0,pdf
+dataset3/zhiv_cher.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/sved_o_d_k_2015.xls,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,xls
+dataset3/p685-od-2014.pdf,{},нет признаков,0,pdf
+dataset3/p2683.pdf,{},нет признаков,0,pdf
+dataset3/D212-208-10_01-04-03_TimoshenkoPE_Synopsis.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 11.04.02.pdf,{},нет признаков,0,pdf
+dataset3/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/10.03.01 Информационная безопасность.pdf,{},нет признаков,0,pdf
+dataset3/fk.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pr6_09022013.pdf,{},нет признаков,0,pdf
+dataset3/38.04.02_ETP.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 11.04.04.pdf,{},нет признаков,0,pdf
+dataset3/2.2.13.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/П1132 ДПО курсы русского.pdf,{},нет признаков,0,pdf
+dataset3/geo_ino.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/02.04.02.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/П9-ОД_20.01.2025.pdf,{},нет признаков,0,pdf
+dataset3/metod_prof.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/Protokol_prez_N2.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/01.04.02 Прикладная математика и информатика.pdf,{},нет признаков,0,pdf
+dataset3/resh_minobr_10111998.pdf,{},нет признаков,0,pdf
+dataset3/03.04.02.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/sved_o_d_f_u_2014.docx,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,docx
+dataset3/П226-ОД 09.03.03.pdf,{},нет признаков,0,pdf
+dataset3/google_privacy_policy_en_eu.pdf,{},нет признаков,0,pdf
+dataset3/Приказ от 01.04.2025 2471-ок.pdf,{},нет признаков,0,pdf
+dataset3/gk6wsflsno7xkvnynehy33ugy7n098ue.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/fis_podg_ino.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/Изменения Устав 8 октября 2019.pdf,{},нет признаков,0,pdf
+dataset3/Sootv_mag_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/5.9.2.pdf,{},нет признаков,0,pdf
+dataset3/cher.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/bio_him_obr.pdf,{},нет признаков,0,pdf
+dataset3/P89.pdf,{},нет признаков,0,pdf
+dataset3/p590-od2014.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1%D0%9F1035-%D1%80%20HR.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/sved_o_d_u_2015.xls,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,xls
+dataset3/%D0%A0%D0%90%D0%A1_303-%D1%80.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/scientific%20journal.doc,{},нет признаков,0,doc
+dataset3/П1188.pdf,{},нет признаков,0,pdf
+dataset3/5.12.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Aula_Hispanica_vesna_2018.pdf,"{""обычные"": 7}",УЗ-3,7,pdf
+dataset3/Prikaz-1845_Application1-Report.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/processing__agreement.pdf,"{""обычные"": 18, ""государственные"": 1, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,21,pdf
+dataset3/010303_B_3_08022018.pdf,{},нет признаков,0,pdf
+dataset3/formulario_inscripcion_dele_2022.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/upr_proc.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/VSOCH_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Prikaz_458.pdf,{},нет признаков,0,pdf
+dataset3/Сведения о доходах проректоров директоров филиалов и зам главного бухгалтера ФГАОУ ВО ЮФУ 2021.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/20240411_171533.pdf,{},нет признаков,0,pdf
+dataset3/sogl_sv.pdf,{},нет признаков,0,pdf
+dataset3/Лицей ЮФУ_ПОЛОЖЕНИЕ о ВД.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/vi_asp.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/Свидетельство 44.03.01.pdf,{},нет признаков,0,pdf
+dataset3/03-5-01-005.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/P146_24.05.2023.pdf,{},нет признаков,0,pdf
+dataset3/П451_12.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%B0%D0%B1%D0%B8%D1%82%D1%83%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0_%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82.pdf,{},нет признаков,0,pdf
+dataset3/П947 о подготовке НПК в аспирантуре иностранные граждане.pdf,{},нет признаков,0,pdf
+dataset3/P232_18.07.2023.pdf,{},нет признаков,0,pdf
+dataset3/27_03_01.pdf,{},нет признаков,0,pdf
+dataset3/SFedU_.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/2.5.13.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/П222-ОД 07.03.02.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_263-%D1%80%2015.03.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/070303_B_3_03072017.pdf,{},нет признаков,0,pdf
+dataset3/Protokol_5_30.08.2023.pdf,{},нет признаков,0,pdf
+dataset3/П270-ОД Центр развития партнёрств.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C.pdf,{},нет признаков,0,pdf
+dataset3/П13-ОД о внесении изменений в 27.03.03 и 09.03.02.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 37.05.01.pdf,{},нет признаков,0,pdf
+dataset3/49PSMN519.pdf,"{""обычные"": 24, ""государственные"": 1, ""специальные"": 1}",УЗ-1,26,pdf
+dataset3/tehn_int.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Приказ МОН от 05.08.2021 N 715 - Порядок проведения конкурса НР.pdf,{},нет признаков,0,pdf
+dataset3/Политика_конфиденциальности_объясняем_рф.pdf,{},нет признаков,0,pdf
+dataset3/%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%D0%B0.docx,{},нет признаков,0,docx
+dataset3/П2357.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_list-2017_16.08-info.pdf,{},нет признаков,0,pdf
+dataset3/politika-cookies.pdf,{},нет признаков,0,pdf
+dataset3/12_03_01.pdf,{},нет признаков,0,pdf
+dataset3/rasp2190-p_20121126.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%A0%D0%90%D0%A1_712-%D1%80%20%D0%BE%D0%B1%D1%89%D0%B5%D0%B5%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D0%B8.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 07.03.01.pdf,{},нет признаков,0,pdf
+dataset3/060401_M_3_31082020.pdf,{},нет признаков,0,pdf
+dataset3/П199-ОД_изм.ОС (ИКТиБ).pdf,{},нет признаков,0,pdf
+dataset3/П-607_18_04_2019.pdf,{},нет признаков,0,pdf
+dataset3/meteorolog.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/sved_o_d_f_n_2014.doc,{},нет признаков,0,doc
+dataset3/wpm5skhpgcr5ncwf6dwz92dutt9ucc13.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/040302_B_3_08082017.pdf,{},нет признаков,0,pdf
+dataset3/П89-ОД.pdf,{},нет признаков,0,pdf
+dataset3/kreativ_kom.pdf,{},нет признаков,0,pdf
+dataset3/П-2401_28_12_2018.pdf,{},нет признаков,0,pdf
+dataset3/Planes2015_rus.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/dog_pril19.pdf,{},нет признаков,0,pdf
+dataset3/sved_dohod_2023.pdf,"{""обычные"": 7, ""государственные"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/CommissionReviewProtocol.pdf,{},нет признаков,0,pdf
+dataset3/P429_13.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-293-OD_Bachelor-Specialist.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_RFFI_list-2018_05.15-info.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_146-%D1%80.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/mc201308.pdf,"{""обычные"": 28, ""специальные"": 1}",УЗ-1,29,pdf
+dataset3/protokol_25.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/Программа VIII  научного семинара Лаборатории экспериментальной лингвистики АГУ  Клиническая лингвистика.docx,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,docx
+dataset3/rasp_dop_mag.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/user_registration_in_EBS_Lan.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/program.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/%D0%A0%D0%90%D0%A1_546-%D1%80.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/Свидетельство 38.04.01.pdf,{},нет признаков,0,pdf
+dataset3/ОС_01.03.02.pdf,{},нет признаков,0,pdf
+dataset3/18n.pdf,{},нет признаков,0,pdf
+dataset3/p145od-2017.pdf,{},нет признаков,0,pdf
+dataset3/5.4.7.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_list-2017_28.08-info.pdf,{},нет признаков,0,pdf
+dataset3/П1073.pdf,{},нет признаков,0,pdf
+dataset3/Azov_conf-application.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Ukaz Prezidenta 226.rtf,"{""обычные"": 811, ""государственные"": 36}",УЗ-2,847,rtf
+dataset3/030403_M_3_22082020.pdf,{},нет признаков,0,pdf
+dataset3/Protokol N1 06.04.22.pdf,{},нет признаков,0,pdf
+dataset3/ПП_2025_19.01.2025_итог.pdf,"{""обычные"": 27, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,29,pdf
+dataset3/Bid_Bachelor-Specialist.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/5_Fundamentals_of_sensorics_and_energy.pdf,{},нет признаков,0,pdf
+dataset3/2.2.8.pdf,{},нет признаков,0,pdf
+dataset3/ist.pdf,{},нет признаков,0,pdf
+dataset3/Сведения о доходах проректоров директоров филиалов и зам. главного бухгалтера ФГАОУ ВО ЮФУ 2020.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/П282-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/5.8.3.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Rasporiagenie-1129-p_Application-sample.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/STEM.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/P201-OD.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BE%D1%82%D1%87%D1%91%D1%82_%D0%A2%D0%9A_%D0%AE%D0%A4%D0%A3_2024.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/P70-OD_29.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/Aula%20Hispanica_plano_rus_2016-po-mayo.pdf,"{""обычные"": 7}",УЗ-3,7,pdf
+dataset3/p348-od-2014.pdf,{},нет признаков,0,pdf
+dataset3/ergo.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Ukaz Prezidenta 147_01.04.16.doc,{},нет признаков,0,doc
+dataset3/010403_M_3_13022018.pdf,{},нет признаков,0,pdf
+dataset3/11.04.00.pdf,{},нет признаков,0,pdf
+dataset3/diz_komp.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/IVD_2__1_Gorgorova.pdf_0704d8bae0.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Politika-PDN.pdf,"{""обычные"": 7, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Structural_division_Report_Form.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%83.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/5.9.5.pdf,{},нет признаков,0,pdf
+dataset3/P982.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pr.pdf,{},нет признаков,0,pdf
+dataset3/ekol_prirod.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/hud_of.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/contests.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Der.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Structure_20190114.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/ЮФУ информация по письму МН-17 83-АО от 16.04.2020.pdf,{},нет признаков,0,pdf
+dataset3/120301_B_3_06102017.pdf,{},нет признаков,0,pdf
+dataset3/ID_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Thesis_kruglii_stol.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F178-%D0%9E%D0%94%2044.03.02.pdf,{},нет признаков,0,pdf
+dataset3/Приказ ЮФУ от 04.06.2021 N 115-ОД.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/11.03.02_Инфокоммуникационные технологии и системы связи_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Otchet_2014_rus.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/П1187.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 06.04.02.pdf,{},нет признаков,0,pdf
+dataset3/Реестровая выписка ГА 25.02.25_СПО.pdf,"{""обычные"": 9, ""государственные"": 2, ""специальные"": 1}",УЗ-1,12,pdf
+dataset3/GenerationS-info.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/competitions_list-2018_15.10-info.pdf,{},нет признаков,0,pdf
+dataset3/P476_NK_02.06.2025.pdf,{},нет признаков,0,pdf
+dataset3/P1000_15.06.20.pdf,{},нет признаков,0,pdf
+dataset3/2n8uitfe0x.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/samoobsled_2024.pdf,"{""обычные"": 13, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,15,pdf
+dataset3/KCP_asp_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pfhd_2024_01.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/%D0%A0%D0%90%D0%A1_669-%D1%80.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/5.9.6_en.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/Prikaz-1724.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_N_675_ot_30.08.2018_.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_11n_ot_26.07.2018.pdf,{},нет признаков,0,pdf
+dataset3/P280_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 39.03.02.pdf,{},нет признаков,0,pdf
+dataset3/П216-ОД 54.05.01.pdf,{},нет признаков,0,pdf
+dataset3/Announcement-on-the-Opening-Day-of-the-INEP-SFU-on-March-30-2024.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Sobre_nosotros_2025_compressed.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Sred_ZPL_Adm_2016.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/1.4.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П61-ОД ВУС.pdf,{},нет признаков,0,pdf
+dataset3/VAK_letter_01-02_111.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%85%D0%BE%D1%80%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0.pdf,{},нет признаков,0,pdf
+dataset3/44.03.05_ОС_ПО (с двумя проф.)_compressed.pdf,{},нет признаков,0,pdf
+dataset3/mn1p_2016.docx,{},нет признаков,0,docx
+dataset3/9. Индексация Расп Ин.pdf,{},нет признаков,0,pdf
+dataset3/П258 о подготовке кандидатов наук граждан РФ.pdf,{},нет признаков,0,pdf
+dataset3/P_46.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9E%D1%82%D1%87%D0%B5%D1%82%20%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B5.docx,{},нет признаков,0,docx
+dataset3/П1130 СПО иностранные граждане.pdf,{},нет признаков,0,pdf
+dataset3/38.04.08.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Свидетельство ПОА 37.04.02.pdf,{},нет признаков,0,pdf
+dataset3/П1373 07.04.01 Архитектура.pdf,{},нет признаков,0,pdf
+dataset3/Пользовательское_соглашение_объясняем_рф.pdf,{},нет признаков,0,pdf
+dataset3/progr_eop_2025.pdf,{},нет признаков,0,pdf
+dataset3/2.3.7.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/ОС_01.03.01.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%207%20(%D0%A2%D0%B0%D0%B3%D0%B0%D0%BD%D1%80%D0%BE%D0%B3).pdf,{},нет признаков,0,pdf
+dataset3/Pr407_11.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/5.3.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/prikaz_33n_ot_29.08.2018.pdf,{},нет признаков,0,pdf
+dataset3/prikaz-393.pdf,{},нет признаков,0,pdf
+dataset3/2181_del_esp.pdf,{},нет признаков,0,pdf
+dataset3/27.04.04_ Управление в технических системах_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/44.04.02.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/Donnews-Mediakit.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/Реестр экскурсоводов 2024_ 02.12.2024.pdf,"{""обычные"": 70, ""специальные"": 1}",УЗ-1,71,pdf
+dataset3/54.04.02.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П278-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/050301_B_3_23082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/P319-OD_IFSPN.pdf,{},нет признаков,0,pdf
+dataset3/Svidetelstvo_2018_pril2.pdf,{},нет признаков,0,pdf
+dataset3/KCP_mag_2025.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Program_Priority_directions.pdf,{},нет признаков,0,pdf
+dataset3/20240411_171510.pdf,{},нет признаков,0,pdf
+dataset3/РАС_495-Р индексация ВО граждан РФ.pdf,{},нет признаков,0,pdf
+dataset3/dog_pril1.pdf,{},нет признаков,0,pdf
+dataset3/51.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ОС_12.03.04.pdf,{},нет признаков,0,pdf
+dataset3/P64_27.03.20.pdf,{},нет признаков,0,pdf
+dataset3/osob_prava.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/osn_el.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/mc201109.pdf,"{""обычные"": 21}",УЗ-3,21,pdf
+dataset3/П1372 54.05.04 Скульптура.pdf,{},нет признаков,0,pdf
+dataset3/120304_B_3_06102017.pdf,{},нет признаков,0,pdf
+dataset3/P67_24.03.2023.pdf,{},нет признаков,0,pdf
+dataset3/11_03_04.pdf,{},нет признаков,0,pdf
+dataset3/komm_d.pdf,{},нет признаков,0,pdf
+dataset3/pp-bsm.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/pr-321.pdf,{},нет признаков,0,pdf
+dataset3/План создания МИП.pdf,{},нет признаков,0,pdf
+dataset3/П-199_20_02_2019.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-363-OD.pdf,{},нет признаков,0,pdf
+dataset3/Stoimost_obucheniya_2017_P748.pdf,{},нет признаков,0,pdf
+dataset3/П7-ОД_15.01.2015.pdf,{},нет признаков,0,pdf
+dataset3/Pril_1.8.pdf,{},нет признаков,0,pdf
+dataset3/П245-ОД Регламент проведения выборов заведующего кафедрой.pdf,"{""обычные"": 2, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/15.03.06_Мехатроника и робототехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Ростов_брендбук.pdf,{},нет признаков,0,pdf
+dataset3/Spisok_citiruemosti_NII_Phys.docx,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,docx
+dataset3/p805_2021.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/11.04.02.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/ris.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/obsh.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%A0%D0%90%D0%A1_1635-%D0%A0%20%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%A2%D0%BE%D1%87%D0%BA%D0%B5%20%D0%BA%D0%B8%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%AE%D0%A4%D0%A3.pdf,{},нет признаков,0,pdf
+dataset3/vozr_psih.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/П1438.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/ar_1.pdf,"{""обычные"": 14, ""специальные"": 1}",УЗ-1,15,pdf
+dataset3/5.8.7.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/bez_vi_bak.docx,{},нет признаков,0,docx
+dataset3/Svidetelstvo_2018.pdf,{},нет признаков,0,pdf
+dataset3/letter1.pdf,{},нет признаков,0,pdf
+dataset3/382-02 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/bezop_komp.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/bak_lk_2025.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/45.03.02_Лингвистика_П40-ОД.pdf,{},нет признаков,0,pdf
+dataset3/Ïîëîæåíèå%20êîíêóðñà%20ÐÀÍ%20äëÿ%20ìîëîäûõ%20ó÷åíûõ%20è%20ñòóäåíòîâ.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 27.04.03.pdf,{},нет признаков,0,pdf
+dataset3/2.2.16.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/poriadok_rasheta_10_05_2016.pdf,{},нет признаков,0,pdf
+dataset3/44.04.02_ОС_Псих.пед.обр._compressed.pdf,{},нет признаков,0,pdf
+dataset3/ped_doshk.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Protokol_2.pdf,{},нет признаков,0,pdf
+dataset3/П1367 54.05.02 Живопись.pdf,{},нет признаков,0,pdf
+dataset3/24.11.2020 - форма заявления на участие в конкурсе.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/Protokol N3 2022.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Prikaz-200.pdf,{},нет признаков,0,pdf
+dataset3/P56-OD.pdf,{},нет признаков,0,pdf
+dataset3/zayavlenie_kursi_2019.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/BRADBOOK%202013-V13.pdf,{},нет признаков,0,pdf
+dataset3/upr_izm.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/license.pdf,{},нет признаков,0,pdf
+dataset3/Prilojenie_Gel.pdf,{},нет признаков,0,pdf
+dataset3/P24.pdf,{},нет признаков,0,pdf
+dataset3/41.04.05.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/44_04_02_obr_sred.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/100505_C_3_24122020.pdf,{},нет признаков,0,pdf
+dataset3/RSOCH_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Aula_Hispánica_vesna_2018_rus.doc,{},нет признаков,0,doc
+dataset3/pril4.3Licen_29.01.16.pdf,{},нет признаков,0,pdf
+dataset3/teacher_instruction_new.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/graf.pdf,{},нет признаков,0,pdf
+dataset3/09.03.01_Информатика и вычислительная техника.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 43.04.03.pdf,{},нет признаков,0,pdf
+dataset3/110301_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/P2244.pdf,{},нет признаков,0,pdf
+dataset3/010402_M_3_13022018.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F181-%D0%9E%D0%94%2044.03.05.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_34n_ot_29.08.2018.pdf,{},нет признаков,0,pdf
+dataset3/17_av1-202252.pdf,"{""обычные"": 7}",УЗ-3,7,pdf
+dataset3/p915 -02.05.24.pdf,{},нет признаков,0,pdf
+dataset3/Aula_Hispánica_osen_2017.doc,{},нет признаков,0,doc
+dataset3/CartaInformativaCongreso2025_ru.pdf,"{""обычные"": 9, ""специальные"": 1}",УЗ-1,10,pdf
+dataset3/Aula_Hispanica_plano_rus_2014-2015.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Prikaz-1678.pdf,{},нет признаков,0,pdf
+dataset3/prikaz 31 ot 17.01.2022.pdf,{},нет признаков,0,pdf
+dataset3/pravila_priema2024.pdf,{},нет признаков,0,pdf
+dataset3/EAU_activities_plan-2018.pdf,{},нет признаков,0,pdf
+dataset3/APS.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/JMS_OTHA_Call_for_papers.pdf,{},нет признаков,0,pdf
+dataset3/П441-ОД_17.10.2016.pdf,{},нет признаков,0,pdf
+dataset3/besp_s.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/progr_otvis_2025.pdf,{},нет признаков,0,pdf
+dataset3/22.pdf,{},нет признаков,0,pdf
+dataset3/44.04.03_ОС_Спец.(деф.)обр_compressed.pdf,{},нет признаков,0,pdf
+dataset3/192-OD.pdf,{},нет признаков,0,pdf
+dataset3/Planes_Aula_Hispánica_2017_rus_vesna.doc,{},нет признаков,0,doc
+dataset3/FZ 273.rtf,"{""обычные"": 811, ""государственные"": 36}",УЗ-2,847,rtf
+dataset3/5.8.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/pol_INEP.pdf,{},нет признаков,0,pdf
+dataset3/P693_29.04.20.pdf,{},нет признаков,0,pdf
+dataset3/5.10.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/R565_04.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/Kratkaja_instrukcija_auditora.pdf,{},нет признаков,0,pdf
+dataset3/2633b07b34442b5df2b84aa2226dd0e9.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz_П196.pdf,{},нет признаков,0,pdf
+dataset3/P38-OD_NIIMVS.pdf,{},нет признаков,0,pdf
+dataset3/5-2-progDN.doc,"{""обычные"": 4, ""государственные"": 1}",УЗ-2,5,doc
+dataset3/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-%D0%BA%D0%B0%D1%80%D1%82%D1%8B.docx,"{""обычные"": 3, ""биометрические"": 1}",УЗ-1,4,docx
+dataset3/P537.pdf,{},нет признаков,0,pdf
+dataset3/emir-frandt-disclosure.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/Informatsionnoe-pismo-Olimpiada-SFEDU-English-25.doc,{},нет признаков,0,doc
+dataset3/prikaz-2428.pdf,{},нет признаков,0,pdf
+dataset3/010302_B_3_08022018.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 45.03.01.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1928_Application1-Report_form.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Декларация 2016г Новошахтинск.xls,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,xls
+dataset3/%D0%A0%D0%90%D0%A1_1338-%D0%A0%20%D0%9A%D1%80%20%D1%81%D1%82%D0%BE%D0%BB%20%D0%94%D0%9D%D0%9A.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/11.03.04_Электроника и наноэлектроника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/P148_25.05.2023.pdf,{},нет признаков,0,pdf
+dataset3/pedagogika.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П1074.pdf,{},нет признаков,0,pdf
+dataset3/П109-ОД_03.06.2021.pdf,{},нет признаков,0,pdf
+dataset3/41.04.01.pdf,{},нет признаков,0,pdf
+"dataset3/Соглашение о сотрудничестве и взаимодействии,.pdf",{},нет признаков,0,pdf
+dataset3/28.04.01_r.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/osn_hud_d.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Prikaz-1846_Application1-Report.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/П259-ОД.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F1631_%D0%9E%D0%9F%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/SPO.docx,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,docx
+dataset3/030303_B_3_31082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ОС_11.05.01.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F179-%D0%9E%D0%94%2044.03.03.pdf,{},нет признаков,0,pdf
+dataset3/prikaz320.pdf,{},нет признаков,0,pdf
+dataset3/110404_M_3_11102017.pdf,{},нет признаков,0,pdf
+dataset3/annot_spec.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/110402_M_3_11102017.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20%E2%84%96%201072%20(%D0%94%20999.027.02).pdf,{},нет признаков,0,pdf
+dataset3/П1042 о стоимости для граждан РФ.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F_%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0_%D0%B4%D0%BE_2020%D0%B3.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F187-%D0%9E%D0%94%2010.05.03.pdf,{},нет признаков,0,pdf
+dataset3/1C_University_publications-instruction.pdf,{},нет признаков,0,pdf
+dataset3/P93-21.01.25.pdf,{},нет признаков,0,pdf
+dataset3/ukaz597_20120507.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ist_ino.pdf,{},нет признаков,0,pdf
+dataset3/2181_documentos_del_esp.pdf,{},нет признаков,0,pdf
+dataset3/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%A3%D1%81%D1%82%D0%B0%D0%B2%20%D0%BE%D1%82%2013%20%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F%202022.pdf,{},нет признаков,0,pdf
+dataset3/gl_VII_exam_P120-OD_reglament_PK.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/polozhenieMM.pdf,{},нет признаков,0,pdf
+dataset3/Protokol_0.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/Декларация Волгодонск 2016г..xls,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,xls
+dataset3/090401_M_3_11102017.pdf,{},нет признаков,0,pdf
+dataset3/pfhd_2023_01.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/ОС_06.05.01.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F1719%20%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0.pdf,{},нет признаков,0,pdf
+dataset3/Анкета.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/5.7.8.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П-198_20_02_2019 .pdf,{},нет признаков,0,pdf
+dataset3/Tesis_kruglii_stol_1.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/Pr432_13.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/766.pdf,{},нет признаков,0,pdf
+dataset3/ОС_05.03.04.pdf,{},нет признаков,0,pdf
+dataset3/090404_M_3_1102017.pdf,{},нет признаков,0,pdf
+dataset3/Pravila_priema_2025_20_yanvarya.pdf,{},нет признаков,0,pdf
+dataset3/pravila_priema2025.pdf,{},нет признаков,0,pdf
+dataset3/eko_str.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Prikaz 601.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/sved_o_d_g_2015.xls,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,xls
+dataset3/5.7.7.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Poyasneniya_i_rekomendcii_RT_reytingovoy_comissii_2020.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_264-%D1%80%20HR%20%D0%BA%D0%BB%D1%83%D0%B1%2014.03.pdf,{},нет признаков,0,pdf
+dataset3/47.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/perezachet.docx,{},нет признаков,0,docx
+dataset3/upr_pr.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/P375_12.03.20.pdf,{},нет признаков,0,pdf
+dataset3/П1888-2.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/ist_gos.pdf,{},нет признаков,0,pdf
+dataset3/P130_31012020.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 47.03.01.pdf,{},нет признаков,0,pdf
+dataset3/1.3.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/П3498.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9A%D0%94-015.pdf,{},нет признаков,0,pdf
+dataset3/pamyatka.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/ckp.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 40.04.01_Юрист-финансист.pdf,{},нет признаков,0,pdf
+dataset3/П1115_16.05.2025.pdf,{},нет признаков,0,pdf
+dataset3/П1299_03.06.2025.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_nast.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/v-profsoyuz-rabotnika-yufu2024.doc,{},нет признаков,0,doc
+dataset3/44.04.03.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П10820.pdf,{},нет признаков,0,pdf
+dataset3/ОС_07.03.02.pdf,{},нет признаков,0,pdf
+dataset3/P562_14.04.20.pdf,{},нет признаков,0,pdf
+dataset3/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80_%D0%B8%D1%8E%D0%BB%D1%8C.docx,"{""обычные"": 9, ""государственные"": 2, ""платёжные"": 3}",УЗ-2,14,docx
+dataset3/%D0%9F385-%D0%9E%D0%94.pdf,{},нет признаков,0,pdf
+dataset3/82174ac3fa46f97441160bfa3b5fef76.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/obsh_ino.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 183-ОД.pdf,{},нет признаков,0,pdf
+dataset3/rp23-11-2006-N1616-p.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Letter_Pension_Fund_of_RF_on_RO.pdf,{},нет признаков,0,pdf
+dataset3/polozhenie_ob_institute_nauk_o_zemle.pdf,{},нет признаков,0,pdf
+dataset3/BX771.pdf,{},нет признаков,0,pdf
+dataset3/prikaz-152.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20%D0%BE%20%D0%B2%D0%BE%D0%B7%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%94%D0%A1%20%D0%94%20999.154.03.pdf,{},нет признаков,0,pdf
+dataset3/П239-ОД 07.04.04.pdf,{},нет признаков,0,pdf
+dataset3/коммерческое%20предложение.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/osn_russ_lit.pdf,{},нет признаков,0,pdf
+dataset3/P658-OD-standing_order_about_ICTIS.pdf,{},нет признаков,0,pdf
+dataset3/kol_vo_m_ino_dop.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/Planes_Aula_Hispánica_2016_rus_osen.doc,{},нет признаков,0,doc
+dataset3/142_152_Gorgorova.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/agreement.pdf,{},нет признаков,0,pdf
+dataset3/П63-ОД.pdf,{},нет признаков,0,pdf
+dataset3/Media-Kit_KG_2020.pdf,"{""обычные"": 77, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,79,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20%D0%BE%D0%B1%20%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%BD%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BB%D0%B0%D1%82%D1%83%D1%80%D1%8B.pdf,{},нет признаков,0,pdf
+dataset3/mat_mod.pdf,"{""обычные"": 6, ""государственные"": 2, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/44.04.01_177.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/123456789.pdf,{},нет признаков,0,pdf
+dataset3/патентов и ПЭВМ - ЮФУ.pdf,"{""обычные"": 7, ""государственные"": 70, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,79,pdf
+dataset3/f985xk95uk352rnl7d2guv812ndifv14.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П166-ОД 40.04.01_0.pdf,{},нет признаков,0,pdf
+dataset3/44.03.01_ОС_ПО_compressed.pdf,{},нет признаков,0,pdf
+dataset3/11.04.03_Конструирование и технология электронных средств_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/pfhd_2025_01.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/П220-ОД 07.04.03.pdf,{},нет признаков,0,pdf
+dataset3/5.2.3.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Spanish%20course%20A.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/2_IntelligentComputerTechnology.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_inkl.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset3/%D0%90%D0%9D%D0%9A%D0%95%D0%A2%D0%90-%D1%81%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%B2%D0%BE%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC-%D1%83%D1%87%D0%B5%D1%82%D0%B5.docx,{},нет признаков,0,docx
+dataset3/literatura.pdf,{},нет признаков,0,pdf
+dataset3/П231-ОД_Академический отпуск_04.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/ujj532ypug9ufeambtzkzh6kfdqoa6yp.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/Свидетельство ПОА 03.04.03.pdf,{},нет признаков,0,pdf
+dataset3/П140-ОД_Изменения ОПК_28.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/П1363 49.03.01 Физическая культура.pdf,{},нет признаков,0,pdf
+dataset3/П-606_18_04_2019.pdf,{},нет признаков,0,pdf
+dataset3/Svedeniya o dohodah.xls,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,xls
+dataset3/030402_M_3_22082020.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F184-%D0%9E%D0%94%2044.04.04.pdf,{},нет признаков,0,pdf
+dataset3/p294-od-2016.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%201.pdf,"{""государственные"": 1}",УЗ-3,1,pdf
+dataset3/P285-OD_24_10_2017_0.pdf,{},нет признаков,0,pdf
+dataset3/izveshenie_013.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/sved_o_d_f_j_2014.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/110303_B_3_17102017.pdf,{},нет признаков,0,pdf
+dataset3/020402_M_11012018.pdf,{},нет признаков,0,pdf
+dataset3/russ_slov.pdf,{},нет признаков,0,pdf
+dataset3/П1117_16.05.2025.pdf,{},нет признаков,0,pdf
+dataset3/110304_B_3_12102017.pdf,{},нет признаков,0,pdf
+dataset3/43.04.03.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_m_2015.xls,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,xls
+dataset3/Protokol N2 26.05.21.pdf,{},нет признаков,0,pdf
+dataset3/Protokol_6_06.09.2023.pdf,"{""обычные"": 9, ""специальные"": 1}",УЗ-1,10,pdf
+dataset3/Свидетельство 42.03.02.pdf,{},нет признаков,0,pdf
+dataset3/П190-ОД.pdf,{},нет признаков,0,pdf
+dataset3/Копия Сведения о доходах ректора ФГАОУ ВО ЮФУ 2021г.xls,"{""обычные"": 6}",УЗ-3,6,xls
+dataset3/web_pril.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/P148.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 43.03.01.pdf,{},нет признаков,0,pdf
+dataset3/d1e7a0684a9e51c599fb223264e96189.pdf,"{""обычные"": 8, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,10,pdf
+dataset3/teor_gos.pdf,{},нет признаков,0,pdf
+dataset3/standing order about Scientific research institute  of Physics.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/020303_B_3_18092017.pdf,{},нет признаков,0,pdf
+dataset3/100_bak_Urmosh.docx,{},нет признаков,0,docx
+dataset3/8. Индексация Расп РФ.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/elibrary_26561301_36954629.pdf,{},нет признаков,0,pdf
+dataset3/РАС557-Р.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 47.04.01.pdf,{},нет признаков,0,pdf
+dataset3/П83-ОД_28.04.2020.pdf,{},нет признаков,0,pdf
+dataset3/Prilojenie_1_6 .pdf,{},нет признаков,0,pdf
+dataset3/44.03.03_ОС_Спец.(деф.)обр_compressed.pdf,{},нет признаков,0,pdf
+dataset3/progr_bzhd_2025.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_f_k_2014.docx,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,docx
+dataset3/Согласие законного представителя.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/П6461.pdf,{},нет признаков,0,pdf
+dataset3/FCP_competitions-notice.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/4_Intelligent_and_High-tech_materials.pdf,{},нет признаков,0,pdf
+dataset3/RFFI-04.02.2021.pdf,{},нет признаков,0,pdf
+dataset3/П60-ОД_дополнение в ОС_compressed.pdf,{},нет признаков,0,pdf
+dataset3/P605.pdf,{},нет признаков,0,pdf
+dataset3/П1368 07.03.01 Архитектура.pdf,{},нет признаков,0,pdf
+dataset3/katalog_app_baki.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202023.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/060301_B_3_23082020.pdf,{},нет признаков,0,pdf
+dataset3/spd.docx,"{""обычные"": 77, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,79,docx
+dataset3/P1657.pdf,{},нет признаков,0,pdf
+dataset3/ОС_10.04.01.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_innov.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П166-ОД_10.04.2025.pdf,{},нет признаков,0,pdf
+dataset3/KCP_bs_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П727 Стоимость обучения в колледже СПО 2.pdf,{},нет признаков,0,pdf
+dataset3/Poryadok_2017_2.pdf,{},нет признаков,0,pdf
+dataset3/himiya_ino.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/politika-obrabotki-dannyh-tassru.docx,"{""обычные"": 7, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,9,docx
+dataset3/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B5%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/osn_fin.pdf,{},нет признаков,0,pdf
+dataset3/Instr_test_2024.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/Свидетельство 44.03.02.pdf,{},нет признаков,0,pdf
+dataset3/ОС_07.03.01.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 12.04.01.pdf,{},нет признаков,0,pdf
+dataset3/5487d8240beaf469a1a10ee370749263.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/polojenie_IUES.pdf,{},нет признаков,0,pdf
+dataset3/rasp_prezRF.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Свидетельство 40.03.01.pdf,{},нет признаков,0,pdf
+dataset3/r604_11.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 339-OD 29.09.2015.pdf,{},нет признаков,0,pdf
+dataset3/2_6_6_Nanotechnology_and_nanomaterials.pdf,{},нет признаков,0,pdf
+dataset3/soglasie_leadplan.pdf,"{""обычные"": 9, ""государственные"": 2, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,13,pdf
+dataset3/Pr671_04.04.2024.pdf,{},нет признаков,0,pdf
+dataset3/ph.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/П1071.pdf,{},нет признаков,0,pdf
+dataset3/Applied_problems_and_basic_technologies-info.pdf,{},нет признаков,0,pdf
+dataset3/44.03.02_ОС_Псих.пед.обр._compressed.pdf,{},нет признаков,0,pdf
+dataset3/p2914_26.12.2024.pdf,{},нет признаков,0,pdf
+dataset3/РАС_494-Р индексация Иностранных обучающихся.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 40.04.01_Гражданское право.pdf,{},нет признаков,0,pdf
+dataset3/Metod_Rek_Rating2015.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 40.04.01_Муниципальное право.pdf,{},нет признаков,0,pdf
+dataset3/P986.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202021.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/sved_o_d_gb_2015.xls,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,xls
+dataset3/28.04.01_t.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 03.04.02.pdf,{},нет признаков,0,pdf
+dataset3/20.04.01.pdf,{},нет признаков,0,pdf
+dataset3/14-2042.pdf,{},нет признаков,0,pdf
+dataset3/1663 от 27.12.2016.pdf,{},нет признаков,0,pdf
+dataset3/%D0%98%D0%90_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%A1%D0%9E%D0%A3%D0%A2_14.05.2024_%D1%81%D0%B6%D0%B0%D1%82%D1%8B%D0%B9.pdf,{},нет признаков,0,pdf
+dataset3/070304_B_3_29062017.pdf,{},нет признаков,0,pdf
+dataset3/П198-ОД 09.04.04.pdf,{},нет признаков,0,pdf
+dataset3/emir-frandt-request-for-proposal.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П247.pdf,"{""обычные"": 6, ""государственные"": 1, ""биометрические"": 1}",УЗ-1,8,pdf
+dataset3/1_Fundamentals_of_agricultural_and_environmental_biotechnology.pdf,{},нет признаков,0,pdf
+dataset3/P383-OD_NIIRTPU.pdf,{},нет признаков,0,pdf
+dataset3/P590.pdf,{},нет признаков,0,pdf
+dataset3/07.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/IT-1-L01_Introduction.pdf,{},нет признаков,0,pdf
+dataset3/5.3.2.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/PROGRAMMA%20FESTIVAL.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/pfhd_2024_02.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/24n.pdf,{},нет признаков,0,pdf
+dataset3/P687_29.04.20.pdf,{},нет признаков,0,pdf
+dataset3/Nanoscale_Structure_of_Materials.pdf,{},нет признаков,0,pdf
+dataset3/P88-OD_INEP.pdf,{},нет признаков,0,pdf
+dataset3/Azov_conf-buklet.pdf,{},нет признаков,0,pdf
+dataset3/izveshenie_014.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/inostr_ino2.pdf,{},нет признаков,0,pdf
+dataset3/Ustav2019.pdf,{},нет признаков,0,pdf
+dataset3/Schools_of_sciences-info.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1846.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_MELT.pdf,{},нет признаков,0,pdf
+dataset3/DGTU-conference-programm.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/wipo-dstu_seminar-info.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 11.04.01.pdf,{},нет признаков,0,pdf
+dataset3/П212-ОД 37.05.02_0.pdf,{},нет признаков,0,pdf
+dataset3/Congreso_Anexos_rus_2025.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/П1364 54.03.02 ДПИ.pdf,{},нет признаков,0,pdf
+dataset3/pril8.2Licen_29.01.16.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 40.04.01_Уголовная юстиция.pdf,{},нет признаков,0,pdf
+dataset3/Сведения о доходах врио ректора ФГАОУ ВО ЮФУ 2018.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/П1152.pdf,{},нет признаков,0,pdf
+dataset3/118.pdf,{},нет признаков,0,pdf
+dataset3/030302_B_3_31082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/polozhenie_o_thesis_2024.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П71-ОД_37.04.01 Психология.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D0%92%D0%90%D0%9A%2032-1-%D0%BD%D1%81%20%D0%BE%D1%82%2010.12.2021.pdf,{},нет признаков,0,pdf
+dataset3/eko_geo.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/CT_RB_2025.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/sport_sover.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/mc201205.pdf,"{""обычные"": 20, ""специальные"": 1}",УЗ-1,21,pdf
+dataset3/Rasporiagenie-1129-p.pdf,{},нет признаков,0,pdf
+dataset3/6b588aa921ec0008657cb728cfce508d.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Protokol_20.pdf,"{""обычные"": 6, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/Согласие_ПДн_(map.ncpti.ru).rtf,"{""обычные"": 18, ""государственные"": 2}",УЗ-2,20,rtf
+dataset3/anketa_dpo_2023.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/Свидетельство 41.04.01.pdf,{},нет признаков,0,pdf
+dataset3/ОС_01.03.03.pdf,{},нет признаков,0,pdf
+dataset3/5.7.2.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/polozhenie_econom.pdf,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,pdf
+dataset3/Otchet_2013.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/P812_18.04.2024.pdf,{},нет признаков,0,pdf
+dataset3/ОС_12.04.04.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 01.04.01.pdf,{},нет признаков,0,pdf
+dataset3/5.5.2.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Согласие участника конкурса.docx,"{""обычные"": 2}",УЗ-4,2,docx
+dataset3/1_2_1_Mathematical_and_natural_science_foundations_of_artificial.pdf,{},нет признаков,0,pdf
+dataset3/533.pdf,{},нет признаков,0,pdf
+dataset3/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%9C%D0%A4%D0%A6.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П73-ОД_37.05.02_Психология служ деят.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/geo.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/osn_serv.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/2.0 Как найти уникальный номер поступающего.pdf,{},нет признаков,0,pdf
+dataset3/P639.pdf,{},нет признаков,0,pdf
+dataset3/Problems.docx,{},нет признаков,0,docx
+dataset3/Competitions_list_August-2017-info.pdf,{},нет признаков,0,pdf
+dataset3/Ранжированные списки (по итогам апелляций).pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/7l786rg9llt2odfq9u9zmrwunkk3k3q7.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/Prikaz-876_Magistracy.pdf,{},нет признаков,0,pdf
+dataset3/izveshenie-015.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/2.3.1.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/arh_komp.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/P374_12.03.20.pdf,{},нет признаков,0,pdf
+dataset3/П1352 О стоимости в 2022_23гг 2х и последующих курсов.pdf,{},нет признаков,0,pdf
+dataset3/prot15-17-04-2015.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F320-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%AE%D0%A4%D0%A3.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/geolog.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/dog_pril17.pdf,{},нет признаков,0,pdf
+dataset3/3_Fundamentals_of_navigation_and_communication_control_systems.pdf,{},нет признаков,0,pdf
+dataset3/quartile_define.pdf,{},нет признаков,0,pdf
+dataset3/mash_ob.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/NIR_report-info.pdf,{},нет признаков,0,pdf
+dataset3/c50dea3311d9c12cf6e941d47f574300.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/П-197_20_02_2019.pdf,{},нет признаков,0,pdf
+dataset3/46.04.01.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/katalog_app_magistri.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F112-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/r759_15.07.2024.pdf,{},нет признаков,0,pdf
+dataset3/РАС180-р_26.02.2025.pdf,{},нет признаков,0,pdf
+dataset3/2.3.6.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/RuCodeFestival-info.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_rukov.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset3/Competitions_RFFI_list-2018_04.12-info.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_N_1022_ot_21.11.2018_.pdf,{},нет признаков,0,pdf
+dataset3/5.5.1.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/070301_B_3_29062017.pdf,{},нет признаков,0,pdf
+dataset3/110403_M_3_13102017.pdf,{},нет признаков,0,pdf
+dataset3/P902.pdf,{},нет признаков,0,pdf
+dataset3/1C_University-publications_and_scientific_action_counting-instruction.pdf,{},нет признаков,0,pdf
+dataset3/r497_20.05.2024.pdf,{},нет признаков,0,pdf
+dataset3/050302_B_3_23082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/osn_bio.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/27.03.03 Системный аналих и управление.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1%D0%9F211-%D1%80%20%20%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B2_0.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П237-ОД 44.04.01.pdf,{},нет признаков,0,pdf
+dataset3/28_03_01.pdf,{},нет признаков,0,pdf
+dataset3/Декларация Учкекен 2016г.xls,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,xls
+dataset3/Свидетельство ПОА 27.04.04.pdf,{},нет признаков,0,pdf
+dataset3/5776_28_95fdcc53bcbe0af1e40685a74fe55ce6.pdf,{},нет признаков,0,pdf
+dataset3/izo.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/russ.pdf,{},нет признаков,0,pdf
+dataset3/P1355_11.06.2024.pdf,{},нет признаков,0,pdf
+dataset3/progr_ee_2025.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_95-%D1%80%20%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%B8%D0%B6%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/120404_M_3_11102017.pdf,{},нет признаков,0,pdf
+dataset3/%D0%90%D1%80%D1%82%D0%B5%D0%BC%20%D0%A8%D0%B0%D0%B4%D1%80%D0%B8%D0%BD.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/1.5.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Folleto_cursos_ruso1.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/elibrary_25302434_33897683.pdf,{},нет признаков,0,pdf
+dataset3/report_07112022.pdf,"{""обычные"": 7, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Svidetelstvo_2018_pril1.pdf,{},нет признаков,0,pdf
+dataset3/P1505.pdf,{},нет признаков,0,pdf
+dataset3/Prilogenie_Structural_division-report_form.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/resh_minobr_19082002.pdf,{},нет признаков,0,pdf
+dataset3/6%20%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%20%D0%A0%D0%9E%D0%A1%D0%A1%D0%98%D0%AF.pdf.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 43.04.02.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F182-%D0%9E%D0%94%2044.04.02.pdf,{},нет признаков,0,pdf
+dataset3/П167-ОД 37.04.01_0.pdf,{},нет признаков,0,pdf
+dataset3/poriadok_otbora.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/П67-ОД.pdf,{},нет признаков,0,pdf
+dataset3/5.2.4.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П1040 об индексации в 2021.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 21.04.02.pdf,{},нет признаков,0,pdf
+dataset3/5.9.8.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/5.8.1.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ОС_03.03.03.pdf,{},нет признаков,0,pdf
+dataset3/Pologenie_ob_ISiR-YUFU.pdf,{},нет признаков,0,pdf
+dataset3/KGU_conf-info.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 43.03.02.pdf,{},нет признаков,0,pdf
+dataset3/2.2.12.pdf,{},нет признаков,0,pdf
+dataset3/2025Правила%20приёма%202025.26.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Реестровая выписка л_22.08.25.pdf,"{""обычные"": 41, ""государственные"": 2, ""специальные"": 1}",УЗ-1,44,pdf
+dataset3/pol_afkis.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_f_v_2014.doc,{},нет признаков,0,doc
+dataset3/П1365 07.03.04 Градостроительство.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0764.pdf,{},нет признаков,0,pdf
+dataset3/100401_M_3_19022021.pdf,{},нет признаков,0,pdf
+dataset3/RFFI_Director-letter.pdf,{},нет признаков,0,pdf
+dataset3/П946-ассистентура стажировка в 2021.pdf,{},нет признаков,0,pdf
+dataset3/prikaz_10n_ot_26.07.2018.pdf,{},нет признаков,0,pdf
+dataset3/pr8_19042013.pdf,{},нет признаков,0,pdf
+dataset3/2190-4286-12-49-S1.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/ph_ino.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/12.03.01_Приборостроение_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/ConfPABCProgram_2023.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/pr9_05062013.pdf,{},нет признаков,0,pdf
+dataset3/38.04.03.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/П159-ОД_08.07.2024.pdf,{},нет признаков,0,pdf
+dataset3/070401_M_3_03072017.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_r_2017.xls,"{""обычные"": 5}",УЗ-3,5,xls
+dataset3/03.04.03.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/110502_C_3_09032018.pdf,{},нет признаков,0,pdf
+dataset3/polojenie_AARCHI.pdf,{},нет признаков,0,pdf
+dataset3/Prot3_11.03.2025.pdf,"{""обычные"": 5, ""государственные"": 130, ""специальные"": 1}",УЗ-1,136,pdf
+dataset3/15.04.04_Автоматизация технологических процессов и производств_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1845.pdf,{},нет признаков,0,pdf
+dataset3/5.2.4_org.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/osn_soc_rab.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/5fqhsxirzo8b3s7xsukssg8sbsz05b38.pdf,"{""обычные"": 7, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/ОС 04.03.01 ХИМИЯ.pdf,{},нет признаков,0,pdf
+dataset3/Лицей ЮФУ_ВД_расписание_2024-2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/sved_o_d_f_g_2014.docx,"{""обычные"": 8}",УЗ-3,8,docx
+dataset3/ped_d.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/%D0%A0386.%20%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5%20%D0%98%D0%98.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/РАС181-р_26.02.2025.pdf,{},нет признаков,0,pdf
+dataset3/П446_11.03.2025.pdf,{},нет признаков,0,pdf
+dataset3/П229-ОД 10.05.02.pdf,{},нет признаков,0,pdf
+dataset3/P1895_24.08.2024.pdf,{},нет признаков,0,pdf
+dataset3/Письмо ВАК N 01-02_111 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/ped_nach.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/accreditation.pdf,"{""обычные"": 4, ""государственные"": 1}",УЗ-2,5,pdf
+"dataset3/П602-ОД Бак, спец, маг.pdf",{},нет признаков,0,pdf
+dataset3/Protokol.pdf,{},нет признаков,0,pdf
+dataset3/P13-OD.pdf,{},нет признаков,0,pdf
+dataset3/П202-ОД 38.03.05.pdf,{},нет признаков,0,pdf
+dataset3/Sootv_asp_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%A0545_0.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/do-market-commentary-global-disclosure.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/10.05.03 Информационная безопасность автоматиз.систем.pdf,{},нет признаков,0,pdf
+dataset3/МН-3_6780 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/04.04.01.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/ОС_05.03.02.pdf,{},нет признаков,0,pdf
+dataset3/02.04.02_rob.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Главный бухгалтер сведения в рамках декларационной кампании.xls,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,xls
+dataset3/upr_kiber.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/РАСП-647.pdf,{},нет признаков,0,pdf
+dataset3/statement-working-conditions.pdf,{},нет признаков,0,pdf
+dataset3/21_03_02.pdf,{},нет признаков,0,pdf
+dataset3/google_privacy_policy_nl_eu.pdf,{},нет признаков,0,pdf
+dataset3/П2274 АБИМ.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/П279 об объявлении конкурса.pdf,{},нет признаков,0,pdf
+dataset3/ОС_14.03.02.pdf,{},нет признаков,0,pdf
+dataset3/44.04.04.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/5.6.3.pdf,{},нет признаков,0,pdf
+dataset3/Competitive_selection_2016-Regulation.pdf,{},нет признаков,0,pdf
+dataset3/sved_o_d_j_2015.xls,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,xls
+dataset3/sved_dohod_2024.pdf,{},нет признаков,0,pdf
+dataset3/100_bak.docx,{},нет признаков,0,docx
+dataset3/JPG_v_PDF.pdf,{},нет признаков,0,pdf
+dataset3/PravilaPriema_2025_VO_izm_24.01.2025.pdf,"{""обычные"": 11, ""специальные"": 1}",УЗ-1,12,pdf
+dataset3/РАС601-р_02.06.2025.pdf,{},нет признаков,0,pdf
+dataset3/9.pdf,{},нет признаков,0,pdf
+dataset3/Договор.docx,"{""обычные"": 7, ""государственные"": 1, ""платёжные"": 1, ""специальные"": 1}",УЗ-1,10,docx
+dataset3/osn_alg.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/П502 Аспир.pdf,{},нет признаков,0,pdf
+dataset3/P39-OD.pdf,{},нет признаков,0,pdf
+dataset3/7. Индексация П1323.pdf,{},нет признаков,0,pdf
+dataset3/11.03.01_Радиотехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/progr_pmmvopd_2025.pdf,{},нет признаков,0,pdf
+dataset3/obrazDeatelnost.pdf,{},нет признаков,0,pdf
+dataset3/5.9.1.pdf,{},нет признаков,0,pdf
+dataset3/THOMSON_REUTERS-info.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство 51.04.01.pdf,{},нет признаков,0,pdf
+dataset3/SciFinder%20Discovery%20Platform.pdf,"{""обычные"": 3, ""специальные"": 1}",УЗ-1,4,pdf
+dataset3/11.03.03_Конструирование и технология электронных средств_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/20120518_D212-208-10_01-04-03_TimoshenkoPE.pdf,{},нет признаков,0,pdf
+dataset3/Bid-contents_Magistracy.pdf,{},нет признаков,0,pdf
+dataset3/P79-OD.pdf,{},нет признаков,0,pdf
+dataset3/010401_M_3_13022018.pdf,{},нет признаков,0,pdf
+dataset3/679.pdf,{},нет признаков,0,pdf
+dataset3/45.04.01_prof_komm.pdf,{},нет признаков,0,pdf
+dataset3/Otchet_2012.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/44.04.01_soc_ped.pdf,"{""обычные"": 6}",УЗ-3,6,pdf
+dataset3/П215-ОД.pdf,{},нет признаков,0,pdf
+dataset3/pr10_15092012.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/38.04.02.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/%D0%A0%D0%90%D0%A1%D0%9F1429-%D1%80%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/VUZUFO.doc,{},нет признаков,0,doc
+dataset3/Pravila_priema_bac_spec_2025.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/П1116_16.05.2025.pdf,{},нет признаков,0,pdf
+dataset3/5-05-20_US-59_27.12.2024.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/%D0%AE%D0%A4%D0%A3+%20%D0%A0%D0%A1%D0%92%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%20N01-19-49%20%D0%BE%D1%82%2009.04.2021.pdf,{},нет признаков,0,pdf
+dataset3/П151 Обязательства.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F336-%D0%9E%D0%94_05.12.2022_%20%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%AE%D0%A4%D0%A3_10.05.04.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/MAG.docx,"{""обычные"": 5, ""биометрические"": 1}",УЗ-1,6,docx
+dataset3/105_order_Spanish_courses.pdf,"{""обычные"": 13}",УЗ-3,13,pdf
+dataset3/%D0%A0%D0%90%D0%A1_127-%D1%80%20%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/200_bak_Urmosh.docx,{},нет признаков,0,docx
+dataset3/Вакансии 2022.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_ph_obr.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/CNO_AULA_Hispanica.pdf,"{""обычные"": 11}",УЗ-3,11,pdf
+dataset3/Plehanov2016.pdf,{},нет признаков,0,pdf
+dataset3/21.03.02_Землеустройство и кадастры.pdf,{},нет признаков,0,pdf
+dataset3/2190-4286-12-49.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/m_lit.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/osn_turism.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Инструкция по работе с информационными ресурсами.doc,"{""обычные"": 3, ""государственные"": 1, ""платёжные"": 1}",УЗ-2,5,doc
+dataset3/ОС_03.03.02.pdf,{},нет признаков,0,pdf
+dataset3/Perechen_poruchenii.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F_%D0%9D%D0%90%D0%9C_%D0%B2%D0%B5%D1%81%D0%BD%D0%B0_2022.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/prikaz_13n_ot_26.07.2018.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 143.pdf,{},нет признаков,0,pdf
+dataset3/42.pdf,"{""обычные"": 13, ""специальные"": 1}",УЗ-1,14,pdf
+dataset3/protokol_17.pdf,{},нет признаков,0,pdf
+dataset3/5.9.6_rom.pdf,{},нет признаков,0,pdf
+dataset3/Выписка из реестра ГА 06.05.01 06.05.02.pdf,"{""обычные"": 2, ""государственные"": 2}",УЗ-2,4,pdf
+dataset3/pr5_25102012.pdf,{},нет признаков,0,pdf
+dataset3/Rasporiagenie-1092-p_publications.xls,{},нет признаков,0,xls
+dataset3/dog_pril9.pdf,{},нет признаков,0,pdf
+dataset3/vsp_isp_ogran_zdorov.pdf,"{""специальные"": 1}",УЗ-2,1,pdf
+dataset3/kol_vo_m.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/P428-OD stading order about ITA.pdf,{},нет признаков,0,pdf
+dataset3/pr125auto.doc,"{""обычные"": 1}",УЗ-4,1,doc
+dataset3/Otchet_2011.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/44.04.04_ОС_Проф.обуч.(по отр)_compressed.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-1928_Application2-IC_codes.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Свидетельство 38.04.08.pdf,{},нет признаков,0,pdf
+dataset3/П72-ОД_37.05.01_Клиническая психология.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Prikaz-16124.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D0%A3%D0%91%D0%9B%D0%98%D0%A7%D0%9D%D0%AB%D0%99%20%D0%9E%D0%A2%D0%A7%D0%81%D0%A2%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3%202020_0.pdf,"{""обычные"": 10, ""специальные"": 1}",УЗ-1,11,pdf
+dataset3/П165-ОД 40.03.01_0.pdf,{},нет признаков,0,pdf
+dataset3/P510.pdf,{},нет признаков,0,pdf
+dataset3/П13662.pdf,{},нет признаков,0,pdf
+dataset3/confl25.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/20190415175116398.pdf,{},нет признаков,0,pdf
+dataset3/П793_17.04.24.pdf,{},нет признаков,0,pdf
+dataset3/40.04.01 Юриспруденция.pdf,{},нет признаков,0,pdf
+dataset3/google_terms_of_service_en_eu.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/07.04.02.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/web_razr.pdf,"{""обычные"": 3}",УЗ-4,3,pdf
+dataset3/П199-ОД 27.03.03.pdf,{},нет признаков,0,pdf
+dataset3/П60-ОД_дополнение в ОС.pdf,{},нет признаков,0,pdf
+dataset3/Приказ о порядке оплаты проживания в общежитиях ЮФУ с 01.07.2024.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_715-%D1%80%20HR.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/37.04.02.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/Birlo2016.pdf,{},нет признаков,0,pdf
+dataset3/Poryadok_platn_uslug_25.10.13.pdf,{},нет признаков,0,pdf
+dataset3/28.03.02_Наноинженерия_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/Language_Teaching_in_the_Modern_Digital_Era.pdf,{},нет признаков,0,pdf
+dataset3/P346_24.08.2015.pdf,{},нет признаков,0,pdf
+dataset3/2.3.1_t.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/%D0%A0%D0%90%D0%A1_842-%D1%80%20%D0%94%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%90%D0%BA%D0%B8%D0%BD%D0%BE.pdf,{},нет признаков,0,pdf
+dataset3/Webinar-info.pdf,{},нет признаков,0,pdf
+dataset3/П56-ОД_30.03.2021.pdf,{},нет признаков,0,pdf
+dataset3/Perevod_kolledzh_15.06.16.pdf,{},нет признаков,0,pdf
+dataset3/050304_B_3_31082020.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Prioritet_itogi.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Rasporiagenie-1092-p.pdf,{},нет признаков,0,pdf
+dataset3/sogl.docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/040401_M_11012018.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%20%D0%9D%D0%A2%D0%98.pdf,{},нет признаков,0,pdf
+dataset3/Р688.pdf,"{""обычные"": 10, ""государственные"": 1, ""платёжные"": 1, ""специальные"": 1}",УЗ-1,13,pdf
+dataset3/%D0%94%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B1%D0%B0%D0%BB%D0%BB%20%D0%B8%20%D0%95%D0%93%D0%AD%202021_22.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/osn_zh.pdf,{},нет признаков,0,pdf
+dataset3/Pril_5.pdf,{},нет признаков,0,pdf
+dataset3/П295-ОД_Платные образовательные услуги.pdf,{},нет признаков,0,pdf
+dataset3/01.04.02.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/P_6_OD_ABiB.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%9F%D0%94%20%D0%B8%20%D0%9A%D0%9F%2015.02.10%20(2).pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/01.04.00.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/ModernSoftware_oral_exam.pdf,{},нет признаков,0,pdf
+dataset3/42.04.00.pdf,{},нет признаков,0,pdf
+dataset3/f1m24swvehna3obtnn9xofw2bff4emsq.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/Свидетельство 38.04.03.pdf,{},нет признаков,0,pdf
+dataset3/9781787699946-TYPE23-NR2.pdf,{},нет признаков,0,pdf
+dataset3/45.04.01_komm.pdf,"{""обычные"": 4, ""специальные"": 1}",УЗ-1,5,pdf
+dataset3/09.04.03 Прикладная информатика.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2%20%D0%B2%20%D0%97%D0%9D%D0%91%20%D0%AE%D0%A4%D0%A3%20(%D0%B0%20%D1%82%D0%B0%D0%BA%D0%B6%D0%B5%20%D0%B2%20%D0%A0%D0%98%D0%9D%D0%A6).pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Prilojenie_1_5.pdf,{},нет признаков,0,pdf
+dataset3/social2023.pdf,"{""обычные"": 1, ""специальные"": 1}",УЗ-1,2,pdf
+dataset3/pfhd_2024.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/%D0%A0%D0%90%D0%A1_142-%D1%80%20(1).pdf,{},нет признаков,0,pdf
+dataset3/sred_zp_adm_2017.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/sved_o_d_r_2012-2014.docx,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,docx
+dataset3/Rasporiagenie-1092-p_report-form.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/Свидетельство 44.03.04.pdf,{},нет признаков,0,pdf
+dataset3/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0_%D0%BC%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80-2025.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz 734 01.06.2016.pdf,{},нет признаков,0,pdf
+dataset3/osn_soc_ped.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/apell.pdf,{},нет признаков,0,pdf
+dataset3/Bid_Magistracy.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/p318-od-2014.pdf,{},нет признаков,0,pdf
+dataset3/Competitions_RFFI_list-2018_07.10-info.pdf,{},нет признаков,0,pdf
+dataset3/5.9.6_ger.pdf,{},нет признаков,0,pdf
+dataset3/П1114_16.05.2025.pdf,{},нет признаков,0,pdf
+dataset3/P326-OD.pdf,{},нет признаков,0,pdf
+dataset3/2025.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/Приказ 391.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/1C_Science-pattern.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/П1374 07.03.03 Дизайн архитектурной среды.pdf,{},нет признаков,0,pdf
+dataset3/П284-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/41.04.04.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2002%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"{""обычные"": 6, ""государственные"": 1, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/formo.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/P138_16.05.2023.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Prikaz 1742.pdf,{},нет признаков,0,pdf
+dataset3/11.04.01.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/%D0%9F1620_%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%92%D0%A0%20%D0%BD%D0%B0%202021-2022%20%D1%83%D1%87.%D0%B3%D0%BE%D0%B4.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/39_2024_.pdf,{},нет признаков,0,pdf
+dataset3/П1091 20.06.2017.pdf,{},нет признаков,0,pdf
+dataset3/Приказ ФСТЭК России от 30.10.2018 N 193.docx,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,docx
+dataset3/130402_M_3_26062018.pdf,{},нет признаков,0,pdf
+dataset3/P1569.pdf,{},нет признаков,0,pdf
+dataset3/3 сентября EduNet.pdf,"{""обычные"": 8, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/vi_mag.docx,"{""обычные"": 1}",УЗ-4,1,docx
+dataset3/П216-ОД.pdf,"{""обычные"": 7, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,9,pdf
+dataset3/Prikaz-1643.pdf,{},нет признаков,0,pdf
+dataset3/П1589.pdf,{},нет признаков,0,pdf
+dataset3/polzovatelskoe-soglashenie.pdf,{},нет признаков,0,pdf
+dataset3/Kleyner_seminar-info.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_95-%D1%80%20%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%B8%D0%B6%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D0%B0%D0%B5%D0%B9.pdf,{},нет признаков,0,pdf
+dataset3/П1675_10.07.2025.pdf,{},нет признаков,0,pdf
+dataset3/5.6.2.pdf,{},нет признаков,0,pdf
+dataset3/P431_13.03.2024.pdf,{},нет признаков,0,pdf
+dataset3/15.04.06_ Мехатроника и робототехника_П210-ОД_ПИШ.pdf,{},нет признаков,0,pdf
+dataset3/1.2.2.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/rasp167H_20130426.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/Политика_обработки_ПДн_ООО_РУФОРМ.pdf,{},нет признаков,0,pdf
+dataset3/Rasporiagenie-1266-p.pdf,{},нет признаков,0,pdf
+dataset3/vesna_fizfak.docx,"{""обычные"": 5}",УЗ-3,5,docx
+dataset3/%D0%A0953.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/П279-ОД_01.11.2024.pdf,{},нет признаков,0,pdf
+dataset3/FZ 273 ob obrazovanii-rf.doc,{},нет признаков,0,doc
+dataset3/МН-3 3083 от 29.03.22 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/Government-order_220-notice.rtf,"{""обычные"": 1}",УЗ-4,1,rtf
+dataset3/P1078.pdf,{},нет признаков,0,pdf
+dataset3/Prilozhieniie.pdf,{},нет признаков,0,pdf
+dataset3/rules_01_2025.pdf,"{""обычные"": 5, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/osn_mat_obr.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/140302_B_3_22062018.pdf,{},нет признаков,0,pdf
+dataset3/2.3.4.pdf,{},нет признаков,0,pdf
+dataset3/%D0%A0%D0%90%D0%A1_128-%D0%A0%20%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%A8%D0%9C%D0%91%203.0.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/П231-ОД 49.03.02_0.pdf,{},нет признаков,0,pdf
+dataset3/Rasporiagenie-72-p.pdf,{},нет признаков,0,pdf
+dataset3/44.04.01_issled.pdf,"{""обычные"": 4}",УЗ-4,4,pdf
+dataset3/P1098.pdf,{},нет признаков,0,pdf
+dataset3/KD_014_rus.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B_%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"{""обычные"": 5}",УЗ-3,5,pdf
+dataset3/15.04.04.pdf,"{""обычные"": 2}",УЗ-4,2,pdf
+dataset3/isk_int.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/Свидетельство 41.04.02.pdf,{},нет признаков,0,pdf
+dataset3/МН-3_3150 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/ОС_09.03.03 sig.pdf,{},нет признаков,0,pdf
+dataset3/himiya.pdf,"{""обычные"": 1}",УЗ-4,1,pdf
+dataset3/22nssvm5rk9x2ss9h33xq5h9ckbae1gd.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/inostr_ino.pdf,{},нет признаков,0,pdf
+dataset3/40_04_01_program_mag_2025.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/27.04.04.pdf,"{""обычные"": 2, ""специальные"": 1}",УЗ-1,3,pdf
+dataset3/Свидетельство 40.04.01_Уголовное право.pdf,{},нет признаков,0,pdf
+dataset3/Informatsionnoe-pismo_2024.pdf,"{""обычные"": 6, ""специальные"": 1}",УЗ-1,7,pdf
+dataset3/010501_C_3_12022018.pdf,{},нет признаков,0,pdf
+dataset3/price-2025.pdf,"{""обычные"": 8}",УЗ-3,8,pdf
+dataset3/bio.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/15.04.06.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/Свидетельство 38.04.04.pdf,{},нет признаков,0,pdf
+dataset3/inostr.pdf,{},нет признаков,0,pdf
+dataset3/Свидетельство ПОА 01.04.02.pdf,{},нет признаков,0,pdf
+dataset3/Prikaz-428.pdf,{},нет признаков,0,pdf
+dataset3/2.3.8.pdf,"{""обычные"": 5, ""специальные"": 1}",УЗ-1,6,pdf
+dataset3/cpgz2j07avd690b8sv0s21rxpuypsq9t.pdf,"{""обычные"": 7, ""специальные"": 1}",УЗ-1,8,pdf
+dataset3/МН-3_6629 Для сайта.pdf,{},нет признаков,0,pdf
+dataset3/П1103.pdf,{},нет признаков,0,pdf
+dataset3/.ipynb_checkpoints/09.04.04 Программная инженерия-checkpoint.pdf,{},нет признаков,0,pdf
+dataset3/.ipynb_checkpoints/%D0%9F%D0%9F_2025_19.01.2025_%D0%B8%D1%82%D0%BE%D0%B31-checkpoint.pdf,"{""обычные"": 27, ""биометрические"": 1, ""специальные"": 1}",УЗ-1,29,pdf
