@@ -1,6 +1,9 @@
-from abc import ABC, abstractmethod
+﻿from abc import ABC, abstractmethod
 from pathlib import Path
 import logging
+from logging.handlers import RotatingFileHandler
+import re
+from html import unescape
 
 
 ## for pics
@@ -17,8 +20,57 @@ import win32com.client
 import fitz
 from docx import Document as DocxDocument
 
-logging.basicConfig(level=logging.INFO)
+from config import (
+    EXTENSION_MAP,
+    LOG_DATE_FORMAT,
+    LOG_DIR,
+    LOG_ERROR_FILE,
+    LOG_FORMAT,
+    LOG_INFO_FILE,
+    LOG_LEVEL,
+    OCR_LANGUAGES,
+    VIDEO_FRAME_INTERVAL,
+    VIDEO_MAX_FRAMES,
+)
+
 logger = logging.getLogger(__name__)
+
+
+class MaxLevelFilter(logging.Filter):
+    def __init__(self, max_level: int):
+        super().__init__()
+        self.max_level = max_level
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        return record.levelno <= self.max_level
+
+
+def setup_logging():
+    if logger.handlers:
+        return
+
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    logger.setLevel(getattr(logging, LOG_LEVEL.upper(), logging.INFO))
+    logger.propagate = False
+
+    formatter = logging.Formatter(LOG_FORMAT, datefmt=LOG_DATE_FORMAT)
+
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_handler.setFormatter(formatter)
+
+    info_handler = RotatingFileHandler(LOG_INFO_FILE, maxBytes=5_000_000, backupCount=3, encoding='utf-8')
+    info_handler.setLevel(logging.INFO)
+    info_handler.addFilter(MaxLevelFilter(logging.WARNING))
+    info_handler.setFormatter(formatter)
+
+    error_handler = RotatingFileHandler(LOG_ERROR_FILE, maxBytes=5_000_000, backupCount=3, encoding='utf-8')
+    error_handler.setLevel(logging.ERROR)
+    error_handler.setFormatter(formatter)
+
+    logger.addHandler(console_handler)
+    logger.addHandler(info_handler)
+    logger.addHandler(error_handler)
 
 class Parser(ABC):
     def __init__(self):
@@ -27,7 +79,7 @@ class Parser(ABC):
     def _get_ocr_reader(self):
         if self.ocr_reader is None:
             logger.info("Загрузка EasyOCR модели...")
-            self.ocr_reader = easyocr.Reader(['ru', 'en'])
+            self.ocr_reader = easyocr.Reader(list(OCR_LANGUAGES))
         return self.ocr_reader
    
     @abstractmethod
@@ -51,6 +103,7 @@ class StructureData(Parser):
     def parse(self, data_path: Path) -> dict:
         suffix = data_path.suffix.lower()
         content = ""
+        logger.info("[StructureData] Старт парсинга %s", data_path)
         try:
             raw_data = None
             if suffix == '.json':
@@ -66,7 +119,9 @@ class StructureData(Parser):
             if raw_data is not None:
                 content = self._flatten_to_text(raw_data)
         except Exception as e:
+            logger.warning("[StructureData] Ошибка парсинга %s: %s", data_path, e)
             content = f"Error: {e}"
+        logger.info("[StructureData] Завершено %s | chars=%s", data_path, len(content))
         return {"path": str(data_path), "content": content}
 
 class Documents(Parser):
@@ -77,6 +132,7 @@ class Documents(Parser):
         try:
             word = win32com.client.Dispatch("Word.Application")
             word.Visible = False
+            logger.info("[Documents] Чтение через Word COM: %s", file_path)
             
             abs_path = str(file_path.absolute())
             
@@ -84,7 +140,7 @@ class Documents(Parser):
             text = doc.Content.Text
             return text
         except Exception as e:
-            logging.error(f"Word COM error: {e}")
+            logger.error(f"Word COM error: {e}")
             return ""
         finally:
             if doc:
@@ -95,6 +151,7 @@ class Documents(Parser):
     def parse(self, data_path: Path) -> dict:
         suffix = data_path.suffix.lower()
         content = ""
+        logger.info("[Documents] Старт парсинга %s", data_path)
         try:
             if suffix == '.pdf':
                 with fitz.open(data_path) as doc:
@@ -120,37 +177,58 @@ class Documents(Parser):
 
             content = " ".join(content.split())
         except Exception as e:
+            logger.warning("[Documents] Ошибка парсинга %s: %s", data_path, e)
             content = f"Error: {e}"
+        logger.info("[Documents] Завершено %s | chars=%s", data_path, len(content))
             
         return {"path": str(data_path), "content": content}
 
 class WebContent(Parser):
     def parse(self, data_path: Path) -> dict:
-        return {"path": str(data_path), "content": "Web parser not implemented", "type": "web"}
+        logger.info("[WebContent] Старт парсинга %s", data_path)
+        content = ""
+        try:
+            with open(data_path, 'r', encoding='utf-8', errors='ignore') as f:
+                html_text = f.read()
+
+            html_text = re.sub(r'(?is)<(script|style).*?>.*?</\1>', ' ', html_text)
+            content = re.sub(r'(?s)<[^>]+>', ' ', html_text)
+            content = unescape(content)
+            content = " ".join(content.split())
+        except Exception as e:
+            logger.warning("[WebContent] Ошибка парсинга %s: %s", data_path, e)
+            content = f"Error: {e}"
+
+        logger.info("[WebContent] Завершено %s | chars=%s", data_path, len(content))
+        return {"path": str(data_path), "content": content, "type": "web"}
 
 
 class Images(Parser):
     def parse(self, file_path: Path):
+        logger.info("[Images] Старт OCR %s", file_path)
         try:
             reader = self._get_ocr_reader()
             text = reader.readtext(str(file_path), detail=0)
 
-            return {
+            result = {
                 'path': str(file_path),
                 'content': "".join(text).strip()
             }
+            logger.info("[Images] Завершено %s | chars=%s", file_path, len(result['content']))
+            return result
 
         except Exception as e:
-            logger.info(f"[Images] {e}")
+            logger.warning(f"[Images] Ошибка OCR {file_path}: {e}")
             return {file_path: ""}
         
 class Videos(Parser):
-    def __init__(self, frame_interval=30, max_frames=200):
+    def __init__(self, frame_interval=VIDEO_FRAME_INTERVAL, max_frames=VIDEO_MAX_FRAMES):
         super().__init__()
         self.frame_interval = frame_interval
         self.max_frames = max_frames
 
     def parse(self, file_path: Path) -> dict[Path, str]:
+        logger.info("[Videos] Старт OCR по кадрам %s", file_path)
         try:
             reader = self._get_ocr_reader()
             cap = cv2.VideoCapture(str(file_path))
@@ -178,51 +256,26 @@ class Videos(Parser):
 
             cap.release()
 
-            return {
+            result = {
                 'path': str(file_path),
                 'content': "\n".join(texts).strip()
             }
+            logger.info("[Videos] Завершено %s | sampled_frames=%s | chars=%s", file_path, used, len(result['content']))
+            return result
 
         except Exception as e:
-            logger.info(f"[Videos] {e}")
+            logger.warning(f"[Videos] Ошибка OCR {file_path}: {e}")
             return {'path': str(file_path), "content": ''}
         
 class ParserFactory:
     def __init__(self):
-        self.extension_map = {
-            # Structured Data (Таблицы и базы)
-            '.csv': 'structured', 
-            '.json': 'structured', 
-            '.parquet': 'structured',
-            '.xls': 'document',    # Excel обычно удобнее обрабатывать в Documents через pandas
-            '.xlsx': 'document',
-
-            # Images (Картинки с OCR)
-            '.jpg': 'image', 
-            '.jpeg': 'image', 
-            '.png': 'image', 
-            '.tif': 'image', 
-            '.tiff': 'image', 
-            '.gif': 'image',
-
-            # Documents (Текстовые форматы)
-            '.pdf': 'document', 
-            '.docx': 'document', 
-            '.doc': 'document', 
-            '.rtf': 'document', 
-            '.txt': 'document', 
-            '.md': 'document',
-
-            # Video (Раскадровка + OCR)
-            '.mp4': 'video',
-
-            # Web (HTML парсинг)
-            '.html': 'web'
-        }
+        self.extension_map = EXTENSION_MAP.copy()
         self._parsers_cache = {}
+        logger.info("[ParserFactory] Инициализирован. Поддерживаемых расширений: %s", len(self.extension_map))
 
     def _get_parser(self, file_type: str):
         if file_type not in self._parsers_cache:
+            logger.info("[ParserFactory] Создание парсера для типа: %s", file_type)
             if file_type == 'structured': self._parsers_cache[file_type] = StructureData()
             elif file_type == 'image': self._parsers_cache[file_type] = Images()
             elif file_type == 'video': self._parsers_cache[file_type] = Videos()
@@ -232,15 +285,28 @@ class ParserFactory:
 
     def process_file(self, file_path: Path):
         file_type = self.extension_map.get(file_path.suffix.lower())
-        if not file_type: return None
+        if not file_type:
+            logger.debug("[ParserFactory] Пропуск неподдерживаемого файла %s", file_path)
+            return None
         parser = self._get_parser(file_type)
+        logger.info("[ParserFactory] %s -> %s", file_path, file_type)
         return parser.parse(file_path)
 
     def scan_directory(self, root_path: str):
         root = Path(root_path)
+        logger.info("[ParserFactory] Старт сканирования директории: %s", root)
         results = []
+        total_files = 0
+        parsed_files = 0
         for file in root.rglob('*'):
             if file.is_file():
+                total_files += 1
                 res = self.process_file(file)
-                if res: results.append(res)
+                if res:
+                    parsed_files += 1
+                    results.append(res)
+        logger.info("[ParserFactory] Сканирование завершено: total_files=%s, parsed_files=%s", total_files, parsed_files)
         return results
+
+
+setup_logging()
