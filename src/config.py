@@ -1,0 +1,1 @@
+PATH_DATA = 'datasets\share'
