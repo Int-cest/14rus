@@ -29,6 +29,7 @@ from config import (
     LOG_INFO_FILE,
     LOG_LEVEL,
     OCR_LANGUAGES,
+    PATH_DATA,
     VIDEO_FRAME_INTERVAL,
     VIDEO_MAX_FRAMES,
 )
@@ -73,14 +74,13 @@ def setup_logging():
     logger.addHandler(error_handler)
 
 class Parser(ABC):
-    def __init__(self):
-        self.ocr_reader = None
+    _ocr_reader = None
 
     def _get_ocr_reader(self):
-        if self.ocr_reader is None:
+        if Parser._ocr_reader is None:
             logger.info("Загрузка EasyOCR модели...")
-            self.ocr_reader = easyocr.Reader(list(OCR_LANGUAGES))
-        return self.ocr_reader
+            Parser._ocr_reader = easyocr.Reader(list(OCR_LANGUAGES))
+        return Parser._ocr_reader
    
     @abstractmethod
     def parse(self, data_path: Path)->str:
@@ -155,11 +155,11 @@ class Documents(Parser):
         try:
             if suffix == '.pdf':
                 with fitz.open(data_path) as doc:
-                    content = " ".join([page.get_text() for page in doc])
+                    content = " ".join(page.get_text() for page in doc)
             
             elif suffix == '.docx':
                 doc = DocxDocument(data_path)
-                content = " ".join([p.text for p in doc.paragraphs])
+                content = " ".join(p.text for p in doc.paragraphs)
             
             elif suffix == '.doc':
                 content = self._read_doc_via_word(data_path)
@@ -219,42 +219,62 @@ class Images(Parser):
 
         except Exception as e:
             logger.warning(f"[Images] Ошибка OCR {file_path}: {e}")
-            return {file_path: ""}
+            return {'path': str(file_path), 'content': ''}
         
 class Videos(Parser):
     def __init__(self, frame_interval=VIDEO_FRAME_INTERVAL, max_frames=VIDEO_MAX_FRAMES):
-        super().__init__()
         self.frame_interval = frame_interval
         self.max_frames = max_frames
 
     def parse(self, file_path: Path) -> dict[Path, str]:
         logger.info("[Videos] Старт OCR по кадрам %s", file_path)
+        cap = None
         try:
             reader = self._get_ocr_reader()
             cap = cv2.VideoCapture(str(file_path))
+            if not cap.isOpened():
+                return {'path': str(file_path), "content": ''}
 
             texts = []
-            i = 0
             used = 0
+            total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+            step = self.frame_interval
 
-            while True:
-                ret, frame = cap.read()
-                if not ret:
-                    break
+            if total_frames > 0:
+                step = max(self.frame_interval, max(1, total_frames // max(1, self.max_frames)))
 
-                if i % self.frame_interval == 0:
+            frame_indices = list(range(0, total_frames, step))[:self.max_frames] if total_frames > 0 else []
+
+            if frame_indices:
+                for frame_index in frame_indices:
+                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
+                    ret, frame = cap.read()
+                    if not ret:
+                        continue
+
                     result = reader.readtext(frame, detail=0)
-
                     if result:
                         texts.append(" ".join(result))
 
                     used += 1
-                    if used >= self.max_frames:
+            else:
+                i = 0
+                while True:
+                    ret, frame = cap.read()
+                    if not ret:
                         break
 
-                i += 1
+                    if i % self.frame_interval == 0:
+                        result = reader.readtext(frame, detail=0)
 
-            cap.release()
+                        if result:
+                            texts.append(" ".join(result))
+
+                        used += 1
+                        if used >= self.max_frames:
+                            break
+
+                    i += 1
 
             result = {
                 'path': str(file_path),
@@ -266,11 +286,15 @@ class Videos(Parser):
         except Exception as e:
             logger.warning(f"[Videos] Ошибка OCR {file_path}: {e}")
             return {'path': str(file_path), "content": ''}
+        finally:
+            if cap is not None:
+                cap.release()
         
 class ParserFactory:
     def __init__(self):
         self.extension_map = EXTENSION_MAP.copy()
         self._parsers_cache = {}
+        self.base_path = Path(PATH_DATA)
         logger.info("[ParserFactory] Инициализирован. Поддерживаемых расширений: %s", len(self.extension_map))
 
     def _get_parser(self, file_type: str):
@@ -290,17 +314,27 @@ class ParserFactory:
             return None
         parser = self._get_parser(file_type)
         logger.info("[ParserFactory] %s -> %s", file_path, file_type)
-        return parser.parse(file_path)
+        result = parser.parse(file_path)
+        if result and "path" in result:
+            try:
+                result["path"] = str(Path(result["path"]).resolve().relative_to(self.base_path.resolve()))
+            except Exception:
+                result["path"] = str(file_path.name)
+        return result
 
     def scan_directory(self, root_path: str):
         root = Path(root_path)
+        self.base_path = root
         logger.info("[ParserFactory] Старт сканирования директории: %s", root)
         results = []
         total_files = 0
         parsed_files = 0
+        supported_extensions = set(self.extension_map.keys())
         for file in root.rglob('*'):
             if file.is_file():
                 total_files += 1
+                if file.suffix.lower() not in supported_extensions:
+                    continue
                 res = self.process_file(file)
                 if res:
                     parsed_files += 1

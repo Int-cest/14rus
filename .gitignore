@@ -209,3 +209,6 @@ datasets/
 
 #сsv
 result.csv
+
+# local logs
+logs/
