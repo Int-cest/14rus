@@ -22,4 +22,4 @@ for ext, count in sorted(ext_dict.items(), key=lambda x: x[1], reverse=True):
     print(f"  {ext}: {count} файлов")
 
 
-print(f"Всего файлов{total}")
+print(f"Всего файлов: {total}")
