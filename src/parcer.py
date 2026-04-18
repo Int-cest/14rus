@@ -13,6 +13,11 @@ import json
 import csv
 import pandas as pd
 
+# for docs
+import win32com.client
+import fitz
+from docx import Document as DocxDocument
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -31,9 +36,6 @@ class Parser(ABC):
         pass
 
 class StructureData(Parser):
-    def __init__(self):
-        super().__init__()
-
     def _flatten_to_text(self, data) -> str:
         words = []
         if isinstance(data, dict):
@@ -49,39 +51,79 @@ class StructureData(Parser):
 
     def parse(self, data_path: Path) -> dict:
         suffix = data_path.suffix.lower()
-        result = {
-            "file_name": data_path.name,
-            "type": "structured_data",
-            "content": ""
-        }
-
+        content = ""
         try:
             raw_data = None
             if suffix == '.json':
                 with open(data_path, 'r', encoding='utf-8') as f:
                     raw_data = json.load(f)
-
             elif suffix == '.csv':
                 with open(data_path, 'r', encoding='utf-8') as f:
                     raw_data = list(csv.DictReader(f))
-
             elif suffix == '.parquet':
                 df = pd.read_parquet(data_path)
                 raw_data = df.to_dict(orient='records')
             
             if raw_data is not None:
-                result["content"] = self._flatten_to_text(raw_data)
-            else:
-                logging.warning(f"Unsupported format: {suffix}")
-
+                content = self._flatten_to_text(raw_data)
         except Exception as e:
-            logging.error(f"Error parsing {data_path}: {e}")
-            result["content"] = f"Error: {str(e)}"
-
-        return result
+            content = f"Error: {e}"
+        return {"path": str(data_path), "content": content}
 
 class Documents(Parser):
-    pass
+    def _read_doc_via_word(self, file_path: Path) -> str:
+        """Чтение .doc через COM-объект Word (только для Windows)"""
+        word = None
+        doc = None
+        try:
+            word = win32com.client.Dispatch("Word.Application")
+            word.Visible = False
+            
+            abs_path = str(file_path.absolute())
+            
+            doc = word.Documents.Open(abs_path, ReadOnly=True)
+            text = doc.Content.Text
+            return text
+        except Exception as e:
+            logging.error(f"Word COM error: {e}")
+            return ""
+        finally:
+            if doc:
+                doc.Close(False)
+            if word:
+                word.Quit()
+
+    def parse(self, data_path: Path) -> dict:
+        suffix = data_path.suffix.lower()
+        content = ""
+        try:
+            if suffix == '.pdf':
+                with fitz.open(data_path) as doc:
+                    content = " ".join([page.get_text() for page in doc])
+            
+            elif suffix == '.docx':
+                doc = DocxDocument(data_path)
+                content = " ".join([p.text for p in doc.paragraphs])
+            
+            elif suffix == '.doc':
+                content = self._read_doc_via_word(data_path)
+            
+            elif suffix in ['.xls', '.xlsx']:
+                df = pd.read_excel(data_path)
+                content = df.to_string(index=False, header=False)
+            
+            elif suffix in ['.md', '.txt']:
+                with open(data_path, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+            
+            elif suffix == '.rtf':
+                content = self._read_doc_via_word(data_path)
+
+            content = " ".join(content.split())
+        except Exception as e:
+            content = f"Error: {e}"
+            
+        return {"path": str(data_path), "content": content}
 
 class WebContent(Parser):
     pass
