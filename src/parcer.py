@@ -130,13 +130,14 @@ class WebContent(Parser):
 
 
 class Images(Parser):
-    def parse(self, file_path: Path) -> dict[Path, str]:
+    def parse(self, file_path: Path):
         try:
             reader = self._get_ocr_reader()
             text = reader.readtext(str(file_path), detail=0)
 
             return {
-                file_path: " ".join(text).strip()
+                'path': str(file_path),
+                'content': "".join(text).strip()
             }
 
         except Exception as e:
@@ -149,10 +150,10 @@ class Videos(Parser):
         self.frame_interval = frame_interval
         self.max_frames = max_frames
 
-    def parse(self, data_path: Path) -> dict[Path, str]:
+    def parse(self, file_path: Path) -> dict[Path, str]:
         try:
             reader = self._get_ocr_reader()
-            cap = cv2.VideoCapture(str(data_path))
+            cap = cv2.VideoCapture(str(file_path))
 
             texts = []
             i = 0
@@ -178,19 +179,45 @@ class Videos(Parser):
             cap.release()
 
             return {
-                data_path: "\n".join(texts).strip()
+                'path': str(file_path),
+                'content': "\n".join(texts).strip()
             }
 
         except Exception as e:
             logger.info(f"[Videos] {e}")
-            return {data_path: ""}
+            return {'path': str(file_path), "content": ''}
         
 class ParserFactory:
     def __init__(self):
         self.extension_map = {
-            '.csv': 'structured', '.json': 'structured', '.parquet': 'structured',
-            '.jpg': 'image', '.jpeg': 'image', '.png': 'image',
-            '.mp4': 'video', '.pdf': 'document', '.html': 'web'
+            # Structured Data (Таблицы и базы)
+            '.csv': 'structured', 
+            '.json': 'structured', 
+            '.parquet': 'structured',
+            '.xls': 'document',    # Excel обычно удобнее обрабатывать в Documents через pandas
+            '.xlsx': 'document',
+
+            # Images (Картинки с OCR)
+            '.jpg': 'image', 
+            '.jpeg': 'image', 
+            '.png': 'image', 
+            '.tif': 'image', 
+            '.tiff': 'image', 
+            '.gif': 'image',
+
+            # Documents (Текстовые форматы)
+            '.pdf': 'document', 
+            '.docx': 'document', 
+            '.doc': 'document', 
+            '.rtf': 'document', 
+            '.txt': 'document', 
+            '.md': 'document',
+
+            # Video (Раскадровка + OCR)
+            '.mp4': 'video',
+
+            # Web (HTML парсинг)
+            '.html': 'web'
         }
         self._parsers_cache = {}
 
