@@ -1,59 +1,29 @@
-import re
-from collections import defaultdict
-from validators import luhn_check, validate_snils
+class Classifier:
+    def classify(self, detected):
+        if not detected:
+            return "NO_PDN"
 
+        counts = {k: len(v) for k, v in detected.items()}
+        total = sum(counts.values())
 
-class Detector:
-    def __init__(self):
-        self.patterns = {
-            "email": re.compile(r"\b[\w\.-]+@[\w\.-]+\.\w+\b"),
-            "phone": re.compile(r"\+?\d[\d\-\(\) ]{8,}\d"),
-            "snils": re.compile(r"\b\d{3}-\d{3}-\d{3} \d{2}\b"),
-            "inn": re.compile(r"\b(\d{10}|\d{12})\b"),
-            "passport": re.compile(r"\b\d{4} \d{6}\b"),
-            "card": re.compile(r"\b\d{13,19}\b"),
-        }
+        # УЗ-1
+        if "special" in detected or "biometric" in detected:
+            return "УЗ-1"
 
-        self.biometric = [
-            "отпечаток пальца",
-            "радужная оболочка",
-            "голосовой образец",
-            "биометрия"
-        ]
+        # УЗ-2
+        if (
+            counts.get("card", 0) > 0 or
+            counts.get("bank_account", 0) > 0 or
+            total > 50
+        ):
+            return "УЗ-2"
 
-        self.special = [
-            "диагноз",
-            "болезнь",
-            "религия",
-            "политические взгляды",
-            "национальность"
-        ]
+        # УЗ-3
+        if any(k in detected for k in ["passport", "snils", "inn", "driver_license"]):
+            return "УЗ-3"
 
-    def detect(self, text: str):
-        results = defaultdict(list)
+        # УЗ-4
+        if total > 0:
+            return "УЗ-4"
 
-        text_lower = text.lower()
-
-        # regex
-        for key, pattern in self.patterns.items():
-            matches = pattern.findall(text)
-
-            if key == "card":
-                matches = [m for m in matches if luhn_check(m)]
-
-            if key == "snils":
-                matches = [m for m in matches if validate_snils(m)]
-
-            if matches:
-                results[key].extend(matches)
-
-        # keywords
-        for word in self.biometric:
-            if word in text_lower:
-                results["biometric"].append(word)
-
-        for word in self.special:
-            if word in text_lower:
-                results["special"].append(word)
-
-        return results
+        return "NO_PDN"
