@@ -4,13 +4,17 @@ import logging
 import easyocr
 import whisper
 
+## for pics
+from PIL import Image
+import pytesseract
+
+
 
 class Parser(ABC):
     def __init__(self):
-        self.ocr_reader = easyocr.Reader(['ru', 'en']) # Загружает модели ~1ГБ
-        self.whisper_model = whisper.load_model("base") # Загружает модели ~1ГБ
+        pass
     @abstractmethod
-    def parse(self, data_path: Path)->dict:
+    def parse(self, data_path: Path)->str:
         pass
 
 class StructureData(Parser):
@@ -23,8 +27,30 @@ class WebContent(Parser):
     pass
 
 class Images(Parser):
-    pass
+    def __init__(self, use_ocr: bool = True, lang: str = "rus+eng"):
+        self.use_ocr = use_ocr
+        self.lang = lang
+
+    def parse(self, data_path: Path)->str:
+        pass
 
 class Videos(Parser):
-    pass
+    self._get_ocr_reader()
 
+    def parse(self, data_path:Path)->str:
+        try:
+            ## open image
+            with Image.open(data_path) as img:
+                img = img.convert("RGB")
+
+                if not self.use_ocr:
+                    return ""
+
+                # OCR
+                text = pytesseract.image_to_string(img, lang=self.lang)
+
+                return text.strip()
+
+        except Exception as e:
+            logger.info(f"[Images Parser] Error processing {data_path}: {e}")
+            return ""
