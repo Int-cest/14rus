@@ -16,5 +16,10 @@ def get_extensions_dict_fast(root_path):
 # Использование
 ext_dict = get_extensions_dict_fast(PATH_DATA)
 print("Все расширения в датасете:")
+total = 0
 for ext, count in sorted(ext_dict.items(), key=lambda x: x[1], reverse=True):
+    total += count
     print(f"  {ext}: {count} файлов")
+
+
+print(f"Всего файлов{total}")
