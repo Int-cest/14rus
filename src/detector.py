@@ -29,8 +29,8 @@ def inn_valid(inn: str) -> bool:
         return c == int(nums[9])
 
     if len(nums) == 12:
-        w1 = [7,2,4,10,3,5,9,4,6,8,0]
-        w2 = [3,7,2,4,10,3,5,9,4,6,8,0]
+        w1 = [7,2,4,10,3,5,9,4,6,8]
+        w2 = [3,7,2,4,10,3,5,9,4,6,8]
         c1 = sum(int(nums[i]) * w1[i] for i in range(11)) % 11 % 10
         c2 = sum(int(nums[i]) * w2[i] for i in range(11)) % 11 % 10
         return c1 == int(nums[10]) and c2 == int(nums[11])
@@ -78,14 +78,21 @@ class Detector:
 
         self.PASSPORT_RE = re.compile(r"\b\d{2}\s?\d{2}\s?\d{6}\b")
 
-        self.BIO_KEYWORDS = ['биометр', 'face', 'finger', 'iris']
-        self.SPECIAL_KEYWORDS = ['диагноз', 'вич', 'религ', 'полит']
+        self.BIO_KEYWORDS = [
+            "биометр", "отпечат", "радуж", "ирис", "лицев", "селфи",
+                "face", "finger", "iris", "voiceprint", "геометрия"
+        ]
+        self.SPECIAL_KEYWORDS = ['диагноз', 'религ', 'инвалид', 'вероиспевед']
 
 
     # ---------- HELPERS ----------
 
-    def _context(self, text: str, start: int, size: int = 25):
-        return text[max(0, start-size): start+size]
+    def _context(self, text: str, start: int, end: int = None, size: int = 40):
+        if end is None:
+            end = start
+        left = max(0, start - size)
+        right = min(len(text), end + size)
+        return text[left:right]
 
     def _log(self, trace, category, value, decision, reason, context):
         if self.debug:
@@ -156,36 +163,46 @@ class Detector:
         # -------- PASSPORT --------
         for m in self.PASSPORT_RE.finditer(text):
             val = m.group()
-            ctx = self._context(text, m.start())
+            ctx = self._context(text, m.start(), m.end(), 60)
 
-            if "паспорт" in low:
+            if self.PASSPORT_CONTEXT_RE.search(ctx):
                 cats["государственные"] += 1
-                self._log(trace, "государственные", val, "accepted", "passport with context", ctx)
+                self._log(trace, "государственные", val, "accepted", "passport with local context", ctx)
             else:
-                self._log(trace, "государственные", val, "rejected", "no context", ctx)
+                self._log(trace, "государственные", val, "rejected", "no local passport context", ctx)
 
         # -------- CARD --------
         for m in self.CARD_RE.finditer(text):
-            digits = re.sub(r"\D", "", m.group())
-            ctx = self._context(text, m.start())
+            raw = m.group()
+            digits = re.sub(r"\D", "", raw)
+            ctx = self._context(text, m.start(), m.end(), 60)
 
-            if 13 <= len(digits) <= 19:
-                if luhn_check(digits):
-                    cats["платёжные"] += 1
-                    self._log(trace, "платёжные", digits, "accepted", "valid card (luhn)", ctx)
-                else:
-                    self._log(trace, "платёжные", digits, "rejected", "failed luhn", ctx)
+            if not (13 <= len(digits) <= 19):
+                continue
+
+            if not luhn_check(digits):
+                self._log(trace, "платёжные", digits, "rejected", "failed luhn", ctx)
+                continue
+
+            if not self.CARD_CONTEXT_RE.search(ctx):
+                self._log(trace, "платёжные", digits, "rejected", "no card context", ctx)
+                continue
+
+            cats["платёжные"] += 1
+            self._log(trace, "платёжные", digits, "accepted", "valid card + context", ctx)
 
         # -------- BIO --------
-        for k in self.BIO_KEYWORDS:
-            if k in low:
+        for p in self.BIO_PATTERNS:
+            m = p.search(low)
+            if m:
                 cats["биометрические"] += 1
-                self._log(trace, "биометрические", k, "accepted", "keyword", k)
+                self._log(trace, "биометрические", m.group(), "accepted", "keyword-pattern", self._context(low, m.start(), m.end()))
 
         # -------- SPECIAL --------
-        for k in self.SPECIAL_KEYWORDS:
-            if k in low:
+        for p in self.SPECIAL_PATTERNS:
+            m = p.search(low)
+            if m:
                 cats["специальные"] += 1
-                self._log(trace, "специальные", k, "accepted", "keyword", k)
+                self._log(trace, "специальные", m.group(), "accepted", "keyword-pattern", self._context(low, m.start(), m.end()))
 
         return cats, trace
