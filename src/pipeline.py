@@ -1,60 +1,89 @@
 import logging
 import time
 from pathlib import Path
+
 from parcer import ParserFactory
 from detector import Detector
 from classifier import Classifier
 
-
 logger = logging.getLogger("parcer")
 
+
 class Pipeline:
-    def __init__(self):
+
+    def __init__(self, debug: bool = False):
         self.parser = ParserFactory()
-        self.detector = Detector()
+        self.detector = Detector(debug=debug)
         self.classifier = Classifier()
+        self.debug = debug
 
     def run(self, root_path: str):
         started_at = time.perf_counter()
-        logger.info("[Pipeline] Старт обработки root_path=%s", root_path)
+        logger.info("[Pipeline] Start root=%s", root_path)
+
         parsed_files = self.parser.scan_directory(root_path)
 
         results = []
         total = len(parsed_files)
 
+        # ---- NEW: global error stats ----
+        stats = {
+            "total_hits": 0,
+            "weak_passages": 0,
+            "ocr_noise_files": 0
+        }
+
         for index, item in enumerate(parsed_files, start=1):
             text = item.get("content", "")
             path = item.get("path")
 
-            # --- detection ---
-            detections = self.detector.detect(text)
+            # ---------------- DETECT ----------------
+            detections, trace = self.detector.detect(text) if self.debug else (self.detector.detect(text), [])
 
-            # --- count ---
-            total_count = sum(len(v) for v in detections.values())
-
-            # --- classification ---
+            total_count = sum(detections.values())
             uz = self.classifier.classify(detections)
+
+            # ---------------- ANALYSIS ----------------
+            if self.debug:
+                # слабые сигналы
+                if total_count > 0 and total_count <= 2:
+                    stats["weak_passages"] += 1
+
+                # OCR noise heuristic
+                if len(text) > 0 and text.count(" ") / len(text) < 0.08:
+                    stats["ocr_noise_files"] += 1
+
+                stats["total_hits"] += total_count
 
             results.append({
                 "path": path,
-                "categories": list(detections.keys()),
+                "categories": detections,
                 "count": total_count,
                 "uz": uz,
-                "format": Path(path).suffix
+                "format": Path(path).suffix,
+                # --- NEW DEBUG INFO ---
+                "trace": trace if self.debug else None
             })
 
             if index % 50 == 0 or index == total:
-                time_elapsed = time.perf_counter() - started_at
-                rate = index / time_elapsed if time_elapsed > 0 else 0.0
+                elapsed = time.perf_counter() - started_at
+                rate = index / elapsed if elapsed else 0
+
                 logger.info(
-                    "[Pipeline] Прогресс детекции: processed=%s/%s, elapsed=%.1fs, rate=%.2f files/s",
-                    index,
-                    total,
-                    time_elapsed,
-                    rate,
+                    "[Pipeline] %s/%s | %.1f sec | %.2f files/sec",
+                    index, total, elapsed, rate
                 )
 
-        time_elapsed = time.perf_counter() - started_at
-        logger.info("[Pipeline] Завершено: processed=%s, elapsed=%.1fs", len(results), time_elapsed)
+        elapsed = time.perf_counter() - started_at
+
+        # -------- FINAL DEBUG REPORT --------
+        if self.debug:
+            logger.info("========== DEBUG SUMMARY ==========")
+            logger.info("Total signal hits: %s", stats["total_hits"])
+            logger.info("Weak passages: %s", stats["weak_passages"])
+            logger.info("Possible OCR noise files: %s", stats["ocr_noise_files"])
+            logger.info("===================================")
+
+        logger.info("[Pipeline] Done in %.1fs", elapsed)
 
         return results

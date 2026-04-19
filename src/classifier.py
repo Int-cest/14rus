@@ -1,5 +1,5 @@
 class Classifier:
-    def classify(self, cats: Dict[str, int]) -> str:
+    def classify(self, cats: dict[str, int]) -> str:
         total = sum(cats.values())
         distinct = sum(1 for v in cats.values() if v > 0)
         has_special = cats["специальные"] > 0
