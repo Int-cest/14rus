@@ -8,7 +8,7 @@ class Detector:
 
         # --- regex ---
         self.EMAIL_RE = re.compile(r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}\b")
-        self.PHONE_RE = re.compile(r"(?:(?:\+7|8)\s*\(\d{3}\)?[\s-]?\d{3}[\s-]?\d{2}[\s-]?\d{2})")
+        self.PHONE_RE = re.compile(r"(?:(?:\+7|8)\s*\(?\d{3}\)?[\s-]?\d{3}[\s-]?\d{2}[\s-]?\d{2})")
         self.FIO_RE = re.compile(r"\b[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+(?:\s+[А-ЯЁ][а-яё]+)?\b")
         self.DOB_RE = re.compile(r"\b(\d{2}[./]\d{2}[./]\d{4})\b")
         self.INDEX_RE = re.compile(r"\b\d{6}\b")

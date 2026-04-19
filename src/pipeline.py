@@ -38,7 +38,27 @@ class Pipeline:
             path = item.get("path")
 
             # ---------------- DETECT ----------------
-            detections, trace = self.detector.detect(text) if self.debug else (self.detector.detect(text), [])
+            detect_result = self.detector.detect(text)
+            if isinstance(detect_result, tuple):
+                raw_detections = detect_result[0] if len(detect_result) > 0 else {}
+                trace = detect_result[1] if len(detect_result) > 1 else []
+            else:
+                raw_detections = detect_result
+                trace = []
+
+            if not isinstance(raw_detections, dict):
+                logger.warning("[Pipeline] Unexpected detector output type: %s", type(raw_detections).__name__)
+                raw_detections = {}
+
+            detections = {}
+            for key in ("обычные", "государственные", "платёжные", "биометрические", "специальные"):
+                value = raw_detections.get(key, 0)
+                if isinstance(value, int):
+                    detections[key] = value
+                elif isinstance(value, (list, tuple, set, dict)):
+                    detections[key] = len(value)
+                else:
+                    detections[key] = 0
 
             total_count = sum(detections.values())
             uz = self.classifier.classify(detections)
@@ -58,9 +78,9 @@ class Pipeline:
             results.append({
                 "path": path,
                 "categories": detections,
-                "count": total_count,
                 "uz": uz,
-                "format": Path(path).suffix,
+                "total_hits": total_count,
+                "ext": Path(path).suffix,
                 # --- NEW DEBUG INFO ---
                 "trace": trace if self.debug else None
             })
