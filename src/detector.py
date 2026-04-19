@@ -1,103 +1,174 @@
 import re
-from collections import defaultdict
-from validators import luhn_check, validate_snils
-
+from typing import Dict, List
 
 class Detector:
     def __init__(self):
-        # --- BASIC PATTERNS ---
-        self.patterns = {
-            # контакты
-            "email": re.compile(r"\b[\w\.-]+@[\w\.-]+\.\w+\b"),
-            "phone": re.compile(r"\+?\d[\d\-\(\) ]{8,}\d"),
+        # --- regex ---
+        self.EMAIL_RE = re.compile(r"\b[a-zA-Z0-9.\_%+-\]+@[a-zA-Z0-9.-\]+\.[A-Za-z]{2,}\b")
+        self.PHONE_RE = re.compile(r"(?:(?:\+7|8)\s*\(\d{3}\)?[\s-]?\d{3}[\s-]?\d{2}[\s-]?\d{2})")
+        self.FIO_RE = re.compile(r"\b[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+(?:\s+[А-ЯЁ][а-яё]+)?\b")
+        self.DOB_RE = re.compile(r"\b(\d{2}[./]\d{2}[./]\d{4})\b") # Обновлен
+        self.INDEX_RE = re.compile(r"\b\d{6}\b")
 
-            # ФИО (простое приближение)
-            "fio": re.compile(r"\b[А-ЯЁ][а-яё]+ [А-ЯЁ][а-яё]+ [А-ЯЁ][а-яё]+\b"),
+        self.SNILS_RE = re.compile(r"\b\d{3}-\d{3}-\d{3}\s?\d{2}\b")
+        self.INN10_RE = re.compile(r"(?<!\d)\d{10}(?!\d)")
+        self.INN12_RE = re.compile(r"(?<!\d)\d{12}(?!\d)")
+        self.PASSPORT_RE = re.compile(r"(?:(?<!\d)\d{2}\s?\d{2}\s?\d{6}(?!\d))")
+        self.MRZ_RE = re.compile(r"[P|V|C]<[A-Z<]{2}") # Обновлен
+        self.DL_RE = re.compile(r"(?<!\d)\d{10,12}(?!\d)") # Добавлен
 
-            # дата рождения
-            "birth_date": re.compile(r"\b\d{2}[./-]\d{2}[./-]\d{2,4}\b"),
+        self.CARD_RE = re.compile(r"(?:(?:\d[ -]*?){13,19})")
+        self.CVV_RE = re.compile(r"\b(CVV|CVC|CVV2)\b", re.IGNORECASE) # Добавлен
+        self.RS_RE = re.compile(r"(?i)(?:р/с|расч[её]тн(?:ый)?\s+сч[её]т)[^\d]*(\d{20})") # Обновлен
+        self.BIK_RE = re.compile(r"(?i)бик[^\d]*(\d{9})") # Обновлен
 
-            # гос id
-            "snils": re.compile(r"\b\d{3}-\d{3}-\d{3} \d{2}\b"),
-            "inn": re.compile(r"\b(\d{10}|\d{12})\b"),
-            "passport": re.compile(r"\b\d{4} \d{6}\b"),
-            "driver_license": re.compile(r"\b\d{2} \d{2} \d{6}\b"),
+        # --- keywords ---
+        # Объединены и расширены ключевые слова для биометрических данных
+        self.BIO_KEYWORDS: List[str] = list(set([
+            "биометр", "face", "iris", "finger", "voice", "селфи",
+            'отпечат', 'радуж', 'ирис', 'лицев', 'faceid', 'fingerprint', 'iris', 'voiceprint', 'голосов', 'геометрия лица'
+        ]))
+        # Объединены и расширены ключевые слова для специальных данных
+        self.SPECIAL_KEYWORDS: List[str] = list(set([
+            "диагноз", "болезнь", "инвалид", "религ", "полит",
+            'анамнез', 'здоровь', 'медицин', 'психиатр', 'вич', 'вероисповед', 'политическ', 'партия', 'интим', 'сексуаль'
+        ]))
 
-            # платежи
-            "card": re.compile(r"\b\d{13,19}\b"),
-            "bik": re.compile(r"\b\d{9}\b"),
-            "bank_account": re.compile(r"\b\d{20}\b"),
-            "cvv": re.compile(r"(cvv|cvc)[\s:]*\d{3}", re.IGNORECASE),
+    # --- Приватные вспомогательные методы (аналоги функций организаторов) ---
 
-            # MRZ
-            "mrz": re.compile(r"[A-Z0-9<]{30,}")
-        }
+    def _count_occurrences(self, pattern: re.Pattern, text: str) -> int:
+        """Подсчитывает количество вхождений паттерна в тексте."""
+        return len(list(pattern.finditer(text)))
 
-        self.address_keywords = ["г.", "ул.", "д.", "кв.", "обл."]
+    def _has_context(self, low_text: str, match_start: int, window_size: int, *keywords: str) -> bool:
+        """
+        Проверяет наличие ключевых слов в окне вокруг найденного совпадения.
+        low_text: текст в нижнем регистре.
+        match_start: начальная позиция совпадения.
+        window_size: размер окна для поиска контекста.
+        keywords: ключевые слова для поиска.
+        """
+        start = max(0, match_start - window_size)
+        end = min(len(low_text), match_start + window_size)
+        context = low_text[start:end]
+        return any(k in context for k in keywords)
 
-        self.biometric_keywords = [
-            "отпечаток пальца",
-            "радужная оболочка",
-            "голосовой образец",
-            "биометрия"
-        ]
+    def _luhn_check(self, card_number: str) -> bool:
+        """
+        Проверяет номер карты с помощью алгоритма Луна.
+        """
+        digits = [int(d) for d in card_number if d.isdigit()]
+        if not digits:
+            return False
+        
+        s = 0
+        is_second = False
+        for digit in digits[::-1]:
+            if is_second:
+                digit *= 2
+            s += digit if digit < 10 else digit - 9
+            is_second = not is_second
+        return s % 10 == 0
 
-        self.special_keywords = [
-            "диагноз", "болезнь", "инвалидность",
-            "религия", "вероисповедание",
-            "политические взгляды",
-            "национальность", "этнический"
-        ]
+    def _snils_valid(self, snils_str: str) -> bool:
+        """
+        ЗАГЛУШКА: Здесь должна быть реальная логика валидации СНИЛС
+        по контрольной сумме.
+        """
+        # Удаляем все нецифровые символы
+        digits = ''.join(filter(str.isdigit, snils_str))
+        if len(digits) != 11:
+            return False
+        # Примерная логика: пока просто проверяем длину
+        return True 
 
-    def detect(self, text: str):
+    def _inn_valid(self, inn_str: str) -> bool:
+        """
+        ЗАГЛУШКА: Здесь должна быть реальная логика валидации ИНН
+        по контрольной сумме.
+        """
+        digits = ''.join(filter(str.isdigit, inn_str))
+        if len(digits) not in [10, 12]:
+            return False
+        # Примерная логика: пока просто проверяем длину
+        return True
+
+    # --- Основной метод обнаружения ---
+
+    def detect(self, text: str) -> Dict[str, int]:
         if not text:
-            return {}
+            return self._empty()
 
-        results = defaultdict(list)
-        text_lower = text.lower()
+        low = text.lower()
+        cats = self._empty()
 
-        # --- REGEX DETECTION ---
-        for key, pattern in self.patterns.items():
-            matches = pattern.findall(text)
+        # --- обычные ---
+        cats["обычные"] += self._count_occurrences(self.EMAIL_RE, text)
+        cats["обычные"] += self._count_occurrences(self.PHONE_RE, text)
+        cats["обычные"] += min(5, self._count_occurrences(self.FIO_RE, text))
 
-            # фильтры
-            if key == "card":
-                matches = [m for m in matches if luhn_check(m)]
+        for m in self.DOB_RE.finditer(text):
+            if self._has_context(low, m.start(), 40, 'дата рождения', 'родил'):
+                cats["обычные"] += 1
+        
+        for m in self.INDEX_RE.finditer(text):
+            if self._has_context(low, m.start(), 40, 'ул', 'улица', 'просп', 'пер', 'дом', 'квартира', 'город', 'г.'):
+                cats["обычные"] += 1
 
-            if key == "snils":
-                matches = [m for m in matches if validate_snils(m)]
+        # --- гос ---
+        for m in self.SNILS_RE.finditer(text):
+            if self._snils_valid(m.group(0)):
+                cats["государственные"] += 1
 
-            # фильтр БИК (по контексту)
-            if key == "bik":
-                matches = [
-                    m for m in matches
-                    if "бик" in text_lower
-                ]
+        for m in self.INN10_RE.finditer(text):
+            s = m.group(0)
+            if self._inn_valid(s):
+                cats["государственные"] += 1
 
-            # фильтр банковского счета
-            if key == "bank_account":
-                matches = [
-                    m for m in matches
-                    if "счет" in text_lower or "р/с" in text_lower
-                ]
+        for m in self.INN12_RE.finditer(text):
+            s = m.group(0)
+            if self._inn_valid(s):
+                cats["государственные"] += 1
+        
+        for m in self.PASSPORT_RE.finditer(text):
+            if self._has_context(low, m.start(), 50, 'паспорт', 'серия', 'номер', 'код подразделения'):
+                cats["государственные"] += 1
+        
+        for m in self.DL_RE.finditer(text):
+            if self._has_context(low, m.start(), 30, 'водител', 'удостовер'):
+                cats["государственные"] += 1
 
-            if matches:
-                results[key].extend(matches)
+        if self.MRZ_RE.search(text):
+            cats["государственные"] += 1
 
-        # --- ADDRESS ---
-        for word in self.address_keywords:
-            if word in text_lower:
-                results["address"].append(word)
-                break
+        # --- платежные ---
+        for m in self.CARD_RE.finditer(text):
+            raw = m.group(0)
+            digits = re.sub(r'\D', '', raw)
+            if 13 <= len(digits) <= 19 and self._luhn_check(raw):
+                if self._has_context(low, m.start(), 40, 'visa', 'mastercard', 'карта', 'cvv', 'cvc', 'номер карты'):
+                    cats["платёжные"] += 1
+        
+        cats["платёжные"] += self._count_occurrences(self.RS_RE, text)
+        cats["платёжные"] += self._count_occurrences(self.BIK_RE, text)
 
-        # --- BIOMETRIC ---
-        for word in self.biometric_keywords:
-            if word in text_lower:
-                results["biometric"].append(word)
+        if self.CVV_RE.search(text):
+            cats["платёжные"] += 1
 
-        # --- SPECIAL ---
-        for word in self.special_keywords:
-            if word in text_lower:
-                results["special"].append(word)
+        # --- био / спец ---
+        if any(k in low for k in self.BIO_KEYWORDS):
+            cats["биометрические"] += 1
 
-        return dict(results)
+        if any(k in low for k in self.SPECIAL_KEYWORDS):
+            cats["специальные"] += 1
+
+        return cats
+
+    def _empty(self):
+        return {
+            "обычные": 0,
+            "государственные": 0,
+            "платёжные": 0,
+            "биометрические": 0,
+            "специальные": 0
+        }

@@ -1,29 +1,18 @@
 class Classifier:
-    def classify(self, detected):
-        if not detected:
-            return "NO_PDN"
+    def classify(self, cats: Dict[str, int]) -> str:
+        total = sum(cats.values())
+        distinct = sum(1 for v in cats.values() if v > 0)
+        has_special = cats["специальные"] > 0
+        has_bio = cats["биометрические"] > 0
+        has_pay = cats["платёжные"] > 0
+        has_gov = cats["государственные"] > 0
+        has_common = cats["обычные"] > 0
 
-        counts = {k: len(v) for k, v in detected.items()}
-        total = sum(counts.values())
-
-        # УЗ-1
-        if "special" in detected or "biometric" in detected:
-            return "УЗ-1"
-
-        # УЗ-2
-        if (
-            counts.get("card", 0) > 0 or
-            counts.get("bank_account", 0) > 0 or
-            total > 50
-        ):
-            return "УЗ-2"
-
-        # УЗ-3
-        if any(k in detected for k in ["passport", "snils", "inn", "driver_license"]):
-            return "УЗ-3"
-
-        # УЗ-4
-        if total > 0:
-            return "УЗ-4"
-
+        # --- ЭТАЛОННАЯ ЛОГИКА УЗ ---
+        if has_special or has_bio:
+            return "УЗ-1" if (total >= 5 or distinct >= 2) else "УЗ-2"
+        if has_pay or has_gov:
+            return "УЗ-2" if (total >= 5 or distinct >= 2) else "УЗ-3"
+        if has_common:
+            return "УЗ-3" if (total >= 5 or distinct >= 2) else "УЗ-4"
         return "NO_PDN"
