@@ -2,7 +2,7 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PATH_DATA = PROJECT_ROOT / "datasets" / "share"
+PATH_DATA = PROJECT_ROOT / "datasets" / "test"
 
 LOG_DIR = PROJECT_ROOT / "logs"
 LOG_INFO_FILE = LOG_DIR / "parser_info.log"
