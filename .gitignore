@@ -76,7 +76,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-#.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -209,6 +209,10 @@ datasets/
 
 #сsv
 result.csv
+src/report.csv
+src/report.json
+src/report.md
+src/raw_parsed_data.json
 
 # local logs
 logs/

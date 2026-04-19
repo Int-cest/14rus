@@ -2,7 +2,7 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PATH_DATA = PROJECT_ROOT / "datasets" / "test"
+PATH_DATA = PROJECT_ROOT / "datasets" / "share"
 
 LOG_DIR = PROJECT_ROOT / "logs"
 LOG_INFO_FILE = LOG_DIR / "parser_info.log"
@@ -12,7 +12,10 @@ LOG_FORMAT = "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 OCR_LANGUAGES = ("ru", "en")
-OCR_GPU = False
+OCR_GPU = True
+OCR_BATCH_SIZE = 8
+OCR_WORKERS = 0
+OCR_VIDEO_MAX_SIDE = 1280
 
 VIDEO_FRAME_INTERVAL = 30
 VIDEO_MAX_FRAMES = 200
