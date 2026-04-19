@@ -2,7 +2,7 @@ from pathlib import Path
 
 from config import PATH_DATA
 from pipeline import Pipeline
-from report import save_csv, save_json, save_md
+from report import make_result, save_csv
 
 
 def main() -> None:
@@ -13,8 +13,7 @@ def main() -> None:
 	results = Pipeline().run(str(input_path))
 
 	save_csv(results)
-	save_json(results)
-	save_md(results)
+	make_result(results)
 
 if __name__ == "__main__":
 	main()

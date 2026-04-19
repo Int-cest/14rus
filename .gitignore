@@ -207,12 +207,6 @@ marimo/_lsp/
 __marimo__/
 datasets/
 
-#сsv
-result.csv
-src/report.csv
-src/report.json
-src/report.md
-src/raw_parsed_data.json
 
 # local logs
 logs/
