@@ -30,14 +30,15 @@ class Pipeline:
             detections = self.detector.detect(text)
 
             # --- count ---
-            total_count = sum(len(v) for v in detections.values())
+            total_count = sum(detections.values())
 
             # --- classification ---
             uz = self.classifier.classify(detections)
+            categories = [k for k, v in detections.items() if v > 0]
 
             results.append({
                 "path": path,
-                "categories": list(detections.keys()),
+                "categories": categories,
                 "count": total_count,
                 "uz": uz,
                 "format": Path(path).suffix
