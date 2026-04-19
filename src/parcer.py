@@ -3,12 +3,19 @@ from pathlib import Path
 import logging
 from logging.handlers import RotatingFileHandler
 import re
+import time
 from html import unescape
 
 
 ## for pics
 import cv2
 import easyocr
+import numpy as np
+
+try:
+    from PIL import Image
+except Exception:
+    Image = None
 
 # for structured data
 import json
@@ -16,7 +23,6 @@ import csv
 import pandas as pd
 
 # for docs
-import win32com.client
 import fitz
 from docx import Document as DocxDocument
 
@@ -28,7 +34,11 @@ from config import (
     LOG_FORMAT,
     LOG_INFO_FILE,
     LOG_LEVEL,
+    OCR_BATCH_SIZE,
+    OCR_GPU,
     OCR_LANGUAGES,
+    OCR_VIDEO_MAX_SIDE,
+    OCR_WORKERS,
     PATH_DATA,
     VIDEO_FRAME_INTERVAL,
     VIDEO_MAX_FRAMES,
@@ -78,8 +88,14 @@ class Parser(ABC):
 
     def _get_ocr_reader(self):
         if Parser._ocr_reader is None:
-            logger.info("Загрузка EasyOCR модели...")
-            Parser._ocr_reader = easyocr.Reader(list(OCR_LANGUAGES))
+            logger.info("Загрузка EasyOCR модели (gpu=%s)...", OCR_GPU)
+            try:
+                Parser._ocr_reader = easyocr.Reader(list(OCR_LANGUAGES), gpu=OCR_GPU)
+            except Exception as e:
+                if not OCR_GPU:
+                    raise
+                logger.warning("GPU инициализация EasyOCR не удалась, fallback на CPU: %s", e)
+                Parser._ocr_reader = easyocr.Reader(list(OCR_LANGUAGES), gpu=False)
         return Parser._ocr_reader
    
     @abstractmethod
@@ -125,28 +141,31 @@ class StructureData(Parser):
         return {"path": str(data_path), "content": content}
 
 class Documents(Parser):
-    def _read_doc_via_word(self, file_path: Path) -> str:
-        """Чтение .doc через COM-объект Word (только для Windows)"""
-        word = None
-        doc = None
+    def _read_binary_text(self, file_path: Path) -> str:
         try:
-            word = win32com.client.Dispatch("Word.Application")
-            word.Visible = False
-            logger.info("[Documents] Чтение через Word COM: %s", file_path)
-            
-            abs_path = str(file_path.absolute())
-            
-            doc = word.Documents.Open(abs_path, ReadOnly=True)
-            text = doc.Content.Text
-            return text
-        except Exception as e:
-            logger.error(f"Word COM error: {e}")
+            raw = file_path.read_bytes()
+            best_text = ""
+            for enc in ('utf-8', 'cp1251', 'koi8-r'):
+                try:
+                    candidate = raw.decode(enc, errors='ignore')
+                except Exception:
+                    continue
+
+                candidate = " ".join(candidate.split())
+                if len(candidate) > len(best_text):
+                    best_text = candidate
+            return best_text
+        except Exception:
             return ""
-        finally:
-            if doc:
-                doc.Close(False)
-            if word:
-                word.Quit()
+
+    def _read_rtf_text(self, file_path: Path) -> str:
+        try:
+            raw = self._read_binary_text(file_path)
+            raw = re.sub(r'\\[a-zA-Z]+-?\d*\s?', ' ', raw)
+            raw = re.sub(r'[{}]', ' ', raw)
+            return re.sub(r'\s+', ' ', raw)
+        except Exception:
+            return ""
 
     def parse(self, data_path: Path) -> dict:
         suffix = data_path.suffix.lower()
@@ -162,7 +181,8 @@ class Documents(Parser):
                 content = " ".join(p.text for p in doc.paragraphs)
             
             elif suffix == '.doc':
-                content = self._read_doc_via_word(data_path)
+                # Полностью без Word COM: быстрый best-effort fallback для legacy .doc.
+                content = self._read_binary_text(data_path)
             
             elif suffix in ['.xls', '.xlsx']:
                 df = pd.read_excel(data_path)
@@ -173,7 +193,7 @@ class Documents(Parser):
                     content = f.read()
             
             elif suffix == '.rtf':
-                content = self._read_doc_via_word(data_path)
+                content = self._read_rtf_text(data_path)
 
             content = " ".join(content.split())
         except Exception as e:
@@ -204,11 +224,39 @@ class WebContent(Parser):
 
 
 class Images(Parser):
+    def _load_image_for_ocr(self, file_path: Path):
+        try:
+            if not file_path.exists():
+                return None
+
+            raw = np.fromfile(str(file_path), dtype=np.uint8)
+            if raw.size > 0:
+                image = cv2.imdecode(raw, cv2.IMREAD_COLOR)
+                if image is not None:
+                    return image
+        except Exception:
+            pass
+
+        if Image is None:
+            return None
+
+        try:
+            with Image.open(file_path) as pil_image:
+                rgb = pil_image.convert("RGB")
+                return cv2.cvtColor(np.array(rgb), cv2.COLOR_RGB2BGR)
+        except Exception:
+            return None
+
     def parse(self, file_path: Path):
         logger.info("[Images] Старт OCR %s", file_path)
         try:
             reader = self._get_ocr_reader()
-            text = reader.readtext(str(file_path), detail=0)
+            image = self._load_image_for_ocr(file_path)
+            if image is None:
+                logger.warning("[Images] Не удалось декодировать изображение: %s", file_path)
+                return {'path': str(file_path), 'content': ''}
+
+            text = reader.readtext(image, detail=0, paragraph=False)
 
             result = {
                 'path': str(file_path),
@@ -225,6 +273,36 @@ class Videos(Parser):
     def __init__(self, frame_interval=VIDEO_FRAME_INTERVAL, max_frames=VIDEO_MAX_FRAMES):
         self.frame_interval = frame_interval
         self.max_frames = max_frames
+
+    def _resize_frame(self, frame):
+        max_side = max(1, OCR_VIDEO_MAX_SIDE)
+        height, width = frame.shape[:2]
+        long_side = max(height, width)
+        if long_side <= max_side:
+            return frame
+
+        scale = max_side / float(long_side)
+        new_w = max(1, int(width * scale))
+        new_h = max(1, int(height * scale))
+        return cv2.resize(frame, (new_w, new_h), interpolation=cv2.INTER_AREA)
+
+    def _run_ocr_batch(self, reader, frames):
+        if not frames:
+            return []
+
+        if hasattr(reader, "readtext_batched"):
+            try:
+                return reader.readtext_batched(
+                    frames,
+                    detail=0,
+                    paragraph=False,
+                    batch_size=min(OCR_BATCH_SIZE, len(frames)),
+                    workers=OCR_WORKERS,
+                )
+            except Exception as e:
+                logger.warning("[Videos] readtext_batched недоступен, fallback на по-кадровый OCR: %s", e)
+
+        return [reader.readtext(frame, detail=0, paragraph=False) for frame in frames]
 
     def parse(self, file_path: Path) -> dict[Path, str]:
         logger.info("[Videos] Старт OCR по кадрам %s", file_path)
@@ -243,38 +321,34 @@ class Videos(Parser):
             if total_frames > 0:
                 step = max(self.frame_interval, max(1, total_frames // max(1, self.max_frames)))
 
-            frame_indices = list(range(0, total_frames, step))[:self.max_frames] if total_frames > 0 else []
+            i = 0
+            batch_frames = []
+            while True:
+                ret, frame = cap.read()
+                if not ret:
+                    break
 
-            if frame_indices:
-                for frame_index in frame_indices:
-                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
-                    ret, frame = cap.read()
-                    if not ret:
-                        continue
-
-                    result = reader.readtext(frame, detail=0)
-                    if result:
-                        texts.append(" ".join(result))
-
+                if i % step == 0:
+                    batch_frames.append(self._resize_frame(frame))
                     used += 1
-            else:
-                i = 0
-                while True:
-                    ret, frame = cap.read()
-                    if not ret:
+
+                    if len(batch_frames) >= max(1, OCR_BATCH_SIZE):
+                        batch_result = self._run_ocr_batch(reader, batch_frames)
+                        for result in batch_result:
+                            if result:
+                                texts.append(" ".join(result))
+                        batch_frames = []
+
+                    if used >= self.max_frames:
                         break
 
-                    if i % self.frame_interval == 0:
-                        result = reader.readtext(frame, detail=0)
+                i += 1
 
-                        if result:
-                            texts.append(" ".join(result))
-
-                        used += 1
-                        if used >= self.max_frames:
-                            break
-
-                    i += 1
+            if batch_frames:
+                batch_result = self._run_ocr_batch(reader, batch_frames)
+                for result in batch_result:
+                    if result:
+                        texts.append(" ".join(result))
 
             result = {
                 'path': str(file_path),
@@ -326,6 +400,7 @@ class ParserFactory:
         root = Path(root_path)
         self.base_path = root
         logger.info("[ParserFactory] Старт сканирования директории: %s", root)
+        started_at = time.perf_counter()
         results = []
         total_files = 0
         parsed_files = 0
@@ -339,7 +414,24 @@ class ParserFactory:
                 if res:
                     parsed_files += 1
                     results.append(res)
-        logger.info("[ParserFactory] Сканирование завершено: total_files=%s, parsed_files=%s", total_files, parsed_files)
+
+                    if parsed_files % 50 == 0:
+                        time_elapsed = time.perf_counter() - started_at
+                        rate = parsed_files / time_elapsed if time_elapsed > 0 else 0.0
+                        logger.info(
+                            "[ParserFactory] Прогресс: parsed_files=%s, elapsed=%.1fs, rate=%.2f files/s",
+                            parsed_files,
+                            time_elapsed,
+                            rate,
+                        )
+
+        time_elapsed = time.perf_counter() - started_at
+        logger.info(
+            "[ParserFactory] Сканирование завершено: total_files=%s, parsed_files=%s, elapsed=%.1fs",
+            total_files,
+            parsed_files,
+            time_elapsed,
+        )
         return results
 
 

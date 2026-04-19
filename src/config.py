@@ -12,7 +12,10 @@ LOG_FORMAT = "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 OCR_LANGUAGES = ("ru", "en")
-OCR_GPU = False
+OCR_GPU = True
+OCR_BATCH_SIZE = 8
+OCR_WORKERS = 0
+OCR_VIDEO_MAX_SIDE = 1280
 
 VIDEO_FRAME_INTERVAL = 30
 VIDEO_MAX_FRAMES = 200

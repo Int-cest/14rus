@@ -1,0 +1,15 @@
+path,categories,count,uz,format
+0.gif,[],0,NO_PDN,.gif
+0_a6315_aaf0ed1a_XL.jpg,[],0,NO_PDN,.jpg
+2046468258.tif,[],0,NO_PDN,.tif
+50308888-8889.tif,[],0,NO_PDN,.tif
+agreement_reg_extra.pdf,"['email', 'phone', 'address']",4,УЗ-4,.pdf
+client.parquet,"['email', 'phone', 'inn']",113622,УЗ-2,.parquet
+CS10.mp4,"['phone', 'birth_date']",7,УЗ-4,.mp4
+page_38.html,['fio'],1,УЗ-4,.html
+plan.json,['phone'],18,УЗ-4,.json
+psxattrs.csv,[],0,NO_PDN,.csv
+sample.md,"['phone', 'address']",7,УЗ-4,.md
+zayavka_kompensaciya_interneta.txt,"['email', 'phone', 'fio', 'birth_date', 'bik', 'bank_account', 'address']",11,УЗ-2,.txt
+_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%20%D0%B2%20%D0%9F%D0%98%D0%A0%20%D0%B3%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9.doc,[],0,NO_PDN,.doc
+_Universal Application Form 2018.doc,[],0,NO_PDN,.doc
