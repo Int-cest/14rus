@@ -1,6 +1,57 @@
 import re
 from typing import List
 
+# --- Вспомогательные валидаторы и функции ---
+def luhn_check(number: str) -> bool:
+    digits = [int(d) for d in re.sub(r'\D', '', number)]
+    if not (13 <= len(digits) <= 19):
+        return False
+    s = 0
+    parity = len(digits) % 2
+    for i, d in enumerate(digits):
+        if i % 2 == parity:
+            d *= 2
+            if d > 9:
+                d -= 9
+        s += d
+    return s % 10 == 0
+
+def snils_valid(snils: str) -> bool:
+    nums = re.sub(r'\D', '', snils)
+    if len(nums) != 11:
+        return False
+    base = [int(x) for x in nums[:9]]
+    check = int(nums[9:])
+    s = sum((9 - i) * d for i, d in enumerate(base))
+    if s < 100:
+        c = s
+    elif s in (100, 101):
+        c = 0
+    else:
+        c = s % 101
+        if c == 100:
+            c = 0
+    return c == check
+
+def inn_valid(inn: str) -> bool:
+    nums = re.sub(r'\D', '', inn)
+    if len(nums) == 10:
+        w = [2,4,10,3,5,9,4,6,8]
+        c = sum(int(nums[i]) * w[i] for i in range(9)) % 11 % 10
+        return c == int(nums[9])
+    elif len(nums) == 12:
+        w1 = [7,2,4,10,3,5,9,4,6,8,0]
+        w2 = [3,7,2,4,10,3,5,9,4,6,8,0]
+        c1 = sum(int(nums[i]) * w1[i] for i in range(11)) % 11 % 10
+        c2 = sum(int(nums[i]) * w2[i] for i in range(11)) % 11 % 10
+        return c1 == int(nums[10]) and c2 == int(nums[11])
+    return False
+
+def has_context(text: str, idx: int, window: int, *keywords: str) -> bool:
+    start = max(0, idx - window)
+    end = min(len(text), idx + window)
+    chunk = text[start:end]
+    return any(k in chunk for k in keywords)
 
 class Detector:
     def __init__(self, debug: bool = False):
@@ -18,14 +69,20 @@ class Detector:
         self.INN12_RE = re.compile(r"(?<!\d)\d{12}(?!\d)")
         self.PASSPORT_RE = re.compile(r"(?:(?<!\d)\d{2}\s?\d{2}\s?\d{6}(?!\d))")
 
+        self.MRZ_RE = re.compile(r"[P|V|C]<[A-Z<]{2}")
+        self.DL_RE = re.compile(r"(?<!\d)\d{10,12}(?!\d)")  
+
         self.CARD_RE = re.compile(r"(?:(?:\d[ -]*?){13,19})")
+        self.CVV_RE = re.compile(r"\b(CVV|CVC|CVV2)\b", re.IGNORECASE)
+        self.RS_RE = re.compile(r"(?i)(?:р/с|расч[её]тн(?:ый)?\s+сч[её]т)[^\d]*(\d{20})")
+        self.BIK_RE = re.compile(r"(?i)бик[^\d]*(\d{9})")
 
         self.BIO_KEYWORDS = [
-            "биометр", "face", "iris", "finger", "voice", "селфи"
+            'биометр', 'отпечат', 'радуж', 'ирис', 'лицев', 'селфи', 'faceid', 'fingerprint', 'iris', 'voiceprint', 'голосов', 'геометрия лица'
         ]
 
         self.SPECIAL_KEYWORDS = [
-            "диагноз", "болезнь", "инвалид", "медицин", "вич", "полит"
+            'диагноз', 'анамнез', 'инвалид', 'здоровь', 'медицин', 'психиатр', 'вич', 'религ', 'вероисповед', 'политическ', 'партия', 'интим', 'сексуаль'
         ]
 
         self.BIO_PATTERNS = [
