@@ -1,1 +1,12 @@
 pandas
+numpy
+easyocr
+torch
+torchvision
+opencv-python-headless
+pymupdf
+python-docx
+Pillow
+pyarrow
+openpyxl
+xlrd

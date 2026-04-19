@@ -3,6 +3,7 @@ from pathlib import Path
 import logging
 from logging.handlers import RotatingFileHandler
 import re
+import time
 from html import unescape
 
 
@@ -224,20 +225,17 @@ class WebContent(Parser):
 
 class Images(Parser):
     def _load_image_for_ocr(self, file_path: Path):
-        image = cv2.imread(str(file_path), cv2.IMREAD_COLOR)
-        if image is not None:
-            return image
-
-        # For unicode paths and unsupported decoders, try raw-bytes decode path.
         try:
+            if not file_path.exists():
+                return None
+
             raw = np.fromfile(str(file_path), dtype=np.uint8)
             if raw.size > 0:
                 image = cv2.imdecode(raw, cv2.IMREAD_COLOR)
+                if image is not None:
+                    return image
         except Exception:
-            image = None
-
-        if image is not None:
-            return image
+            pass
 
         if Image is None:
             return None
@@ -402,6 +400,7 @@ class ParserFactory:
         root = Path(root_path)
         self.base_path = root
         logger.info("[ParserFactory] Старт сканирования директории: %s", root)
+        started_at = time.perf_counter()
         results = []
         total_files = 0
         parsed_files = 0
@@ -415,7 +414,24 @@ class ParserFactory:
                 if res:
                     parsed_files += 1
                     results.append(res)
-        logger.info("[ParserFactory] Сканирование завершено: total_files=%s, parsed_files=%s", total_files, parsed_files)
+
+                    if parsed_files % 50 == 0:
+                        time_elapsed = time.perf_counter() - started_at
+                        rate = parsed_files / time_elapsed if time_elapsed > 0 else 0.0
+                        logger.info(
+                            "[ParserFactory] Прогресс: parsed_files=%s, elapsed=%.1fs, rate=%.2f files/s",
+                            parsed_files,
+                            time_elapsed,
+                            rate,
+                        )
+
+        time_elapsed = time.perf_counter() - started_at
+        logger.info(
+            "[ParserFactory] Сканирование завершено: total_files=%s, parsed_files=%s, elapsed=%.1fs",
+            total_files,
+            parsed_files,
+            time_elapsed,
+        )
         return results
 
 
